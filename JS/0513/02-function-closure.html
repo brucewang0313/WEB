@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const pet = function (name) {
+        const petName = name;
+        return function () {
+          return petName;//閉包
+        };
+      };
+
+      const myPet = pet("Mimi");
+      console.log(myPet);
+      const res = myPet();
+      console.log(res);
+
+      //原式
+      function add(a, b) {
+        return a + b;
+      }
+      // carrying 柯里化
+      function add(a) {
+        return function (b) {
+          return a + b;//a是閉包
+        };
+      }
+      console.log(add(8)(9));
+      const add10 = add(10);
+      console.log(add10(5));
+      console.log(add10(10));
+      
+    </script>
+  </body>
+</html>

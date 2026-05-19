@@ -1,0 +1,128 @@
+.info > .container {
+  background-color: white;
+  padding-top: 64px;
+  padding-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+}
+.main-info-title {
+  /* outline: 5px solid red; */
+  color: #1f2937;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+
+  margin-bottom: 48px;
+}
+.cards {
+  /* outline: 5px solid blue; */
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  width: 100%;
+  gap: 24px;
+  max-width: none;
+}
+.card > p {
+  /* outline: 5px solid blue; */
+  font-size: 16px;
+  color: #4b5563;
+  text-align: center;
+  width: 176px;
+}
+.main-image {
+  /* outline: 5px solid red; */
+  height: 176px;
+  width: 176px;
+  border-radius: 16px;
+}
+.paragraph-section {
+  background-color: #e5e7eb;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.paragraph-section > .container {
+  /* outline: 5px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.paragraph-box {
+  width: 100%;
+  max-width: 768px;
+}
+.paragraph {
+  color: #1f2937;
+  font-size: 28px;
+  font-style: italic;
+  line-height: 1.25;
+  height: auto;
+}
+.author {
+  /* outline: 5px solid red; */
+  color: #1f2937;
+  font-size: 20px;
+  text-align: right;
+  font-weight: 800;
+
+  margin-top: 16px;
+  margin-bottom: 0px;
+}
+.cta-section {
+  /* outline: 5px solid red; */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.cta-section > .container {
+  display: flex;
+  justify-content: center;
+}
+.cta {
+  padding: 32px 24px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* gap: 200px; */
+  width: 90%;
+}
+.cta h3 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.cta p {
+  color: #e5e7eb;
+  font-size: 16px;
+}
+.cta-signup {
+  /* outline: 5px solid red; */
+  border: 2px solid white;
+  min-width: 120px;
+}
+@media screen and (min-width: 640px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 760px) {
+  .cta {
+    outline: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 48px;
+    align-items: center;
+  }
+  .cta h3{
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <a href="https://google.com">Google</a>
+    <input type="checkbox" id="checkbox1" />
+    <script>
+      document.querySelector("a").addEventListener("click", function (e) {
+        console.log("按下按鈕~~~");
+        //阻止預設行為=>相當於取消
+        e.preventDefault();
+      });
+      document
+        .querySelector("#checkbox1")
+        .addEventListener("click", function (e) {
+          console.log(e.cancelable); //檢查是否可取消，preventDefault()才有作用
+          e.preventDefault();
+        });
+    </script>
+  </body>
+</html>

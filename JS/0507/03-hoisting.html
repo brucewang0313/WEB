@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //先使用 後宣告
+      //   console.log(x);//ReferenceError因為找不到x
+      //   var x = 3;//但寫到這邊會變成：undefined
+
+      //   var x;
+      //   console.log(x);
+      //   x = 10; //undefined
+
+      //   console.log(y);
+      //   let y = 10; //ReferenceError 因為y還沒宣告
+
+      //   //TDZ(Temporal Dead Zone)暫時性死區(let宣告前使用會報錯的區域)
+      //   y = 200;
+      //   console.log(y);
+      //   let y;
+
+      //1.如果你沒有理由用var來告變數，請改用let宣告。
+      //2.let宣告的話，能放前面就放前面(TDZ)。
+
+      //   //全域汙染
+      //   var aa;
+      //   aa = 100;
+
+      //   var aa = 100000;
+      //   console.log(aa);
+
+      //   var bb;
+      //   bb = 100;
+      //   {
+      //     var bb = 1000;
+      //     console.log(bb);
+      //   }
+      //   console.log(bb);
+
+      //   let bb = 100;
+      //   {
+      //     console.log(bb); //ReferenceError：TDZ
+      //     let bb = 1000;
+      //     console.log(bb);
+      //   }
+      //   console.log(bb);
+      //   //如果你沒有理由用var來告變數，請改用let宣告。
+
+      foo(); //先使用，才定義(function)
+      function foo() {
+        console.log("this is foo");
+      }
+
+      const title = "outer";
+
+      function showTitle() {
+        const title = "inner";
+
+        if (true) {
+          let title = "block";
+          console.log(title);
+        }
+        console.log(title);
+      }
+      showTitle();
+      console.log(title);
+    </script>
+  </body>
+</html>

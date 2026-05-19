@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .panel {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="panel">
+      <button class="save">儲存</button>
+    </section>
+    <script>
+      const panel = document.querySelector(".panel");
+      const saveBtn = document.querySelector(".save");
+
+      panel.addEventListener(
+        "click",
+        function () {
+          console.log("點了panel~");
+        },
+        { capture: true, once: true },//once只觸發一次
+      );
+      saveBtn.addEventListener(
+        "click",
+        function () {
+          console.log("點了save~");
+        },
+        true,
+      );
+      document.body.addEventListener(
+        "click",
+        function () {
+          console.log("點了body 先捕獲");
+        },
+        true,
+      );
+      document.body.addEventListener(
+        "click",
+        function () {
+          console.log("點了body 後冒泡");
+        },
+        false,
+      );
+    </script>
+  </body>
+</html>

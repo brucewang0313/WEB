@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>練習 1：語意化標籤重構 - 起始檔案</title>
+    <style>
+      body {
+        font-family: "Microsoft JhengHei", sans-serif;
+        line-height: 1.6;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #f8f9fa;
+      }
+
+      .header {
+        background: #2c3e50;
+        color: white;
+        padding: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .nav {
+        background: #34495e;
+        padding: 1rem;
+      }
+
+      .nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 1rem;
+      }
+
+      .nav a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .main-content {
+        background: white;
+        padding: 2rem;
+        border-radius: 8px;
+      }
+
+      .sidebar {
+        background: #e9ecef;
+        padding: 1.5rem;
+        border-radius: 8px;
+      }
+
+      .footer {
+        background: #343a40;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+      }
+
+      .article {
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #dee2e6;
+      }
+
+      .article:last-child {
+        border-bottom: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 任務：將以下 div 結構重構為語意化標籤 -->
+
+    <!-- 網站標題區域 -->
+    <header class="header">
+      <div>
+        <h1>技術部落格</h1>
+        <p>分享前端開發的知識與經驗</p>
+      </div>
+
+      <!-- 導航選單 -->
+      <nav class="nav">
+        <ul>
+          <li><a href="#home">首頁</a></li>
+          <li><a href="#articles">文章</a></li>
+          <li><a href="#tutorials">教學</a></li>
+          <li><a href="#about">關於</a></li>
+          <li><a href="#contact">聯絡</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 主要內容區域 -->
+    <main class="content">
+      <!-- 文章內容 -->
+      <section class="main-content">
+        <!-- 第一篇文章 -->
+        <article class="article">
+          <header>
+            <h2>HTML5 語意化標籤完全指南</h2>
+            <p>
+              發布時間：
+              <time datetime="2025-07-29">2025年7月29日</time>
+              | 作者：前端開發者
+            </p>
+          </header>
+
+          <article>
+            <h3>什麼是語意化標籤？</h3>
+            <p>
+              語意化標籤是 HTML5 引入的新標籤，它們不僅定義了內容的外觀，
+              更重要的是描述了內容的意義和結構。
+            </p>
+          </article>
+
+          <section>
+            <h3>為什麼要使用語意化標籤？</h3>
+            <p>
+              使用語意化標籤可以提升網頁的可訪問性、SEO 效果，
+              並讓代碼更容易理解和維護。
+            </p>
+          </section>
+
+          <section>
+            <p>
+              標籤：
+              <a href="#html5">#HTML5</a>
+              <a href="#semantic">#語意化</a>
+              <a href="#frontend">#前端開發</a>
+            </p>
+          </section>
+        </article>
+
+        <!-- 第二篇文章 -->
+        <article class="article">
+          <header>
+            <h2>CSS Grid 布局實戰技巧</h2>
+            <p>
+              發布時間：
+              <time datetime="2025-07-28">2025年7月28日 </time>
+              | 作者：UI設計師
+            </p>
+          </header>
+
+          <section>
+            <h3>Grid 布局的優勢</h3>
+            <p>
+              CSS Grid 提供了強大的二維布局能力， 讓複雜的版面設計變得簡單直觀。
+            </p>
+          </section>
+
+          <section>
+            <h3>基本使用方法</h3>
+            <p>
+              通過 display: grid 啟用網格布局， 然後使用 grid-template-columns
+              和 grid-template-rows 定義網格結構。
+            </p>
+          </section>
+
+          <footer>
+            <p>
+              標籤：
+              <a href="#css">#CSS</a>
+              <a href="#grid">#Grid布局</a>
+              <a href="#design">#網頁設計</a>
+            </p>
+          </footer>
+        </article>
+      </section>
+
+      <!-- 側邊欄 -->
+      <aside class="sidebar">
+        <section>
+          <h3>熱門文章</h3>
+          <ul>
+            <li><a href="#">React Hooks 深度解析</a></li>
+            <li><a href="#">JavaScript ES2025 新特性</a></li>
+            <li><a href="#">響應式設計最佳實踐</a></li>
+            <li><a href="#">Vue 3 Composition API</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>文章分類</h3>
+          <ul>
+            <li><a href="#html">HTML (15)</a></li>
+            <li><a href="#css">CSS (23)</a></li>
+            <li><a href="#javascript">JavaScript (31)</a></li>
+            <li><a href="#react">React (18)</a></li>
+            <li><a href="#vue">Vue.js (12)</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>關於作者</h3>
+          <p>
+            資深前端工程師，專精於現代網頁開發技術。
+            熱愛分享技術知識，致力於推廣最佳實踐。
+          </p>
+        </section>
+      </aside>
+    </main>
+
+    <!-- 頁面底部 -->
+    <footer class="footer">
+      <p>&copy; 2025 技術部落格。版權所有。</p>
+      <p>
+        <a href="#privacy" style="color: #adb5bd">隱私政策</a> |
+        <a href="#terms" style="color: #adb5bd">使用條款</a>
+      </p>
+    </footer>
+
+    <!-- 重構指引：
+    
+    請將上述的 div 結構替換為適當的語意化標籤：
+    
+    1. 網站標題區域 → <header>
+    2. 導航選單 → <nav>
+    3. 主要內容區域 → <main>
+    4. 文章內容 → <article>
+    5. 文章區塊 → <section>
+    6. 側邊欄 → <aside>
+    7. 頁面底部 → <footer>
+    8. 文章標題區域 → <header> (在 article 內)
+    9. 文章底部資訊 → <footer> (在 article 內)
+    10. 時間資訊 → <time datetime="">
+    
+    完成重構後，請確保：
+    - 所有 div 都被適當的語意化標籤取代
+    - 保持原有的 CSS 類別以維持樣式
+    - 添加適當的 ARIA 屬性提升可訪問性
+    - 確保標題層級結構正確
+    -->
+  </body>
+</html>

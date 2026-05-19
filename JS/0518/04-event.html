@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <input type="text" class="my-input" />
+    <!-- 寫在inline註冊寫法 onclick="clickHandler() -->
+    <button class="my-button" onclick="clickHandler()">按我~</button>
+    <button class="remove-button">刪我~</button>
+    <script>
+      const myInput = document.querySelector(".my-input");
+      const myButton = document.querySelector(".my-button");
+      const removeButton = document.querySelector(".remove-button");
+
+      function clickHandler(e) {
+        console.log("clickHandler~");
+        console.dir(e);
+      }
+
+      function clickHandler2() {
+        console.log("clickHandler2~");
+      }
+
+      // myInput.addEventListener("keydown", function (e) {
+      //   console.dir(e);
+      //   console.log(e.target);
+      // });
+
+      // myInput.addEventListener("keyup", function (e) {
+      //   console.dir(e);
+      //   console.log(e.target);
+      // });
+
+      // myInput.addEventListener("input", function (e) {
+      //   console.dir(e);
+      //   console.log(e.target);
+      // });
+
+      // myInput.addEventListener("click", function (e) {
+      //   console.dir(e);
+      // });
+
+      // myButton.addEventListener("click", function (e) {
+      //   console.dir(e);
+      // });
+
+      myButton.addEventListener("click", clickHandler);
+      myButton.addEventListener("click", clickHandler2);
+
+      removeButton.addEventListener("click", function (e) {
+        myButton.removeEventListener("click", clickHandler);
+      });
+
+      //屬性的寫法
+      // myButton.onclick = clickHandler; //事件前面加on
+      // myButton.onclick = function (e) {
+      //   clickHandler(e);
+      //   clickHandler2(e);
+      // };
+    </script>
+  </body>
+</html>

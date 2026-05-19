@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   function fnName(title = "預設值") {
+      //     return console.log(`${title} 你看到了fnName`);
+      //   }
+      //   //   fnName();
+      //   //   fnName("不是預設值");
+
+      //   console.log(fnName());
+      //   var res = fnName("Andy");
+      //   console.log(res);
+
+      //function是一等公民(可以被放到變數內)
+      const square = function (num) {
+        return num * num;
+      };
+      console.log(square(16));
+
+      //   //箭頭函式
+      //   const add = (x, y) => {
+      //     return x + y;
+      //   };
+      //   console.log(add(3, 3));
+
+      //內建的函式
+      const str = "123.456";
+      console.log(str);
+      const num = parseInt(str); //window底下
+      console.log(num);
+      const num2 = parseFloat(str);
+      console.log(num2);
+    </script>
+  </body>
+</html>

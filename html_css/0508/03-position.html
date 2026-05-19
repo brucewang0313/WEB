@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+        border: 2px solid red;
+        display: inline-block;
+
+        /* top bottom left right 都不會有作用*/
+        position: static;
+      }
+      .box:nth-child(3) {
+        /* 相對定位(相對於原本的位置，原始位置也占據本來的空間) */
+        position: relative;
+        top: 50px;
+        left: 50px;
+      }
+      .parent {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        border: 20px dotted blue;
+      }
+      .child {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        width: 100px;
+        height: 100px;
+        border: 10px solid cyan;
+        background-color: gray;
+      }
+      .box:nth-child(10) {
+        /* 絕對定位(以最接近的父層有被定位過的元素為基準，相對於他來做定位，原始的位置就脫離了) */
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+      .box:nth-child(8) {
+        /* 固定定位 相對於瀏覽器視窗進行定位 滾動時位置不變 */
+        position: fixed;
+        right: 500px;
+        bottom: 100px;
+        /* 正常位置的後面(-1) */
+        /* z-index要起作用要設定position(非static)的情況下可以用 */
+        z-index: 100;
+      }
+
+      .section {
+        /* width: 500px; */
+        height: 100vh;
+        position: relative;
+        background-color: blue;
+      }
+      .section:nth-child(even) {
+        background-color: coral;
+      }
+      .sticky {
+        width: 100px;
+        height: 100px;
+        /* 黏性定位 元素會在正常流(原本的位置)直到特定位置時會黏住 */
+        position: sticky;
+        top: 20px;
+        background-color: chocolate;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+    <div class="box">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+    <div class="box">7</div>
+    <div class="box">8</div>
+    <div class="box">9</div>
+    <div class="box">
+      10
+      <div class="child"></div>
+    </div>
+    <div class="box">11</div>
+    <div class="box">12</div>
+    <div class="box">13</div>
+    <div class="box">14</div>
+    <div class="box">15</div>
+    <div class="box">16</div>
+    <div class="box">17</div>
+    <div class="box">18</div>
+    <div class="box">19</div>
+    <div class="box">20</div>
+
+    <div class="parent">
+      <div class="child"></div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dignissimos,
+      aspernatur necessitatibus consectetur, ipsum laudantium saepe quisquam
+      harum consequuntur quos voluptatum. Ducimus rem assumenda praesentium
+      dicta doloremque. Doloribus, porro illo.
+    </p>
+    <p>
+      難得大哥效率的確好評，男生我很永遠利益再說裝飾導致減少性格以前，五金女孩小學集團，案例標籤先生級別細節工程，看出聽說總經理良好原料組織第三演唱會原本股份有限公司，輕鬆強化特別真實性心情一塊漫畫幫你，實際生意必須臨床證實天堂東京來看部門恐怕台北少年引用那麼。
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dignissimos,
+      aspernatur necessitatibus consectetur, ipsum laudantium saepe quisquam
+      harum consequuntur quos voluptatum. Ducimus rem assumenda praesentium
+      dicta doloremque. Doloribus, porro illo.
+    </p>
+    <p>
+      難得大哥效率的確好評，男生我很永遠利益再說裝飾導致減少性格以前，五金女孩小學集團，案例標籤先生級別細節工程，看出聽說總經理良好原料組織第三演唱會原本股份有限公司，輕鬆強化特別真實性心情一塊漫畫幫你，實際生意必須臨床證實天堂東京來看部門恐怕台北少年引用那麼。
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dignissimos,
+      aspernatur necessitatibus consectetur, ipsum laudantium saepe quisquam
+      harum consequuntur quos voluptatum. Ducimus rem assumenda praesentium
+      dicta doloremque. Doloribus, porro illo.
+    </p>
+    <p>
+      難得大哥效率的確好評，男生我很永遠利益再說裝飾導致減少性格以前，五金女孩小學集團，案例標籤先生級別細節工程，看出聽說總經理良好原料組織第三演唱會原本股份有限公司，輕鬆強化特別真實性心情一塊漫畫幫你，實際生意必須臨床證實天堂東京來看部門恐怕台北少年引用那麼。
+    </p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id dignissimos,
+      aspernatur necessitatibus consectetur, ipsum laudantium saepe quisquam
+      harum consequuntur quos voluptatum. Ducimus rem assumenda praesentium
+      dicta doloremque. Doloribus, porro illo.
+    </p>
+    <p>
+      難得大哥效率的確好評，男生我很永遠利益再說裝飾導致減少性格以前，五金女孩小學集團，案例標籤先生級別細節工程，看出聽說總經理良好原料組織第三演唱會原本股份有限公司，輕鬆強化特別真實性心情一塊漫畫幫你，實際生意必須臨床證實天堂東京來看部門恐怕台北少年引用那麼。
+    </p>
+
+    <!-- sticky定位 -->
+    <div class="container">
+      <div class="section">
+        <div class="sticky">1</div>
+      </div>
+      <div class="section">
+        <div class="sticky">2</div>
+      </div>
+      <div class="section">
+        <div class="sticky">3</div>
+      </div>
+    </div>
+  </body>
+</html>

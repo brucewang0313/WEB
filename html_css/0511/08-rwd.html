@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+      .container {
+        width: 100%;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+      }
+      .col {
+        width: 100%;
+        height: 100px;
+        background-color: orange;
+        border: 5px dotted white;
+      }
+      @media screen and (min-width: 768px) {
+        .col {
+          width: 50%;
+          /* calc函式用來算剩餘空間(減號前後要空格) */
+          width: calc((100% - 15px)/2);
+        }
+        .main-img{
+            width: 100%;
+            order:-1;
+        }
+      @media screen and (min-width: 992px){
+        .col{
+          width: 33.33%;
+          width: calc((100% - 30px)/3);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">A</div>
+        <div class="col">B</div>
+        <div class="col main-img">C</div>
+      </div>
+    </div>
+  </body>
+</html>

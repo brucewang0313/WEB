@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      try {
+        // console.log(x);
+        // let x = 10;
+        throw new Error("error~~");
+      } catch (err) {
+        // console.log(err);
+        // console.error(err);
+        // console.warn(err);
+        console.debug(err);
+      } finally {
+        console.log("finally"); //一定會執行不管有沒有錯。
+      }
+
+      console.log("end");
+    </script>
+  </body>
+</html>

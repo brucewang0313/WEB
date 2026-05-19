@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- <h1>標題</h1>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul> -->
+    </main>
+    <script>
+      const mainEl = document.querySelector(".container");
+      const h1 = document.createElement("h1");
+      h1.textContent = "標題";
+      // append 在元素裡面加東西的意思
+      mainEl.append(h1);
+      
+      const ul=document.createElement("ul");
+      for (let i=1;i<=5;i++){
+        const li =document.createElement("li");
+        li.textContent=i;
+        ul.append(li);
+      }
+      mainEl.append(ul);
+    </script>
+  </body>
+</html>

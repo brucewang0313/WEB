@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <button class="btn">點我</button>
+    </div>
+    <p id="info"></p>
+    <script>
+      const container = document.querySelector(".container");
+      const btn = document.querySelector(".btn");
+      const info = document.querySelector("#info");
+      function clickHandler(e) {
+        console.dir(e);
+        //註冊的監聽器是誰
+        info.innerHTML += `點擊了${e.currentTarget.tagName}!<br>`;
+        //targe觸發了誰
+        // info.innerHTML += `點擊了${e.target.tagName}!<br>`;
+      }
+
+      btn.addEventListener("click", clickHandler);
+      container.addEventListener("click", function (e) {
+        console.log("按了!");
+        //停止事件傳遞(後面的body也不會作用)
+        e.stopPropagation();
+        //立即停止傳遞(同一層也不會傳)
+        // e.stopImmediatePropagation();
+      });
+      container.addEventListener("click", clickHandler);
+      document.body.addEventListener("click", clickHandler);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            /* border: 1px solid red; */
+        }
+        .input-group{
+            display: flex;
+            margin: 15px 0;
+        }
+        .input-group input{
+            flex-grow:1;
+            outline:none;
+            border: 1px solid #ced4da;
+            border-right: none;
+            padding: 10px 15px;
+        }
+        .input-group button{
+            flex-shrink: 0;
+            background-color: cyan;
+            color: black;
+            border: 1px solid cyan;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="input-group">
+            <input type="text" placeholder="請輸入關鍵字">
+            <button>搜尋</button>
+        </div>
+        <div class="input-group">
+            <input type="text" placeholder="請輸入關鍵字">
+            <button>搜尋</button>
+        </div>
+        <div class="input-group">
+            <input type="text" placeholder="請輸入關鍵字">
+            <button>搜尋</button>
+        </div>
+    </div>
+</body>
+</html>

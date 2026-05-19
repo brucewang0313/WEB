@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        border: 2px solid red;
+        box-sizing: border-box;
+        margin-left: 0;
+        margin-right: 0;
+        margin: 0 auto;
+      }
+      .box:nth-child(2n) {
+        margin-right: 0;
+      }
+      .box:nth-child(odd) {
+        margin-left: 0;
+      }
+      /* 垂直邊距margin會合併(找最大的) */
+      .box1 {
+        margin-bottom: 20px;
+      }
+      .box2 {
+        margin-top: 40px;
+      }
+      /* 兩個盒子之間的實際間距是40px */
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        width: 500px;
+        height: 500px;
+        border: 5px solid red;
+        /* 作法一(用flex水平垂直居中) */
+        /* display: flex;
+            justify-content: center;
+            align-items: center; */
+
+        /* 作法三 相對定位 讓你原本的空間還在 */
+        position: relative;
+      }
+      .item {
+        width: 100px;
+        height: 100px;
+        background-color: #fa0;
+        /* 作法二 用算的 */
+        /* margin-top: 200px;
+        margin-left: 200px; */
+
+        /* 作法三(用定位在父層加入relative，在子層加入absolute，並加入位置定位都設0代表與邊界的距離，若沒有設定item的寬高則會填滿整個空間) */
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item"></div>
+    </div>
+  </body>
+</html>

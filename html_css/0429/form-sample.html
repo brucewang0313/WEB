@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/my-form-post" method="post">
+      <div>
+        <label for="account">帳號</label>
+        <input
+          type="text"
+          id="account"
+          name="account-name"
+          placeholder="請輸入帳號..."
+        />
+      </div>
+      <div>
+        <label for="password">密碼</label>
+        <input type="password" id="password" name="password-name" />
+      </div>
+      <div>
+        <label for="age">年齡</label>
+        <input type="number" id="age" name="age-name" value="20" max="25" />
+      </div>
+      <div>
+        <label for="birthday">生日</label>
+        <input type="date" id="birthday" name="birthday-name" />
+      </div>
+      <div>
+        <label for="">性別</label>
+        <input type="radio" id="male" name="gender-name" value="male" />
+        <label for="male">男</label>
+        <input type="radio" id="female" name="gender-name" value="female" />
+        <label for="female">女</label>
+      </div>
+      <div>
+        <label for="">興趣</label>
+        <input type="checkbox" name="hobby" id="coding" value="coding" />
+        <label for="">寫程式</label>
+        <input type="checkbox" name="hobby" id="reading" value="reading" />
+        <label for="">閱讀</label>
+      </div>
+      <div>
+        <label for="agree">我同意</label>
+        <input type="checkbox" id="agree" name="agree-name" />
+      </div>
+      <div>
+        <label for="email">Email：</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="file">上傳檔案</label>
+        <input type="file" name="file" id="file" />
+      </div>
+      <div>
+        <label for="color">顏色</label>
+        <input type="color" />
+      </div>
+      <div>
+        <label for="">Range</label>
+        <input type="range" />
+      </div>
+      <div>
+        <label for="">Time</label>
+        <input type="time" />
+      </div>
+      <div>
+        <label for="message">留言</label>
+        <textarea name="message" id="message" required></textarea>
+      </div>
+      <div>
+        <label for="city">城市</label>
+        <select name="city" id="city">
+          <option value="">請選擇</option>
+          <option value="taipei">台北</option>
+          <option value="kaohsiung">高雄</option>
+        </select>
+      </div>
+      <div>
+        <input type="submit" name="" id="" value="送出" />
+        <input type="reset" name="" id="" value="清除" />
+      </div>
+    </form>
+  </body>
+</html>

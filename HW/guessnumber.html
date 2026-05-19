@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>猜數字遊戲(終極密碼)</h1>
+    <p>請輸入1~100之間的數字</p>
+    <input type="text" id="num-input" />
+    <button class="btnGuess">猜一下</button>
+    <div class="result-area"></div>
+
+    <script>
+      const myInput = document.querySelector("#num-input");
+      const myBtn = document.querySelector(".btnGuess");
+      const myResult = document.querySelector(".result-area");
+      //floor捨棄小數點、random 0~1之間的隨機小數
+      const randomNumber = Math.floor(Math.random() * 100) + 1;
+      console.log(myInput);
+      console.dir(myBtn);
+      let maxNum = 100;
+      let minNum = 1;
+
+      //註冊事件監聽器
+      myBtn.addEventListener("click", function () {
+        // console.log("已點了Button");
+        console.log(`input的值是：${myInput.value}`);
+        console.log(`randomNumber的值是：${randomNumber}`);
+        if (myInput.value < 1 || myInput.value > 100 || isNaN(myInput.value)) {
+          myResult.textContent = "請輸入1~100之間的數字 看不懂???";
+          myInput.value = "";
+          return;
+        }
+        if (myInput.value > randomNumber) {
+          maxNum = Number(myInput.value) - 1;
+          // myResult.textContent = `要輸入比${maxNum}小的數字`;
+          myResult.textContent = `請輸入介於${minNum}~${maxNum}的數字`;
+        } else if (myInput.value < randomNumber) {
+          minNum = Number(myInput.value) + 1;
+          myResult.textContent = `請輸入介於${minNum}~${maxNum}的數字`;
+        } else if (myInput.value == randomNumber) {
+          myResult.textContent = `答案就是：${randomNumber}`;
+        }
+        // myResult.textContent = myInput.value;
+        myInput.value = "";
+      });
+    </script>
+  </body>
+</html>

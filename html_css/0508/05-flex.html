@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex-container {
+        display: flex;
+        width: 500px;
+        height: 500px;
+        border: 5px solid blue;
+        /* 主軸方向 */
+        /* flex-direction: row; */
+        /* flex-direction: row-reverse;
+            flex-direction: column;
+            flex-direction: column-reverse; */
+        /* 換行控制 */
+        /* flex-wrap: nowrap;
+            flex-wrap: wrap;
+            flex-wrap: wrap-reverse;*/
+        /* 主軸方向 換行控制 */
+        flex-flow: row wrap;
+
+        /* 主軸對齊 */
+        /* justify-content: center; */
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* 兩端對齊 項目等距 */
+        /* justify-content: space-between; */
+        /* 項目周圍等距 */
+        /* justify-content: space-around; */
+        /* 項目間距等距 */
+        /* justify-content: space-evenly; */
+
+        /* 交叉軸對齊 */
+        /* align-items: stretch; */
+        /* align-items: center; */
+        /* align-items: flex-end; */
+        /* align-items: flex-start; */
+
+        /* 多行對齊 */
+        /* align-content: center; */
+        /* align-content: flex-end; */
+
+        /* gap: 10px; */
+        /* row-gap: 10px; */
+        /* column-gap: 10px; */
+      }
+      .flex-item {
+        box-sizing: border-box;
+        width: 100px;
+        /* height: 100px; */
+        border: 5px solid rgba(0, 255, 47, 0.411);
+        background-color: darkorange;
+
+        /* 個別對齊 */
+        /* 繼承 align-items */
+        align-self: auto;
+        /* 排序 預設是0(-1、1可移動) */
+        /* order: 0; */
+        /* 放大比例 占剩餘的空間幾份 */
+        flex-grow: 0;
+      }
+      .special-item {
+        align-self: flex-end;
+        /* order: 1; */
+      }
+      .item6 {
+        flex-grow: 2;
+      }
+      .item7 {
+        flex-grow: 1;
+      }
+      .item8 {
+        flex-grow: 2;
+      }
+      .wrap {
+        margin-top: 50px;
+        width: 500px;
+        height: 500px;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+      }
+      .wrap .item {
+        /* width: 200px; */
+        color: aliceblue;
+        background-color: #666;
+        border: 1px solid red;
+        /* 縮小比例(空間不夠時可以被縮小的比例) */
+        flex-shrink: 1;
+        /* 基準大小(看主軸) 預設 */
+        flex-basis: auto;
+        /* 基準大小 */
+        flex-basis: 100px;
+        /* flex-grow / flex-shrink / flex-basis */
+        flex: 1;
+        /* flex: 1 1 0% */
+      }
+      .wrap .item:nth-child(1) {
+        /* 不縮小 */
+        /* flex-shrink: 0; */
+      }
+
+      .wrap .item:nth-child(3) {
+        /* flex-shrink: 2; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item item1">1</div>
+      <div class="flex-item item2">2</div>
+      <div class="flex-item special-item">3</div>
+      <div class="flex-item item4">4</div>
+      <div class="flex-item item5">5</div>
+      <div class="flex-item item6">6</div>
+      <div class="flex-item item7">7</div>
+      <div class="flex-item item8">8</div>
+    </div>
+    <div class="wrap">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+    </div>
+  </body>
+</html>

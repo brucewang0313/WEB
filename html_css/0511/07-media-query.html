@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 100%;
+        padding: 10px;
+        background-color: red;
+      }
+      /* 列印用 */
+      /* @media print {
+        .container{
+            width: 500px;
+            height: 500px;
+            color: blue;
+        }
+      } */
+
+      /* 手機裝置 */
+      @media screen and (min-width: 480px) {
+        .container {
+          background-color: orange;
+        }
+      }
+      /* 平板裝置 */
+      @media screen and (min-width: 481px) and (max-width: 768px) {
+        /* 平板樣式 */
+      }
+      /* 桌面裝置 */
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        /* 桌面螢幕樣式 */
+      }
+      /* 大螢幕 */
+      @media screen and (min-width: 1025px) {
+        /* 大螢幕樣式 */
+      }
+
+      /* 手機優先mobile first(RWD設計統一由小寫到大) */
+      .container{
+        width: 100px;
+        padding: 15px;
+        background-color: #fa0;
+      }
+       @media screen and (min-width: 768px) {
+        /* 平板樣式 */
+        .container{
+            max-width: 768px;
+        }
+      }
+      @media screen and (orientation: landscape) {
+        /* 螢幕是橫向的 */
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">abc</div>
+  </body>
+</html>

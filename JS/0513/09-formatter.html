@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   const courseDate = new Date("2026-05-13T10:00:00");
+      //   const formatter = new Intl.DateTimeFormat("zh-TW",{
+      //     dateStyle:"long",
+      //     timeStyle:"short"
+      //   });
+      //   console.log(formatter.format(courseDate));
+      //   console.log(courseDate);
+
+      const total = 1234567.89;
+      const formatter = new Intl.NumberFormat("zh-TW");
+      console.log(formatter.format(total));
+
+      const priceFormatter = new Intl.NumberFormat("zh-TW", {
+        style: "currency",
+        currency: "TWD",
+      });
+      console.log(priceFormatter.format(total));
+
+      const completionRate = 0.123456789;
+      const percentFormatter = new Intl.NumberFormat("zh-TW", {
+        style: "percent",
+        maximumFractionDigits: 1,
+      });
+      console.log(percentFormatter.format(completionRate));
+    </script>
+  </body>
+</html>

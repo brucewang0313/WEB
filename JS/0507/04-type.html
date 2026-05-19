@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //動態型別
+      let x = 10;
+      console.log(typeof x);
+      x = "Hello";
+      console.log(typeof x);
+      //弱型別
+      const foo = 42;
+      const result = foo + "is the answer";
+      console.log(result);
+
+      //{}object literal = new 出一個object
+      const obj = { name: "bruce", age: 18 };
+      obj.name = "bruce wang";
+      console.log(obj);
+      console.log(obj.name); //點記法
+      console.log(obj["age"]); //括弧記法
+      const propName = "age";
+      console.log(obj[propName]); //括弧內可以放變數
+
+      //[]array literal
+      const arr = [1, 2, 3, "hello"];
+      console.log(arr);
+      console.log(arr[3]);
+      console.log(arr[100]); //undefined
+
+      const name = "bbb";
+      const number = 99;
+      console.log(`${name}的分數為：${number}`); //像是C#中的${}
+    </script>
+  </body>
+</html>

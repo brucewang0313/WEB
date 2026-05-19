@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function isTruthy(value) {
+        if (value) {
+          console.log(`${value} is Truthy`);
+        } else {
+          console.log(`${value} is Falsy`);
+        }
+      }
+
+      //falsy
+      isTruthy(null);
+      isTruthy(undefined);
+      isTruthy(NaN);
+      isTruthy(0);
+      isTruthy("");
+      isTruthy(false);
+
+      //truthy
+      isTruthy("hi");
+
+      //值會變成True的就是Truthy，值會變成False的就是Falsy
+    </script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 瀏覽器重設 -->
+    <!-- Reset CSS -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+    /> -->
+    <!-- Normalize.css -->
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <style>
+      .box {
+        /* 內容區域寬度 */
+        width: 200px;
+        /* 內容區域高度 */
+        height: 200px;
+        background-color: yellow;
+
+        /* 內距 */
+        /* 四邊相同 */
+        padding: 20px;
+        /* 上下 左右 */
+        padding: 10px 20px;
+        /* 上 左右 下 */
+        padding: 10px 20px 15px;
+        /* 上 右 下 左  */
+        padding: 10px 20px 30px 40px;
+        /* 個別設定 */
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 40px;
+
+        /* 邊框 */
+        border: 15px solid #333;
+        border-width: 1px 2px 3px 4px;
+        border-style: dotted;
+        border-color: red;
+        /* 個別設定 */
+        border-top: 40px solid #000;
+        border-right: 30px dotted orange;
+        border-bottom: 20px double green;
+        border-left: 10px dashed gray;
+        /* 圓角 */
+        border-radius: 100px;
+        /* 左上 右上 右下 左下 */
+        border-radius: 10px 20px 30px 40px;
+        border-radius: 50%;
+
+        /* 外距 */
+        margin: 20px;
+        /* 上下 左右 */
+        margin: 10px 20px;
+        /* 上 左右 下 */
+        margin: 10px 20px 15px;
+        /* 上 右 下 左  */
+        margin: 10px 20px 30px 40px;
+        /* 個別設定 */
+        margin: 10px;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+        /* 水平居中(auto自動分配剩餘空間) */
+        margin: 0 auto;
+        /* 垂直居中 */
+        /* margin: auto 0; */
+      }
+      /* 選擇器 */
+      .box:nth-child(2) {
+        background-color: purple;
+        margin: unset;
+        margin-left: auto;
+        /* margin-right: 0; */
+      }
+      .border-box {
+        /* box-sizing: content-box; */
+        /* 已border為寬高的尺寸計算 */
+        box-sizing: border-box;
+        width: 350px;
+        height: 350px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box border-box"></div>
+  </body>
+</html>

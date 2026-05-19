@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .block-element {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        display: block;
+      }
+      .inline-element {
+        display: inline;
+        /* 設定寬高無效 */
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        padding-left: 90px;
+        padding-right: 90px;
+        /* 只有左右外距有效(上下外距無效) */
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+      }
+      .inline-block {
+        display: inline-block;
+        /* 可以設定寬高 */
+        width: 100px;
+        height: 100px;
+        /* 外距有效都可以設定 */
+        margin: 50px;
+        background-color: yellow;
+      }
+      .flex-box {
+        display: flex;
+        width: 600px;
+        background-color: cyan;
+      }
+      .flex-item {
+        background-color: blueviolet;
+        width: 100px;
+        height: 50px;
+        border: 3px solid red;
+      }
+      p {
+        font-size: 32px;
+        line-height: 100px;
+      }
+      span {
+        font-size: 24px;
+        /* vertical-align:baseline; */
+        /* vertical-align:top; */
+        /* vertical-align:middle; */
+        /* vertical-align:bottom; */
+      }
+      .image-container {
+        width: 300px;
+        border: 5px solid red;
+      }
+      .image-container img {
+        width: 100%;
+        vertical-align: bottom;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block-element">123</div>
+    <div class="inline-element">123</div>
+    <div class="inline-element">123</div>
+    <div class="inline-block">123</div>
+    <div class="inline-block">123</div>
+    <div class="inline-block">123</div>
+
+    <div class="flex-box">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+    </div>
+
+    <!-- vertical-align 只作用在inline系列元素 -->
+    <p>文字<span>123</span>文字</p>
+    <p>文字<span>123</span>文字</p>
+
+    <div class="image-container">
+      <img src="https://picsum.photos/600/600/?random=10" />
+    </div>
+  </body>
+</html>

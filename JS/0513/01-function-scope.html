@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var age = 18;
+      function foo() {
+        console.log(age);
+        var myName = "Andy";
+        console.log(`${myName} is ${age}`);
+      }
+
+      foo();
+      console.log(age);
+      console.log(myName);//ReferenceError
+    </script>
+  </body>
+</html>

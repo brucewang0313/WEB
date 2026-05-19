@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elements 偽元數</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        /* 偽元數 */
+        a::after{
+            content:"| ";
+        }
+        a:first-child::before{
+            content:"";
+        }
+        p::before{
+            content:"*";
+            color: red;
+        }
+        p::first-letter{
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="https://google.com">Google</a>
+        <a href="https://google.com">Google</a>
+        <a href="https://google.com">Google</a>
+    </header>
+    <section>
+        <p>關鍵字下降生態定位前往每月，爆炸尚未為。</p>
+        <p>關鍵字下降生態定位前往每月，爆炸尚未為。</p>
+        <p>關鍵字下降生態定位前往每月，爆炸尚未為。</p>
+        <p>關鍵字下降生態定位前往每月，爆炸尚未為。</p>
+        <p>關鍵字下降生態定位前往每月，爆炸尚未為。</p>
+    </section>
+</body>
+</html>

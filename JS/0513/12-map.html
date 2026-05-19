@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const myMap = new Map();
+      myMap.set("a", 1);
+      myMap.set("b", 2);
+      myMap.set("c", 3);
+      console.dir(myMap);
+
+      console.log(myMap.get("a"));
+      console.log(myMap.get("aaa")); //undefined
+      myMap.set("a", 456);
+      console.log(myMap.get("a"));
+      console.log(myMap.size);
+    </script>
+  </body>
+</html>

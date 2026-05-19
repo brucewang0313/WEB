@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>偽類選擇器</title>
+    <style>
+        a{
+            color: blue;
+        }
+        /*偽類選擇器(連結狀態)*/
+        a:link{
+            color:green;
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            color: orange;
+            font-size: 50px;
+        }
+        a:active{
+            color: red;
+        }
+        /* 結構偽類 */
+        ul:first-of-type li:first-child{
+            color: red;
+        }
+        li:last-child{
+            color: blue;
+        }
+        /* 看這個元素是不是父層中的第n個元素 */
+        li:nth-child(2){
+            color: gray;
+        }
+        /* n從0開始 */
+        li:nth-child(2n){
+            color: orange;
+        }
+        /* :nth-of-type(n) 看這個元素是不是同標籤中的第n個 */
+        ul:nth-of-type(1) li:nth-child(5){
+            color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="https://google.com">Google</a>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</body>
+</html>

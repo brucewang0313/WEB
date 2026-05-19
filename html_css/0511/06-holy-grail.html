@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* 定寬容器 */
+      .container{
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      .holy-grail {
+        display: flex;
+        flex-direction: column;
+        min-height: 400px;
+      }
+      .header,
+      footer {
+        background-color: #28a745;
+        color: white;
+        flex-shrink: 0;
+        flex-grow: 0;
+        text-align: center;
+        padding: 15px;
+      }
+      .content-area {
+        /* flex-grow(footer推到最下面) */
+        flex-grow: 1;
+        flex-shrink: 1;
+        display: flex;
+      }
+      .left-sidebar {
+        /* flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 200px; */
+        flex: 0 0 200px;
+        background-color: #d4edda;
+      }
+      .main-content {
+        padding: 15px;
+      }
+      .right-sidebar {
+        flex: 0 0 150px;
+        background-color: #d4edda;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="holy-grail container">
+      <header class="header ">網站首頁</header>
+      <div class="content-area">
+        <aside class="left-sidebar">
+          <strong>左側欄</strong>
+          <p>導覽選單</p>
+        </aside>
+        <main class="main-content">
+          <strong>主要內容</strong>
+          <p>
+            協助頻道東京很少那就招標實現，陽光對外大廈今後，能力認證相關恐怖自我朋友連接通常那天擔心新人協助大學，避免咖啡沒什麼城市防治認為滿足一口氣不對各自迅速鄉民看來聊天，城市公主不停最近，程式有限責任商標看看予以保育石虎自我點擊數評價讓我第一個，關閉成績，閲讀。
+          </p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum dolor tempore ab sequi! Provident tempore, officiis fuga deserunt ad earum commodi nihil cupiditate porro assumenda voluptate consequuntur voluptatibus, ducimus ipsum.</p>
+        </main>
+        <aside class="right-sidebar">
+          <strong>右側欄</strong>
+          <p>廣告區域</p>
+        </aside>
+      </div>
+      <footer class="footer">網站頁尾</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const email = "12345@gmail.com";
+      const patten = /@/;
+      console.log(patten.test(email)); //有包含@會顯示true
+
+      const message = "訂單編號：A1024，金額：3200 元";
+      const numbers = message.match(/\d+/g); //找到符合的字串部分
+      console.log(numbers);
+
+      const fileName = "photo-2026-05-07.jpg";
+      console.log(fileName.match(/\d{4}-\d{2}-\d{2}/));
+
+      const phone = "0912-345-678";
+      const maskedPhone = phone.replace(/\d(?=\d{3})/g, "*");
+      console.log(maskedPhone);
+      const sentence = "JavaScript is fun. JavaScript is powerful.";
+      console.log(sentence.replace(/JavaScript/g, "JS"));
+    </script>
+  </body>
+</html>

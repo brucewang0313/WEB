@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="todo-title">代辦清單~~~</h1>
+      <div class="todo-container"></div>
+    </div>
+    <template id="todo-item">
+      <div class="input-group align-items-center todo-item">
+        <div class="form-check">
+          <input
+            type="checkbox"
+            class="form-check-input is-done-input"
+            value=""
+          />
+        </div>
+        <input
+          type="text"
+          class="form-control content-input"
+          placeholder="Default input"
+          aria-label="default input example"
+        />
+      </div>
+    </template>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const myTodo = {
+        title: "我的代辦清單",
+        items: [
+          {
+            id: 1,
+            content: "項目one",
+            isDone: true,
+          },
+          {
+            id: 2,
+            content: "項目two",
+            isDone: false,
+          },
+          {
+            id: 3,
+            content: "項目three",
+            isDone: true,
+          },
+        ],
+      };
+
+      const title = document.querySelector(".todo-title");
+      title.textContent = myTodo.title;
+
+      const todoContainer = document.querySelector(".todo-container");
+
+      const template = document.querySelector("#todo-item");
+
+      for (let item of myTodo.items) {
+        const node = template.content.cloneNode(true);
+        const isDoneInput = node.querySelector(".is-done-input");
+        const contentInput = node.querySelector(".content-input");
+
+        isDoneInput.checked = item.isDone;
+        contentInput.value = item.content;
+
+        todoContainer.append(node);
+      }
+    </script>
+  </body>
+</html>

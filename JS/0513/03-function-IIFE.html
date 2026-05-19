@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // IIFE(立即執行函式)中的a、b不會汙染到全域(早期寫法現在會用let)
+      (function () {
+        var a = 123;
+        var b = 456;
+        function display() {
+          console.log(a + b);
+        }
+        display();
+      })();
+    </script>
+  </body>
+</html>

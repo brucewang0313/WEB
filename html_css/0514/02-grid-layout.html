@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+      .grid-container {
+        display: grid;
+        width: 100%;
+        height: 100vh;
+
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-rows: 100px 1fr 100px;
+
+        grid-template-areas: 
+            "header header header"
+            "nav main aside"
+            "footer footer footer"
+      }
+      .header {
+        background-color:darkred;
+        grid-column: 1 / 4 ;
+        grid-row: 1 / 2;
+
+        grid-area: header;
+      }
+      .nav {
+        background-color: darkgray;
+        grid-column:1 / 2 ;
+        grid-row: 2 / 3;
+
+        grid-area: nav;
+    }
+    .main{
+        background-color: darkorange;
+        grid-column: 2 / 3 ;
+        grid-row: 2 / 3 ;
+        
+        grid-area: main ;
+    }
+    .aside{
+        background-color: darkgreen;
+        grid-column: 3 / 4 ;
+        grid-row: 2 / 3 ;
+        
+        grid-area:aside;
+    }
+    .footer{
+        background-color: darkcyan;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4 ;
+
+        grid-area: footer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <header class="header"></header>
+      <nav class="nav"></nav>
+      <main class="main"></main>
+      <aside class="aside"></aside>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>

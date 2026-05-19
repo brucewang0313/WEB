@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>屬性選擇器</title>
+    <style>
+        /* [title="MY-title"]{
+            color: red;
+        } */
+        /* [class="title"]{
+            color:blue;
+        } */
+         /* 開頭prefix */
+        /* [title^="my"]{
+            color: red;
+        } */
+         /* 結尾suffix */
+        /* [title$="le"]{
+            color: red;
+        } */
+         /* 有任何包含的 */
+         /* [title*="y"]{
+            color: blue;
+         } */
+          [title]{
+            color: blue;
+          }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class ="title">AAA</p>
+        <p title="my-title">BBB</p>
+        <p title="my-le">CCC</p>
+        <p title="abc">DDD</p>
+    </div>
+</body>
+</html>

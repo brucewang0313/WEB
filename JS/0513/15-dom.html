@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .title {
+        font-size: 40px;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="one" class="num odd">1</p>
+    <p id="two">2</p>
+    <p id="three">3</p>
+    <script>
+      //選取Dom
+      const theEl = document.querySelector("#one");
+      const theE2 = document.getElementById("two");
+      console.dir(theE2);
+
+      // 設定屬性attr
+      theEl.setAttribute("data-name", "Andy");
+      console.log(theEl.getAttribute("id"));
+      console.log(theEl.getAttribute("data-name"));
+
+      // 樣式的處理
+      // 1.透過setAttribute處理
+      // theEl.setAttribute("style", "color:red;");
+      // 2.用class來處理
+      //   theEl.setAttribute("class", "title");
+      theEl.classList.add("title", "aaa", "bbb");
+      theEl.classList.replace("odd", "even");
+      // 3.透過 element.style屬性來設定
+      theEl.style.color = "black";
+      theEl.style["font-size"] = "50px";
+      theEl.style.fontSize = "50px";
+      theEl.style = "font-size:50px";
+    </script>
+  </body>
+</html>

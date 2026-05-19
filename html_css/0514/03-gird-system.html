@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --gutter: 1rem;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      /* 可帶變數(--gutter)一次套用 */
+      .g-0 {
+        --gutter: 0px;
+      }
+      .g-1 {
+        --gutter: 1rem;
+      }
+      .g-5 {
+        --gutter: 5rem;
+      }
+
+      .container {
+        outline: 5px solid red;
+        width: 100%;
+        max-width: 1140px;
+        margin: 0 auto;
+        /* padding-left: 12px;
+        padding-right: 12px; */
+
+        /* height: 500px; */
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-left: -12px;
+        margin-right: -12px; */
+        text-align: center;
+        align-items: center;
+        margin-left: calc(var(--gutter) * -1);
+        margin-right: calc(var(--gutter) * -1);
+      }
+      .row >.col{
+        flex: 1 0 0%;
+        outline: 1px solid blueviolet;
+      }
+      .row > [class^="col"] {
+        outline: 1px solid blue;
+        /* padding-left: 12px;
+        padding-right: 12px; */
+        padding: 0 var(--gutter);
+        /* background-color: cyan; */
+        /* width: 100px;
+        height: 100px; */
+        /* 有空隙的問題所以才設box-sizing */
+        box-sizing: border-box;
+      }
+      .content {
+        background-color: orange;
+      }
+      .col-1 {
+        width: calc(100% / 12);
+      }
+      .col-2 {
+        width: calc(100% / 12 * 6);
+      }
+      .col-3 {
+        width: calc(100% / 12 * 3);
+      }
+      .col-4 {
+        width: calc(100% / 12 * 4);
+      }
+      .col-5 {
+        width: calc(100% / 12 * 5);
+      }
+      .col-6 {
+        width: calc(100% / 12 * 6);
+      }
+      .col-7 {
+        width: calc(100% / 12 * 7);
+      }
+      .col-8 {
+        width: calc(100% / 12 * 8);
+      }
+      .col-9 {
+        width: calc(100% / 12 * 9);
+      }
+      .col-10 {
+        width: calc(100% / 12 * 10);
+      }
+      .col-11 {
+        width: calc(100% / 12 * 11);
+      }
+      .col-12 {
+        width: calc(100% / 12 * 12);
+      }
+
+      @media screen and (min-width: 768px) {
+        .col-md-1 {
+          width: calc(100% / 12);
+        }
+        .col-md-2 {
+          width: calc(100% / 12 * 6);
+        }
+        .col-md-3 {
+          width: calc(100% / 12 * 3);
+        }
+        .col-md-4 {
+          width: calc(100% / 12 * 4);
+        }
+        .col-md-5 {
+          width: calc(100% / 12 * 5);
+        }
+        .col-md-6 {
+          width: calc(100% / 12 * 6);
+        }
+        .col-md-7 {
+          width: calc(100% / 12 * 7);
+        }
+        .col-md-8 {
+          width: calc(100% / 12 * 8);
+        }
+        .col-md-9 {
+          width: calc(100% / 12 * 9);
+        }
+        .col-md-10 {
+          width: calc(100% / 12 * 10);
+        }
+        .col-md-11 {
+          width: calc(100% / 12 * 11);
+        }
+        .col-md-12 {
+          width: 100%;
+        }
+      }
+      @media screen and (min-width: 996px) {
+        .col-lg-1 {
+          width: calc(100% / 12);
+        }
+        .col-lg-2 {
+          width: calc(100% / 12 * 6);
+        }
+        .col-lg-3 {
+          width: calc(100% / 12 * 3);
+        }
+        .col-lg-4 {
+          width: calc(100% / 12 * 4);
+        }
+        .col-lg-5 {
+          width: calc(100% / 12 * 5);
+        }
+        .col-lg-6 {
+          width: calc(100% / 12 * 6);
+        }
+        .col-lg-7 {
+          width: calc(100% / 12 * 7);
+        }
+        .col-lg-8 {
+          width: calc(100% / 12 * 8);
+        }
+        .col-lg-9 {
+          width: calc(100% / 12 * 9);
+        }
+        .col-lg-10 {
+          width: calc(100% / 12 * 10);
+        }
+        .col-lg-11 {
+          width: calc(100% / 12 * 11);
+        }
+        .col-lg-12 {
+          width: 100%;
+        }
+      }
+      @media screen and (min-width: 1200px) {
+        .col-xl-1 {
+          width: calc(100% / 12);
+        }
+        .col-xl-2 {
+          width: calc(100% / 12 * 6);
+        }
+        .col-xl-3 {
+          width: calc(100% / 12 * 3);
+        }
+        .col-xl-4 {
+          width: calc(100% / 12 * 4);
+        }
+        .col-xl-5 {
+          width: calc(100% / 12 * 5);
+        }
+        .col-xl-6 {
+          width: calc(100% / 12 * 6);
+        }
+        .col-xl-7 {
+          width: calc(100% / 12 * 7);
+        }
+        .col-xl-8 {
+          width: calc(100% / 12 * 8);
+        }
+        .col-xl-9 {
+          width: calc(100% / 12 * 9);
+        }
+        .col-xl-10 {
+          width: calc(100% / 12 * 10);
+        }
+        .col-xl-11 {
+          width: calc(100% / 12 * 11);
+        }
+        .col-xl-12 {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="content">content</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="content">content</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="content">content</div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="content">content</div>
+        </div>
+      </div>
+    </div> -->
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-12 col-md-6">
+          <div class="content">主圖</div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="row">
+            <div class="col-12 col-md-6"><div class="content">副圖</div></div>
+            <div class="col-12 col-md-6"><div class="content">標題</div></div>
+            <div class="col-12 col-md-12"><div class="content">內文</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

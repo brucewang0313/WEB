@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   for (let i = 1; i < 10; i++) {
+      //     for (let j = 1; j < 10; j++) {
+      //       console.log(`${i}*${j}=${i * j}`);
+      //     }
+      //   }
+
+      const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+      //   for (let idx = 0; idx < arr.length; idx++) {
+      //     // console.log(arr[idx]);
+      //     if (arr[idx] % 2 === 0) {
+      //       //   break;
+      //       //   continue;
+      //       console.log(arr[idx]);
+      //     }
+      //   }
+      const obj = { name: "Andy", age: 12 };
+
+      // for of
+      for (let item of arr) {
+        console.log(item);
+      }
+
+      // for in
+      for (let key in obj) {
+        console.log(`${key} is ${obj[key]}`);
+      }
+
+      for (let key in arr) {
+        console.log(`key:${key} , value:${arr[key]}`);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .nav {
+        background-color: gray;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+      }
+      .logo {
+        font-size: 1.25em;
+      }
+      .nav-links {
+        display: flex;
+        justify-content: space-between;
+        /* list的樣式 */
+        list-style: none;
+        /* 上下左右的間距 */
+        gap: 25px;
+      }
+      .nav-links a {
+        text-decoration: none;
+        color: white;
+        padding: 8px 8px;
+      }
+      .nav-links a:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <!-- 先拆成兩邊(logo跟其他子項目) -->
+      <div class="logo">品牌LOGO</div>
+      <!-- 另一邊再均分(子項目再均分空間) -->
+      <ul class="nav-links">
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">關於</a></li>
+        <li><a href="#">服務</a></li>
+        <li><a href="#">聯絡</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
