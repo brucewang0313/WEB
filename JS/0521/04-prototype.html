@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      const user = {
+        city: "Taipei",
+        greet() {
+          console.log(`hello form ${this.city}`);
+        },
+      };
+      // console.log(user);
+      // user.greet();
+      // user.toString(); // 不會報錯 但沒有定義所以沒有東西
+      console.log(Object.getPrototypeOf(user));
+
+      const date = new Date();
+      console.dir(date);
+      console.log(date.toString());
+      console.log(Object.getPrototypeOf(date) === Date.prototype);
+      console.log(Object.getPrototypeOf(date) === Object.prototype);
+    </script>
+  </body>
+</html>

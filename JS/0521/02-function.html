@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <button class="btn">點我(匿名函式)</button>
+    <button class="arrow-fn-btn">點我(箭頭函式)</button>
+    <script>
+      // //原本的function宣告方式
+      // function fn(name) {
+      //   console.log(`你的名子:${name}`);
+      // }
+      // fn("Andy");
+
+      // //匿名函式(匿名函式放到變數(fn2)內)
+      // const fn2 = function (name) {
+      //   console.log(`fn2 你的名子:${name}`);
+      // };
+      // fn2("Bill");
+
+      // //箭頭函式 Arrow function(匿名函式演變而來)
+      // const arrFn = (name) => {
+      //   console.log(`arrFn 你的名子:${name}`);
+      // };
+      // arrFn("Bruce");
+
+      // //只有一行的箭頭函式
+      // const arrFn2 = (name) => console.log(`arrFn2 你的名子:${name}`);
+      // arrFn2("Bruce lee");
+      // console.log(arrFn2("Bruce www")); //undefined因為上面的return沒有接值
+
+      // // const add = (a, b) => a + b;
+      // //等同於下面
+      // const add = (a, b) => {
+      //   return a + b;
+      // };
+      // console.log(add(19, 6));
+
+      //function內的`this`
+      function greetingFn() {
+        console.log(this);
+        console.log(`Hi! My name is ${this.name}`);
+      }
+      // greetingFn();
+
+      // const person = {
+      //   name: "Andy",
+      //   // greeting: function () {
+      //   //   console.log(`Hi! My name is ${this.name}`); //this 指向person執行個體
+      //   // },
+      //   greeting: greetingFn, //因為function可以當[變數]傳
+      // };
+
+      const person2 = {
+        name: "Andy2",
+        greeting: function () {
+          console.log(`Hi! My name is ${this.name}`);
+        },
+      };
+
+      // //綁定到哪，才能決定是誰
+      // person.greeting();
+      // person2.greeting();
+
+      //bind範例：綁定bind()內的東西固定住`this`
+      const bound = greetingFn.bind(person2);
+      bound();
+
+      // //arrow function 的 this 在沒有指定綁定在誰身上時會一直往上找(windows)
+      // const greetingArrowFn = () => {
+      //   console.log(this);//綁定到哪才能決定是誰
+      //   console.log(`Hi! My name is ${this.name}`);
+      // };
+
+      // const person3 = {
+      //   name: "Andy3",
+      //   greeting: greetingArrowFn,
+      // };
+      // person3.greeting();
+
+      // document.querySelector(".btn").addEventListener("click", function (e) {
+      //   console.log(e.target.textContent);
+      //   console.log(this);
+      //   console.log(this.textContent); //簡寫
+      // });
+
+      // document.querySelector(".arrow-fn-btn").addEventListener("click", (e) => {
+      //   console.log(e.target.textContent);
+      //   console.log(this);//window arrow function不會綁定this到呼叫的物件上
+      //   console.log(this.textContent);
+      // });
+    </script>
+  </body>
+</html>

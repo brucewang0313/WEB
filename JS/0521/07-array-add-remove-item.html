@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      const todoArr = ["C#預習", "切版作業", "JS作業"];
+      console.log("原始的陣列內容");
+      console.log(todoArr);
+
+      //在後面新增元素 Array.prototype.push()
+      todoArr.push("完成作業");
+      console.log(todoArr);
+
+      //移除最後一個項目
+      const popItem = todoArr.pop();
+      console.log("pop後的Arr");
+      console.log(todoArr);
+      console.log(`popItem:${popItem}`);
+
+      //新增第一項  Array.prototype.unshift()
+      todoArr.unshift("最前面");
+      console.log("unshift後的Arr");
+      console.log(todoArr);
+
+      //移除第一項 Array.prototype.shift()
+      const shiftItem = todoArr.shift();
+      console.log("shift後的Arr");
+      console.log(todoArr);
+      console.log(`shiftItem:${shiftItem}`);
+
+      //移除指定索引位置的元素 Array.prototype.splice()
+      //從idx:1 開始移除兩個項目
+      const spliceItem = todoArr.splice(1, 2);
+      console.log("splice後的Arr");
+      console.log(todoArr);
+      console.log(`spliceItem:${spliceItem}`);
+
+      //取代指定所以位置的項目
+      console.log("splice前的Arr");
+      console.log(todoArr);
+      todoArr.splice(0, 1, "replace item", "replace item2");
+      console.log("splice後的Arr");
+      console.log(todoArr);
+      
+    </script>
+  </body>
+</html>

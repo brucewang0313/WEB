@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      const courseArr = ["C#", "HTML/CSS", "SQL", "ASP.NET Core MVC"];
+
+      //for loop
+      console.log("use for loop...");
+      for (let i = 0; i < courseArr.length; i++) {
+        console.log(`i:${i},item:${courseArr[i]}`);
+      }
+
+      //for of
+      console.log("use for of...");
+      for (let item of courseArr) {
+        console.log(`item is ${item}`);
+      }
+
+      //for in
+      console.log("use for in...");
+      for (const key in courseArr) {
+        console.log(`key:${key}, item:${courseArr[key]}`);
+      }
+      
+      // Array.prototype.forEach
+      console.log("use forEach...");
+      courseArr.forEach((item, idx, arr) => {
+        console.log(`idx:${idx},item:${item}`)
+        console.log(arr)
+      });
+    </script>
+  </body>
+</html>

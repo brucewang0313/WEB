@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      const student = {
+        name: "Bill",
+        score: 92,
+        isPassed: true,
+      };
+      //可以被取能被拿出來的key
+      const studentKeys = Object.keys(student);
+      console.log(studentKeys);
+
+      //array身上有個foreach方法可以取出值
+      studentKeys.forEach(function (item) {
+        //取值用[]帶入
+        console.log(`key:${item},value:${student[item]}`);
+      });
+
+      const studentValues = Object.values(student);
+      console.log(studentValues);
+      //匿名函式可以用下列的寫法
+      studentValues.forEach((item) => {
+        console.log(`value:${item}`);
+      });
+
+      const student2 = {
+        name: "Bill",
+        score: 92,
+        isPassed: true,
+      };
+
+      console.log(student === student2);
+      console.log(Object.is(student, student2));
+
+      const student3 = student; //物件的變數放的是物件[參考]
+      console.log(Object.is(student, student3));
+      console.log(student === student3);
+      student3.name = "Andy"; //可以看到student也改成Andy了
+      console.log(student3);
+      console.log(student);
+
+      // Object.entries
+      const studentEntries = Object.entries(student);
+      console.log(studentEntries);
+
+      studentEntries.forEach((entry) => {
+        // console.log(entry);
+        console.log(`key:${entry[0]}, value:${entry[1]}`);
+      });
+    </script>
+  </body>
+</html>

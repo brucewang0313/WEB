@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      // const numArr = [20, 12, 3, 4, 28, 2, 3];
+      // console.log(`numArr:${numArr}`);
+
+      // // Array.prototype.indexOf
+      // console.log(`找一個數字3所在的索引${numArr.indexOf(3)}`);
+      // console.log(`找一個數字100所在的索引${numArr.indexOf(100)}`); //找不到時會回傳-1
+
+      // // Array.prototype.lastIndexOf
+      // console.log(`找到最後一個數字3所在的索引${numArr.lastIndexOf(3)}`);
+
+      // // Array.prototype.find
+      // console.log(
+      //   `找到第一個奇數為${numArr.find((num) => num % 2 != 0)},找到大於200的數字為${numArr.find((num) => num > 200)}`, //找不到時undefined
+      // );
+
+      // // Array.prototype.findLast()
+      // console.log(
+      //   `找到最後一個偶數為${numArr.findLast((num) => num % 2 == 0)}`,
+      // );
+
+      // // Array.prototype.filter
+      // console.log(`找到所有小於10的數字${numArr.filter((num) => num < 10)}`); //回傳的是Array
+      // console.log(`找到所有大於30的數字${numArr.filter((num) => num > 30)}`); //回傳空的Array"[]"而不是"undefined"
+
+      // // Array.prototype.includes
+      // let target = 20;
+      // console.log(`numArr內是否有指定的項目:${target}`);
+      // if (numArr.includes(target)) {
+      //   console.log(`numArr內有${target}`);
+      // } else {
+      //   console.log(`numArr內沒有${target}`);
+      // }
+
+      const people = [
+        {
+          name: "Bill",
+          age: 47,
+        },
+        {
+          name: "John",
+          age: 37,
+        },
+        {
+          name: "Tom",
+          age: 48,
+        },
+        {
+          name: "David",
+          age: 36,
+        },
+        {
+          name: "Bill",
+          age: 35,
+        },
+      ];
+
+      console.log("people 原本的內容為:");
+      console.log(people);
+      console.log(people.filter((item) => item.age > 40));
+
+      // Array.prototype.every 相似於C# enumerable.All
+      console.log("是否所有人年紀都小於20");
+      console.log(people.every((p) => p.age < 20));
+      console.log("是否所有人年紀都大於30小於50");
+      console.log(people.every((p) => p.age >= 30 && p.age <= 50));
+      // Array.prototype.some 相似於C# enumerable.All
+      console.log("是否有任何一個年紀大於40歲的人");
+      console.log(people.some((p) => p.age > 40));
+      console.log("是否有任何一個叫做Andy的人");
+      console.log(people.some((p) => p.name === "Andy"));
+    </script>
+  </body>
+</html>
