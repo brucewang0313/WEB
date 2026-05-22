@@ -1,0 +1,20 @@
+:root {
+  --brand: #ff6b35;
+  --brand-dark: #e85a24;
+  --ink: #1f2937;
+  --muted-bg: #f7f5f2;
+}
+.text-brand {
+  color: var(--brand);
+}
+.btn-brand {
+  --bs-btn-bg: var(--brand);
+  --bs-btn-border-color: var(--brand);
+  --bs-btn-hover-bg: var(--brand-dark);
+  --bs-btn-hover-border-color: var(--brand-dark);
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+}
+*{
+  /* outline: 1px solid red; */
+}
