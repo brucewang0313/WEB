@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.5;
+      }
+      .header {
+        background-color: #1f2937;
+        color: white;
+        padding-bottom: 80px;
+      }
+      .navbar {
+        padding: 16px 0 48px 0;
+      }
+      .logo {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .hero-info-title {
+        font-size: 48px;
+        font-weight: 800;
+      }
+      .hero-info-description {
+        font-size: 18px;
+        color: #e5e7eb;
+      }
+      .info {
+        padding: 80px 0 112px 0;
+      }
+      .main-info-title {
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 48px;
+      }
+      .paragraph-section {
+        background-color: #e5e7eb;
+        padding: 96px 0;
+        font-size: 28px;
+        font-weight: 300;
+        font-style: italic;
+        color: #1f2937;
+        line-height: 1.25;
+      }
+      .paragraph-box {
+        font-size: 28px;
+        font-weight: 300;
+        font-style: italic;
+        color: #1f2937;
+        line-height: 1.25;
+      }
+      .author {
+        text-align: right;
+        font-size: 20px;
+        font-weight: 800;
+        margin-top: 16px;
+        font-style: normal;
+      }
+      .cta-section{
+        padding: 80px 0;
+        
+      }
+      .footer{
+        background-color: #1f2937;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container py-3">
+        <div
+          class="navbar d-flex justify-content-between flex-column flex-sm-row gap-3"
+        >
+          <div class="logo">Header Logo</div>
+          <ul class="nav-link-group d-flex gap-3 list-unstyled mb-0">
+            <li><a href="#" class="nav-link">intro</a></li>
+            <li><a href="#" class="nav-link">contact</a></li>
+            <li><a href="#" class="nav-link">more</a></li>
+          </ul>
+        </div>
+        <div
+          class="hero container d-flex flex-column flex-md-row align-items-center gap-5"
+        >
+          <div class="hero-info text-center text-md-start">
+            <h1 class="hero-info-title">This website is awesome</h1>
+            <p class="hero-info-description">
+              This website has some subtext that goes here under the main title.
+              It's a smaller font and the color is lower contrast.
+            </p>
+            <button type="button" class="btn btn-primary">Sign up</button>
+          </div>
+          <div>
+            <img
+              src="https://pub-e5ad6fa58965460ca72f9f8145a4d629.r2.dev/openai-images/70e942ed-c753-40c6-9789-dfa2f6c8fd0b.png"
+              alt="狗"
+              class="hero-image img-fluid rounded-5"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <main class="main">
+      <div class="info">
+        <div class="container">
+          <h1 class="main-info-title text-center">Some random information.</h1>
+          <div class="row d-flex text-center justify-content-center">
+            <div
+              class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center"
+            >
+              <div class="card-box ratio ratio-1x1" style="max-width: 176px">
+                <img
+                  src="https://pub-e5ad6fa58965460ca72f9f8145a4d629.r2.dev/openai-images/70e942ed-c753-40c6-9789-dfa2f6c8fd0b.png"
+                  alt=""
+                  class="main-image object-fit-cover rounded-5"
+                />
+              </div>
+              <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center"
+            >
+              <div class="card-box ratio ratio-1x1" style="max-width: 176px">
+                <img
+                  src="https://pub-e5ad6fa58965460ca72f9f8145a4d629.r2.dev/openai-images/70e942ed-c753-40c6-9789-dfa2f6c8fd0b.png"
+                  alt=""
+                  class="main-image object-fit-cover rounded-5"
+                />
+              </div>
+              <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center"
+            >
+              <div class="card-box ratio ratio-1x1" style="max-width: 176px">
+                <img
+                  src="https://pub-e5ad6fa58965460ca72f9f8145a4d629.r2.dev/openai-images/70e942ed-c753-40c6-9789-dfa2f6c8fd0b.png"
+                  alt=""
+                  class="main-image object-fit-cover rounded-5"
+                />
+              </div>
+              <p>this is some subtext under an illustration or image</p>
+            </div>
+            <div
+              class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center"
+            >
+              <div class="card-box ratio ratio-1x1" style="max-width: 176px">
+                <img
+                  src="https://pub-e5ad6fa58965460ca72f9f8145a4d629.r2.dev/openai-images/70e942ed-c753-40c6-9789-dfa2f6c8fd0b.png"
+                  alt=""
+                  class="main-image object-fit-cover rounded-5"
+                />
+              </div>
+              <p>this is some subtext under an illustration or image</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="paragraph-section">
+      <div class="container">
+        <div class="paragraph-box">
+          <p class="paragraph">
+            This is an inspiring quote, or a testimonial from a customer. Maybe
+            it's just filling up space, or maybe people will actually read it.
+            Who knows? All I know is that it looks nice.
+          </p>
+          <p class="author">-Thor, God of Thunder</p>
+        </div>
+      </div>
+    </div>
+    <div class="cta-section">
+      <button class="container btn btn-primary d-grid gap-2 p-5">
+          <div class="cta d-md-flex flex-md-row justify-content-between">
+            <div class="text-md-start">
+              <h3 class="fw-bold">Call to action! It's time!</h3>
+              <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <div type="button" class="btn btn-primary border-white px-4 align-content-center">Sign up</>
+          </div>
+        </button>
+    </div>
+    <div class="footer py-4 text-white text-center">Copyright © The Odin Project 2021</div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
