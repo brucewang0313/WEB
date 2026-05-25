@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      function longRunningTask() {
+        let count = 0;
+        // for (let i = 0; i < 1e9; i++) {
+        //   count++;
+        // }
+        console.log("longRunningTask done!");
+      }
+      
+      function importantTask() {
+        console.log("importantTask Done");
+      }
+      longRunningTask();
+      alert("塞住了");
+      importantTask();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+    <script>
+      const people = [
+        {
+          name: "Bill",
+          age: 47,
+        },
+        {
+          name: "John",
+          age: 37,
+        },
+        {
+          name: "Tom",
+          age: 48,
+        },
+        {
+          name: "David",
+          age: 36,
+        },
+        {
+          name: "Bill",
+          age: 35,
+        },
+      ];
+      console.log("原本的內容物：");
+      console.log(people);
+
+      //1.淺拷貝(指向的位置 陣列不同 但裡面的[值]會指向一樣的)
+      const copyArr = Array.from(people);
+      console.log("淺拷貝");
+      console.log(copyArr);
+
+      copyArr[0].age = 20;
+      console.log(people[0]);
+      console.log(Object.is(people, copyArr)); //false
+      console.log(Object.is(people[0], copyArr[0])); //true
+
+      //2.透過mapFn產出新的Array(先copy再map`copyArr.map(p) => p.name)`)
+      const copyArrByMapFn = Array.from(people, (p) => p.name);
+      console.log(copyArrByMapFn);
+
+      //3.將可迭代的物件(Set)產出新的Array
+      const distinctNameFormArr = new Set(copyArrByMapFn);
+      console.log(distinctNameFormArr); //Set (Object)
+      //只要是可迭代的物件就可以用from做出新的陣列
+      const arrFromSet = Array.from(distinctNameFormArr);
+      console.log(arrFromSet); //Array
+
+      //4.將 類陣列(Array-Like)產出新的Array(NodeList)
+      const nodeList = document.querySelectorAll("p");
+      console.log(nodeList);
+
+      const arrFromNodeList = Array.from(nodeList, (item, idx) => {
+        return {
+          seq: idx + 1,
+          text: item.textContent,
+        };
+      });
+      console.log(arrFromNodeList);
+
+      const convertArr = [];
+      nodeList.forEach((item, idx) => {
+        const temp = {
+          no: idx + 1,
+          text: item.textContent,
+        };
+        convertArr.push(temp);
+      });
+      console.log(convertArr);
+    </script>
+  </body>
+</html>

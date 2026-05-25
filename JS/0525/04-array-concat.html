@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      const array1 = [1, 2, 3];
+      const array2 = [4, 5, 6];
+      const array3 = array1.concat(array2);
+      console.log(array3);
+      console.log(array2.concat(array1));
+
+      // 淺拷貝
+      const array4 = array1.concat();
+      console.log(array1);
+      console.log(array4);
+      console.log(array1 === array4); //false
+
+      const array5 = [].concat(array2);
+      console.log(array5);
+
+      //可以中間插值
+      const array6 = array1.concat(7, array2, 8, 9);
+      console.log(array6);
+    </script>
+  </body>
+</html>

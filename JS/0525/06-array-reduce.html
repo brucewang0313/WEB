@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      // const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      // const initVal = 0;
+      // //有初始值的情況，acc代表初始值(上一次的值)，return會回傳給下一圈的acc、curr當前的值
+      // const sumWithInitVal = numArr.reduce((acc, curr, idx) => {
+      //   console.log(`idx;${idx},acc:${acc},curr:${curr}`);
+      //   return acc + curr;
+      // }, initVal);
+      // console.log(sumWithInitVal);
+
+      // //沒有初始值的情況下acc會直接抓第一個的值，curr變成2(第二個值) idx為1
+      // const sumWithoutInitVal = numArr.reduce((acc, curr, idx) => {
+      //   console.log(`idx;${idx},acc:${acc},curr:${curr}`);
+      //   return acc + curr;
+      // });
+      // console.log(sumWithoutInitVal);
+
+      // //計算陣列內的總和
+      // console.log(numArr.reduce((acc, curr, idx) => acc + curr, 0));
+
+      // //攤平陣列 [[1,3],[5,7]]二維陣列 ->一維陣列 [1,3,5,7]
+      // console.log(`攤平陣列`);
+      // const my2Arr = [
+      //   [1, 3],
+      //   [5, 7],
+      // ];
+      // console.log(my2Arr.reduce((acc, curr) => acc.concat(curr), []));
+
+      //
+      const array1 = [1, 3, 5, 7, 9];
+      const array2 = [1, 2, 3, 4, 5];
+      //聯集
+      function myUnion(arr1, arr2) {
+        return arr2.reduce((acc, curr) => {
+          if (!acc.includes(curr)) {
+            return acc.concat(curr);
+          }
+          return acc;
+        }, arr1);
+      }
+      console.log(myUnion(array1, array2));
+      console.log(myUnion(array2, array1));
+      const result = new Set(array1.concat(array2));
+      console.log(result);
+
+      //交集
+      function myIntersect(arr1, arr2) {
+        return arr2.reduce((acc, curr) => {
+          if (arr1.includes(curr)) {
+            return acc.concat(curr);
+          }
+          return acc;
+        }, []);
+      }
+      console.log(myIntersect(array1, array2));
+
+      //差集1有2沒有、2有1沒有
+      function myExcept(arr1, arr2) {
+        return arr1.reduce((acc, curr) => {
+          const idx = arr2.indexOf(curr);
+          if (idx === -1) {
+            return acc.concat(curr);
+          }
+          return acc;
+        }, []);
+      }
+      console.log(myExcept(array1, array2));
+      console.log(myExcept(array2, array1));
+      //skip、take、distinct
+
+      // groupBy { key1:[{},{},{}], key2:[{},{}],  }
+      const sourceToGroup = [
+        { name: "Bill", city: "台北" },
+        { name: "John", city: "台北" },
+        { name: "Tom", city: "高雄" },
+        { name: "David", city: "台南" },
+        { name: "Jeff", city: "台南" },
+      ];
+
+      console.log("sourceToGroup:");
+      console.log(sourceToGroup);
+      console.log(groupArr(sourceToGroup, "city"));
+
+      function groupArr(sourceArr, propName) {
+        return sourceArr.reduce((acc, curr) => {
+          const groupingKey = curr[propName];
+          if (!acc[groupingKey]) {
+            acc[groupingKey] = [];
+          }
+
+          acc[groupingKey].push(curr);
+          return acc;
+        }, {});
+      }
+
+      function myGroupingKey(obj) {
+        return obj.city;
+      }
+      // console.log(groupBy(sourceToGroup, (item) => item.city));
+      console.log(groupBy(sourceToGroup, myGroupingKey));
+      function groupBy(sourceArr, callbackFn) {
+        return sourceArr.reduce((acc, curr) => {
+          //callbackFn: (item) => item.city
+          const groupingKey = callbackFn(curr);
+          if (!acc[groupingKey]) {
+            acc[groupingKey] = [];
+          }
+
+          acc[groupingKey].push(curr);
+          return acc;
+        }, {});
+      }
+      console.log("-".repeat(10));
+
+      // join
+      const studentArr = [
+        { classroom: "1A", student: "魯夫" },
+        { classroom: "1A", student: "索隆" },
+        { classroom: "1B", student: "櫻木" },
+        { classroom: "1A", student: "香吉士" },
+        { classroom: "1B", student: "流川楓" },
+      ];
+      const teacherArr = [
+        { classroom: "1A", teacher: "Bill" },
+        { classroom: "1B", teacher: "David" },
+      ];
+      console.log("studentArr:");
+      console.log(studentArr);
+      console.log("teacherArr:");
+      console.log(teacherArr);
+      console.log("join..");
+
+      function joinArr(array1, array2, propName) {
+        if (array1.length < array2.length) {
+          const temp = array1;
+          array1 = array2;
+          array2 = temp;
+        }
+
+        //{ classroom: "1A", student: "魯夫", teacher: "Bill" }
+        return array1.reduce((acc, curr) => {
+          const currValByKey = curr[propName]; // "1A"
+          const temp = array2.find((t) => t[propName] === currValByKey); // { classroom: "1A", teacher: "Bill" }
+
+          if (!temp) {
+            return acc;
+          }
+
+          const obj = {};
+          //{ classroom: "1A", student: "魯夫" }
+          Object.entries(curr).forEach((entry) => {
+            const key = entry[0];
+            const val = entry[1];
+            obj[key] = val;
+          });
+
+          for (const [key, val] of Object.entries(temp)) {
+            obj[key] = val;
+          }
+
+          return acc.concat(obj);
+        }, []);
+      }
+      console.log(joinArr(studentArr, teacherArr, "classroom"));
+
+      function joinArr2(array1, array2, propName) {
+        if (array1.length < array2.length) {
+          const temp = array1;
+          array1 = array2;
+          array2 = temp;
+        }
+        return array1.reduce((acc, curr) => {
+          const currValByKey = curr[propName];
+          const temp = array2.find((t) => t[propName] === currValByKey);
+
+          if (!temp) {
+            return acc;
+          }
+
+          // 展開語法
+          const obj = {
+            ...curr,
+            ...temp,
+          };
+          return acc.concat(obj);
+        }, []);
+      }
+      console.log(joinArr2(studentArr, teacherArr, "classroom"));
+    </script>
+  </body>
+</html>

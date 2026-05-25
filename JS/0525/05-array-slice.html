@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      const animals = ["ant", "bison", "camel", "duck", "elephant"];
+      console.log(animals);
+      // Array.prototype.slice()回傳新的Array
+
+      // 淺拷貝
+      const sliceRes = animals.slice();
+      console.log(sliceRes);
+      console.log(animals === sliceRes);
+
+      // Array.prototype.slice(start) 回傳從指定的索引到最後一個項目的新陣列
+      console.log(animals.slice(2));
+      // Array.prototype.slice(start,end) 回傳從指定的索引到end值處的前一個索引(不包含end)新陣列
+      console.log(animals.slice(2, 4));
+    </script>
+  </body>
+</html>

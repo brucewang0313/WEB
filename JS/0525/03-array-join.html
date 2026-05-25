@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      const people = [
+        {
+          name: "Bill",
+          age: 47,
+        },
+        {
+          name: "John",
+          age: 37,
+        },
+        {
+          name: "Tom",
+          age: 48,
+        },
+        {
+          name: "David",
+          age: 36,
+        },
+        {
+          name: "Bill",
+          age: 35,
+        },
+      ];
+
+      console.log(`取得年紀超過40歲的人名,並且用"&"分隔：`);
+      const ageMoreThenForty = people.filter((p) => p.age > 40);
+      const nameArr = ageMoreThenForty.map((p) => p.name);
+      console.log(nameArr);
+      const result = nameArr.join(" & ");
+      console.log(result);
+      // 可以簡寫成下面的寫法
+      console.log(
+        people
+          .filter((p) => p.age > 40)
+          .map((p) => p.name)
+          .join(" | "), //想換行可放換行符號/n
+      );
+    </script>
+  </body>
+</html>

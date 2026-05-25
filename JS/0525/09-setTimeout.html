@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .go {
+        color: green;
+      }
+      .stop {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="my-box">
+      <h1>HELLO HELLO</h1>
+    </div>
+    <button class="stop-btn">stop</button>
+    <button class="start-btn">start</button>
+    <script>
+      // console.log("A");
+      // // 請他去旁邊等的概念
+      // setTimeout(() => {
+      //   console.log("B");
+      // }, 1000); //即使沒有設定等1000(毫秒)執行結果也會是ACB
+      // console.log("C");
+
+      const myBox = document.querySelector("#my-box");
+      const startBtn = document.querySelector(".start-btn");
+      const stopBtn = document.querySelector(".stop-btn");
+      function flashText() {
+        if (myBox.classList.contains("go")) {
+          myBox.classList.remove("go");
+          myBox.classList.add("stop");
+        } else {
+          myBox.classList.remove("stop");
+          myBox.classList.add("go");
+        }
+      }
+      // window.setInterval...
+      let interValId;
+      startBtn.addEventListener("click", () => {
+        if (interValId) {
+          return;
+        }
+        interValId = window.setInterval(() => {
+          flashText();
+        }, 1000 * 1);
+      });
+
+      stopBtn.addEventListener("click", () => {
+        window.clearInterval(interValId);
+        interValId = null;
+      });
+
+      // window.setTimeout
+      // setTimeout(() => {
+      //   console.log("1s...");
+      // }, 1000 * 1);
+      // setTimeout(() => {
+      //   console.log("2s...");
+      // }, 1000 * 2);
+      // setTimeout(() => {
+      //   console.log("3s...");
+      // }, 1000 * 3);
+
+      // for (let i = 1; i < 6; i++) {
+      //   setTimeout(() => {
+      //     console.log(`${i}...`);
+      //   }, 1000 * i);
+      // }
+
+      // //改成var會變成只有6s...因為作用域的問題
+      // for (var i = 1; i < 6; i++) {
+      //   setTimeout(() => {
+      //     console.log(`${i}...`);
+      //   }, 1000 * i);
+      // }
+
+      // function count(times) {
+      //   for (let i = 1; i <= times; i++) {
+      //     setTimeout(() => {
+      //       console.log(`${i}...`);
+      //     }, 1000 * i);
+      //   }
+      // }
+      // count(5);
+
+      // //為了用var但沒必要:)
+      // function countWithIIFE(times) {
+      //   for (var i = 1; i <= times; i++) {
+      //     //閉包的寫法
+      //     (function (j) {
+      //       setTimeout(() => {
+      //         console.log(`${j}...`);
+      //       }, 1000 * j);
+      //     })(i);
+      //   }
+      // }
+      // countWithIIFE(5);
+
+      //更怪的寫法duck不必
+      setTimeout(() => {
+        console.log(1);
+        setTimeout(() => {
+          console.log(2);
+        }, 1000);
+      }, 1000);
+    </script>
+  </body>
+</html>
