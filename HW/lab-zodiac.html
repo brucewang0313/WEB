@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+  </style>
+</head>
+<body>
+  <script>
+    console.log("十二生肖排序(自訂排序):");
+      console.log("將：鼠，雞，猴，龍，馬依據十二生肖排序順序進行遞增排序：");
+      const zoo = ["鼠", "雞", "猴", "龍", "馬"];
+      const zooAscArr=["鼠", "牛", "虎", "兔", "龍", "蛇", "馬","羊", "猴","雞","狗","豬"]
+      console.log(zooAscArr)
+      console.log(zoo.sort((a,b)=>zooAscArr.indexOf(a)-zooAscArr.indexOf(b)))
+  </script>
+</body>
+</html>
