@@ -75,14 +75,14 @@
       });
 
       resetBtn.addEventListener("click", function () {
-        alert(`答案就是${randNum.join("")}猜不到????`);
+        alert(`答案是${randNum.join("")}猜不到????`);
         randNum = getRandomNum();
         myListGroup.innerHTML = "";
         myInput.value = "";
       });
 
       answerBtn.addEventListener("click", function () {
-        alert(`答案就是${randNum.join("")}還要偷看答案`);
+        alert(`答案是${randNum.join("")}還偷看答案==`);
       });
 
       myBtn.addEventListener("click", function () {
