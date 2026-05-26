@@ -117,6 +117,10 @@
         myInput.value = "";
         if (result === "4A0B") {
           alert("答對了");
+          myInput.disabled = true;
+          myBtn.disabled = true;
+          resetBtn.disabled = true;
+          answerBtn.disabled = true;
         }
       });
 
