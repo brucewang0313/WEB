@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      .container {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container d-flex flex-column justify-content-center">
+      <!-- button -->
+      <div class="btn-group" role="group" aria-label="Basic outlined example">
+        <button type="button" class="btn btn-outline-dark startBtn">
+          開始
+        </button>
+        <button type="button" class="btn btn-outline-dark resetBtn" disabled>
+          放棄重來
+        </button>
+        <button type="button" class="btn btn-outline-dark answerBtn" disabled>
+          看答案
+        </button>
+      </div>
+      <!-- list group -->
+      <ul class="list-group"></ul>
+      <!-- input group -->
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default"
+          >猜數字</span
+        >
+        <input
+          id="input"
+          type="text"
+          class="form-control"
+          aria-label="Sizing example input"
+          aria-describedby="inputGroup-sizing-default"
+          disabled
+        />
+        <button
+          class="btn btn-outline-danger"
+          type="button"
+          id="button"
+          disabled
+        >
+          猜!
+        </button>
+      </div>
+    </div>
+    <script>
+      const startBtn = document.querySelector(".startBtn");
+      const resetBtn = document.querySelector(".resetBtn");
+      const answerBtn = document.querySelector(".answerBtn");
+      const myBtn = document.querySelector("#button");
+      const myListGroup = document.querySelector(".list-group");
+      const myInput = document.querySelector("#input");
+      let randNum = [];
+
+      startBtn.addEventListener("click", function () {
+        randNum = getRandomNum();
+        myInput.disabled = false;
+        myBtn.disabled = false;
+        resetBtn.disabled = false;
+        answerBtn.disabled = false;
+        myListGroup.innerHTML = "";
+        myInput.value = "";
+      });
+
+      resetBtn.addEventListener("click", function () {
+        alert(`答案就是${randNum.join("")}猜不到????`);
+        randNum = getRandomNum();
+        myListGroup.innerHTML = "";
+        myInput.value = "";
+      });
+
+      answerBtn.addEventListener("click", function () {
+        alert(`答案就是${randNum.join("")}還要偷看答案`);
+      });
+
+      myBtn.addEventListener("click", function () {
+        if (isNaN(input.value)) {
+          alert("數字???");
+          input.value = "";
+          return;
+        } else if (input.value.length != 4) {
+          alert("四個數字???");
+          input.value = "";
+          return;
+        }
+
+        const inputNum = Array.from(myInput.value).map(Number);
+
+        console.log(myInput.value);
+        console.log(inputNum);
+        console.log(randNum);
+        console.log(check1A2B(inputNum, randNum));
+
+        const result = check1A2B(inputNum, randNum);
+        const li = document.createElement("li");
+        li.classList.add("list-group-item");
+
+        let badgeColor = "bg-danger";
+        if (result === "4A0B") {
+          badgeColor = "bg-success";
+        }
+        li.innerHTML = `<span class="badge ${badgeColor} me-2">${result}</span> ${myInput.value}`;
+
+        myListGroup.append(li);
+        myInput.value = "";
+        if (result === "4A0B") {
+          alert("答對了");
+        }
+      });
+
+      function getRandomNum() {
+        const numSet = new Set();
+        while (numSet.size < 4) {
+          const randNum = Math.floor(Math.random() * 10);
+          numSet.add(randNum);
+        }
+        return Array.from(numSet);
+      }
+
+      function check1A2B(arrInput, arrRand) {
+        let a = 0;
+        let b = 0;
+        for (let i = 0; i < 4; i++) {
+          if (arrInput[i] === arrRand[i]) a++;
+          else if (arrRand.includes(arrInput[i])) b++;
+        }
+        return `${a}A${b}B`;
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
