@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      //Promise的狀態 (改善[空等]的問題)
+      // -pending(還沒完成，等待中)
+      // -fulfilled(成功，回傳結果)
+      // -rejected(失敗，拋出錯誤)
+
+      // const promise1 = new Promise((resolve, reject) => {
+      //   //成功的
+      //   resolve("promise1 resolved!!!");
+      // });
+
+      // const promise2 = new Promise((resolve, reject) => {
+      //   //失敗的
+      //   reject("promise2 rejected!!!");
+      //   resolve("promise2 resolve!!!");
+      // });
+
+      // // console.log(promise1);// 印出來是物件
+      // // console.log(promise2);
+
+      // promise1
+      //   .then((res) => {
+      //     console.log(res);
+      //   })
+      //   .finally(() => {
+      //     console.log("P1 finally");
+      //   });
+      // promise2
+      //   .then((res) => {
+      //     console.log(res);
+      //   })
+      //   .catch((err) => {
+      //     console.log(err);
+      //   })
+      //   .finally(() => {
+      //     console.log("P2 finally");
+      //   });
+
+      const getUser = new Promise((resolve, reject) => {
+        resolve({
+          id: 1,
+          name: "Andy",
+        });
+      });
+
+      // getUser.then((res) => {
+      //   console.log(res);
+      // });
+
+      const getOrders = (userId) => {
+        //回傳成Promise物件這樣才能設條件
+        return new Promise((resolve, reject) => {
+          if (isNaN(userId)) {
+            reject("user id 不是數字");
+          }
+          const userOrders = {
+            userId: userId,
+            orders: ["order1", "order2", "order3", "order4"],
+          };
+          resolve(userOrders);
+        });
+      };
+      //先取得user,再從user取訂單
+      // getUser.then((user) => {
+      //   console.log(user.id);
+      //   getOrders(user.id).then((res) => {
+      //     console.log(res);
+      //   });
+      // });
+
+      // //Promise chain
+      // getUser
+      //   .then((user) => {
+      //     console.log(user);
+      //     return getOrders(user.id);
+      //   })
+      //   .then((res) => {
+      //     console.log(res);
+      //   })
+      //   .catch((err) => {
+      //     console.warn(err);
+      //   })
+      //   .finally(() => {
+      //     console.log("處理完了");
+      //   });
+
+      //async-await
+      (async function () {
+        // const user = await getUser;
+        // console.log(user);
+        // const orders = await getOrders(user.id);
+        // console.log(orders);
+        try {
+          const user = await getUser;
+          console.log(user);
+          const orders = await getOrders(user.id);
+          console.log(orders);
+        } catch (err) {
+          console.warn(err);
+        } finally {
+          console.log("做完了");
+        }
+      })();
+
+      async function getNumber() {
+        return 10;//只要是async就會回傳成Promise物件
+      }
+      const result111 = getNumber();
+      console.log(result111);
+      result111.then((value)=>{
+        console.log(value)
+      })
+    </script>
+  </body>
+</html>

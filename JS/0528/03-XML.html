@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      const url =
+        "https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json";
+      const request = new XMLHttpRequest();
+      request.open("GET", url);
+      // request.responseType = "json";
+      request.send();
+
+      request.addEventListener("load", () => {
+        // console.log(request)
+        if (request.status >= 200 && request.status < 300) {
+          console.log("請求成功");
+          // console.log(request.response);
+          // console.log(JSON.parse(request.response));
+          //取sna的資料
+          const result = JSON.parse(request.response);
+          const sanArr = result.map((item) => item.sna);
+          console.log(sanArr);
+          console.log(result.filter((item) => item.sarea === "大安區"));
+        } else {
+          console.warn(`請求失敗：狀態碼${request.status}`);
+        }
+      });
+      // 如果有回應，就是load不是error
+      request.addEventListener("onerror", (err) => {
+        console.log(err);
+      });
+    </script>
+  </body>
+</html>

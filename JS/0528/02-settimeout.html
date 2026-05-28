@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      // function wait(ms) {
+      //   return new Promise((resolve) => {
+      //     setTimeout(resolve, ms);
+      //   });
+      // }
+      // wait(1000).then(() => {
+      //   console.log("1秒後");
+      // });
+
+      function wait(ms, value) {
+        return new Promise((resolve) => {
+          setTimeout(() => {
+            resolve(value);
+          }, ms);
+        });
+      }
+      wait(1000, "done done").then((message) => {
+        console.log(message);
+      });
+    </script>
+  </body>
+</html>

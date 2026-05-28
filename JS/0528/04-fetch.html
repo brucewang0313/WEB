@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <button class="btn-fetch">別按我</button>
+    <button class="btn-youBike">YOU別按我</button>
+    <script>
+      const url = "https://jsonplaceholder.typicode.com/posts/1";
+      const youBikeUrl =
+        "https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json";
+      const fetchDataBtn = document.querySelector(".btn-fetch");
+      const fetchYouBikeBtn = document.querySelector(".btn-youBike");
+
+      // fetchDataBtn.addEventListener("click", () => {
+      //   fetch(url) // 回傳Promise物件
+      //     .then((res) => {
+      //       console.log(res);
+      //       if (!res.ok) {
+      //         throw new Error(`BIG NONO${res.status}`);
+      //       }
+      //       return res.json(); // 回傳Promise物件
+      //     })
+      //     .then((data) => {
+      //       console.log(data);
+      //     })
+      //     .catch((err) => {
+      //       console.warn(err);
+      //     });
+      // });
+
+      //promise-base
+      // fetchYouBikeBtn.addEventListener("click", () => {
+      //   fetch(youBikeUrl)
+      //     .then((res) => res.json())
+      //     .then((body) => {
+      //       console.log(body);
+      //     });
+      // });
+
+      // //async-await
+      // fetchYouBikeBtn.addEventListener("click", async () => {
+      //   const res = await fetch(youBikeUrl);
+      //   const body = await res.json();
+      //   console.log(body);
+      // });
+
+      fetchDataBtn.addEventListener("click",async()=>{
+        try{
+          const res = await fetch(youBikeUrl);
+          const body = await res.json();
+          console.log(body);
+        }catch{
+          
+        }
+      })
+    </script>
+  </body>
+</html>
