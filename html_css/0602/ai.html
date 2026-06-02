@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script>
+      
+    </script>
+    <script type="module">
+      import { createChat } from "https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js";
+
+      createChat({
+        webhookUrl: "https://azdevn8n.buildschool.dev/webhook/87159d81-4e22-4f37-8293-5e0b1fb4cb0d/chat",
+        webhookConfig: {
+          method: "POST",
+          headers: {},
+        },
+        target: "#n8n-chat",
+        mode: "window",
+        chatInputKey: "chatInput",
+        chatSessionKey: "sessionId",
+        loadPreviousSession: true,
+        metadata: {},
+        showWelcomeScreen: false,
+        defaultLanguage: "en",
+        initialMessages: [
+          "你好👋",
+          "你有什麼問題?",
+        ],
+        i18n: {
+          en: {
+            title: "客服機器人👋",
+            subtitle: "隨時回答問題",
+            footer: "",
+            getStarted: "New Conversation",
+            inputPlaceholder: "輸入你的問題",
+          },
+        },
+        enableStreaming: false,
+      });
+    </script>
+  </body>
+</html>

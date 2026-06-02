@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>商品上架後台</title>
+
+    <!-- Bootstrap 5.3 CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+
+      .page-wrapper {
+        min-height: 100vh;
+        padding-top: 48px;
+        padding-bottom: 48px;
+      }
+
+      .admin-card {
+        border: 0;
+        border-radius: 16px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+      }
+
+      .admin-card-header {
+        background-color: #ffffff;
+        border-bottom: 1px solid #e9ecef;
+        border-radius: 16px 16px 0 0;
+      }
+
+      .section-title {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 0;
+      }
+
+      .form-label {
+        font-weight: 600;
+      }
+
+      .form-control {
+        border-radius: 10px;
+      }
+
+      .input-group .form-control {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+
+      .input-group .btn {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+
+      .btn {
+        border-radius: 10px;
+        font-weight: 600;
+      }
+
+      .helper-text {
+        font-size: 14px;
+        color: #6c757d;
+      }
+
+      .required-mark {
+        color: #dc3545;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main class="page-wrapper">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="mb-4">
+              <h1 class="h3 fw-bold mb-2">商品上架後台</h1>
+              <p class="text-muted mb-0">
+                請輸入商品資料。商品名稱旁的按鈕可讓學生練習串接 AI 生成 API。
+              </p>
+            </div>
+
+            <div class="card admin-card">
+              <div class="card-header admin-card-header p-4">
+                <h2 class="section-title">商品基本資料</h2>
+              </div>
+
+              <div class="card-body p-4">
+                <form>
+                  <!-- 商品名稱 + AI 按鈕 -->
+                  <div class="mb-4">
+                    <label for="productTitle" class="form-label">
+                      商品名稱
+                      <span class="required-mark">*</span>
+                    </label>
+
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="productTitle"
+                        name="productTitle"
+                        placeholder="例如：宜蘭礁溪五日遊"
+                      />
+
+                      <button
+                        class="btn btn-primary"
+                        type="button"
+                        id="aiGenerateButton"
+                      >
+                        AI 生成產品資訊
+                      </button>
+                    </div>
+
+                    <div class="helper-text mt-2">
+                      學生可以練習：點擊按鈕後呼叫
+                      API，並將回傳資料填入下方欄位。
+                    </div>
+                  </div>
+
+                  <hr class="my-4" />
+
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="brand" class="form-label"
+                        >品牌 / 目的地</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="brand"
+                        name="brand"
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="name" class="form-label">完整商品名稱</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="category" class="form-label">商品分類</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="category"
+                        name="category"
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="region" class="form-label">地區</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="region"
+                        name="region"
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="startUtc" class="form-label"
+                        >開始時間 UTC</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="startUtc"
+                        name="startUtc"
+                        placeholder="例如：2026-07-01T00:00:00Z"
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="endUtc" class="form-label"
+                        >結束時間 UTC</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="endUtc"
+                        name="endUtc"
+                        placeholder="例如：2026-07-05T00:00:00Z"
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="price" class="form-label">價格</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="price"
+                        name="price"
+                      />
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="currency" class="form-label">幣別</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="currency"
+                        name="currency"
+                      />
+                    </div>
+
+                    <div class="col-12">
+                      <label for="description" class="form-label"
+                        >商品描述</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="description"
+                        name="description"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-end gap-2 mt-4">
+                    <button type="reset" class="btn btn-outline-secondary">
+                      清除
+                    </button>
+
+                    <button type="submit" class="btn btn-success">
+                      儲存商品
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="alert alert-secondary mt-4">
+              <strong>給學生的練習任務：</strong>
+              請使用 JavaScript 完成「AI 生成產品資訊」按鈕的功能，點擊後送出
+              <code>productTitle</code> 到 API，並把回傳的 JSON 資料填入表單。
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      const inputBtn = document.querySelector("#aiGenerateButton");
+      const input = document.querySelector("#productTitle");
+      const brandInput = document.querySelector("#brand");
+      const nameInput = document.querySelector("#name");
+      const categoryInput = document.querySelector("#category");
+      const regionInput = document.querySelector("#region");
+      const startUtcInput = document.querySelector("#startUtc");
+      const endUtcInput = document.querySelector("#endUtc");
+      const priceInput = document.querySelector("#price");
+      const currencyInput = document.querySelector("#currency");
+      const descriptionInput = document.querySelector("#description");
+
+      inputBtn.addEventListener("click", () => {
+        const inputTitle = input.value.trim();
+        const url = `https://azdevn8n.buildschool.dev/webhook/158d3862-49da-42ea-be62-644e36c3a75b/production-generation`;
+
+        fetch(url, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            productTitle: inputTitle,
+          }),
+        })
+          //若response沒有回應或錯誤就不會繼續執行(防呆)
+          .then((response) => {
+            console.log(response);
+            if (!response.ok) {
+              throw new Error("網路回應不成功");
+            }
+            return response.json();
+          })
+          .then((data) => {
+            console.log("成功收到 AI 資料：", data);
+
+            brandInput.value = data.brand;
+            nameInput.value = data.name;
+            categoryInput.value = data.category;
+            regionInput.value = data.region;
+            startUtcInput.value = data.startUtc;
+            endUtcInput.value = data.endUtc;
+            priceInput.value = data.price;
+            currencyInput.value = data.currency;
+            descriptionInput.value = data.description;
+          })
+          .catch((error) => {
+            console.error("Fetch 發生錯誤，詳細原因：", error);
+            alert(`AI 生成失敗！錯誤原因：${error.message}`);
+          })
+          .finally(() => {
+            inputBtn.disabled = false;
+            inputBtn.textContent = "AI 生成產品資訊";
+          });
+      });
+    </script>
+  </body>
+</html>

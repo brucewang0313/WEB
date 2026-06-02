@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" class="input-content" />
+    <button class="save-btn">儲存</button>
+    <button class="read-btn">讀取</button>
+    <script>
+      const key = "my-test-key";
+      const saveBtn = document.querySelector(".save-btn");
+      const readBtn = document.querySelector(".read-btn");
+      const contentInput = document.querySelector(".input-content");
+
+      saveBtn.addEventListener("click", () => {
+        const content = contentInput.value.trim();
+        localStorage.setItem(key, content);
+
+        contentInput.value = "";
+      });
+      readBtn.addEventListener("click", () => {
+        const val = localStorage.getItem(key);
+        console.log(val);
+      });
+    </script>
+  </body>
+</html>
