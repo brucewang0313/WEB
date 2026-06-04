@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Todo List 待辦事項管理</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="container py-5">
+      <!-- 標題區 -->
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h1 class="fw-bold">Todo List</h1>
+          <p class="text-muted">
+            使用 JavaScript 與 Bootstrap 製作待辦事項管理
+          </p>
+        </div>
+      </div>
+
+      <!-- 主要內容 -->
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card shadow-sm">
+            <div
+              class="card-header bg-primary text-white d-flex justify-content-between align-items-center"
+            >
+              <h5 class="mb-0">待辦事項管理</h5>
+
+              <!-- 開啟新增 Modal -->
+              <button
+                id="create-todo-btn"
+                type="button"
+                class="btn btn-light btn-sm"
+                data-bs-toggle="modal"
+                data-bs-target="#todo-modal"
+              >
+                新增待辦
+              </button>
+            </div>
+
+            <div class="card-body">
+              <!-- 狀態統計區 -->
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <span class="badge text-bg-secondary">
+                  全部：<span id="total-count">999</span>
+                </span>
+
+                <span class="badge text-bg-success">
+                  已完成：<span id="done-count">999</span>
+                </span>
+
+                <span class="badge text-bg-warning">
+                  未完成：<span id="undone-count">999</span>
+                </span>
+              </div>
+
+              <!-- 待辦清單 -->
+              <ul id="todo-list" class="list-group"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Todo Modal -->
+    <div
+      class="modal fade"
+      id="todo-modal"
+      tabindex="-1"
+      aria-labelledby="todo-modal-label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="todo-modal-label">新增待辦事項</h1>
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <div class="mb-3">
+              <label for="todo-title" class="form-label"> 待辦事項名稱 </label>
+              <input
+                type="text"
+                class="form-control"
+                id="todo-title"
+                placeholder="請輸入待辦事項"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="todo-description" class="form-label">
+                備註說明
+              </label>
+              <textarea
+                class="form-control"
+                id="todo-description"
+                rows="3"
+                placeholder="可以輸入補充說明，非必填"
+              ></textarea>
+            </div>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                id="todo-is-done"
+              />
+              <label class="form-check-label" for="todo-is-done">
+                是否已完成
+              </label>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              取消
+            </button>
+
+            <button type="button" id="save-todo-btn" class="btn btn-primary">
+              儲存
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const todoListObj = document.querySelector("#todo-list");
+      const totalCount = document.querySelector("#total-count");
+      const doneCount = document.querySelector("#done-count");
+      const undoneCount = document.querySelector("#undone-count");
+      const saveBtn = document.querySelector("#save-todo-btn");
+      const todoTitle = document.querySelector("#todo-title");
+      const todoDescription = document.querySelector("#todo-description");
+      const todoIsDone = document.querySelector("#todo-is-done");
+
+      const myModalEl = document.querySelector("#todo-modal");
+      const myModalLabelEl = document.querySelector("#todo-modal-label");
+      const myModal = new bootstrap.Modal("#todo-modal");
+
+      let todoList = [
+        // {
+        //   id: "1",
+        //   name: "學習 JavaScript DOM 操作",
+        //   note: "",
+        //   isDone: false,
+        // },
+        // {
+        //   id: "2",
+        //   name: "練習 Bootstrap Modal",
+        //   note: "",
+        //   isDone: true,
+        // },
+        // {
+        //   id: "3",
+        //   name: "完成 Todo List CRUD 功能",
+        //   note: "",
+        //   isDone: false,
+        // },
+      ];
+      //let isEditMode = false;
+      let editTodoItem = null;
+
+      const storeKey = "my-todo-items-key";
+
+      function saveToStorage() {
+        const json = JSON.stringify(todoList);
+        localStorage.setItem(storeKey, json);
+      }
+
+      function loadTodoItemsFromStorage() {
+        const json = localStorage.getItem(storeKey);
+        if (!json) {
+          todoList = [];
+          return;
+        }
+
+        todoList = JSON.parse(json);
+      }
+
+      function renderingTodoStateBadge() {
+        const total = todoList.length;
+        const done = todoList.filter((item) => item.isDone).length;
+        const undone = total - done;
+        totalCount.textContent = `${total}`;
+        doneCount.textContent = `${done}`;
+
+        // undoneCount.textContent = `${todoList.filter(item => item.isDone === false).length}`;
+        undoneCount.textContent = `${undone}`;
+      }
+
+      function renderingTodoItems() {
+        todoListObj.innerHTML = "";
+        todoList.forEach((todoItem) => {
+          const elementId = `item-${todoItem.id}`;
+
+          const isDoneInput = document.createElement("input");
+          isDoneInput.classList.add("form-check-input", "me-2");
+          isDoneInput.setAttribute("id", elementId);
+          isDoneInput.setAttribute("type", "checkbox");
+
+          const label = document.createElement("label");
+          label.setAttribute("for", elementId);
+          label.textContent = todoItem.name;
+
+          if (todoItem.isDone) {
+            isDoneInput.setAttribute("checked", true);
+            label.classList.add("text-decoration-line-through", "text-muted");
+          }
+
+          isDoneInput.addEventListener("change", (e) => {
+            //要修改資料內容
+            todoItem.isDone = !todoItem.isDone;
+
+            saveToStorage();
+            buildTodoItemEl();
+          });
+
+          const contentDiv = document.createElement("div");
+          contentDiv.append(isDoneInput, label);
+
+          const dataId = `${todoItem.id}`;
+          const editBtn = document.createElement("button");
+          editBtn.classList.add(
+            "btn",
+            "btn-sm",
+            "btn-outline-warning",
+            "me-2",
+            "edit-todo-btn",
+          );
+          editBtn.setAttribute("type", "button");
+          // editBtn.setAttribute("data-id", `${todoItem.id}`);
+          editBtn.dataset.id = dataId;
+          editBtn.textContent = "編輯";
+
+          editBtn.addEventListener("click", () => {
+            // 把選到的資料帶到Modal內
+            // console.log(todoItem);
+            const theId = editBtn.dataset.id;
+            // console.log(theId);
+            const theTodoItem = todoList.find((item) => item.id === theId);
+            // console.log(theTodoItem);
+
+            todoTitle.value = theTodoItem.name;
+            todoDescription.value = theTodoItem.note;
+            todoIsDone.checked = theTodoItem.isDone;
+
+            //modal會走編輯的流程
+            // isEditMode = true;
+            editTodoItem = theTodoItem;
+            myModalLabelEl.textContent = "編輯待辦事項";
+
+            myModal.show();
+          });
+
+          const deleteBtn = document.createElement("button");
+          deleteBtn.classList.add(
+            "btn",
+            "btn-sm",
+            "btn-outline-danger",
+            "delete-todo-btn",
+          );
+          deleteBtn.type = "button";
+          deleteBtn.dataset.id = dataId;
+          deleteBtn.textContent = "刪除";
+
+          deleteBtn.addEventListener("click", () => {
+            //splice(idx, 1)
+            // const idx = todoList.indexOf(todoItem);
+            const idx = todoList.findIndex((item) => item.id === todoItem.id);
+            console.log(idx);
+            todoList.splice(idx, 1);
+            saveToStorage();
+            buildTodoItemEl();
+          });
+
+          const btnGroupDiv = document.createElement("div");
+          btnGroupDiv.append(editBtn, deleteBtn);
+
+          const li = document.createElement("li");
+          li.classList.add(
+            "list-group-item",
+            "d-flex",
+            "justify-content-between",
+            "align-items-center",
+          );
+          li.append(contentDiv, btnGroupDiv);
+
+          todoListObj.append(li);
+        });
+      }
+
+      function generateTodoItemId() {
+        // return Date.now().toString();
+        return crypto.randomUUID();
+      }
+
+      function buildTodoItemEl() {
+        loadTodoItemsFromStorage();
+        renderingTodoItems();
+        renderingTodoStateBadge();
+      }
+
+      window.addEventListener("load", () => {
+        buildTodoItemEl();
+      });
+
+      saveBtn.addEventListener("click", () => {
+        if (editTodoItem) {
+          //編輯功能
+          // console.log(editTodoItem);
+          editTodoItem.name = todoTitle.value;
+          editTodoItem.note = todoDescription.value;
+          editTodoItem.isDone = todoIsDone.checked;
+
+          saveToStorage();
+          buildTodoItemEl();
+          myModal.hide();
+          return;
+        }
+
+        const todoItem = {
+          id: generateTodoItemId(), //需要處理ID生成
+          name: todoTitle.value,
+          note: todoDescription.value,
+          isDone: todoIsDone.checked,
+        };
+
+        todoList.push(todoItem);
+
+        saveToStorage();
+        buildTodoItemEl();
+
+        myModal.hide();
+      });
+      myModalEl.addEventListener("hidden.bs.modal", () => {
+        //清掉輸入框內容
+        todoTitle.value = "";
+        todoDescription.value = "";
+        todoIsDone.checked = false;
+
+        //要變成預設的新增模式
+        // isEditMode = false;
+        editTodoItem = null;
+        myModalLabelEl.textContent = "新增待辦事項";
+      });
+    </script>
+  </body>
+</html>
+ 
