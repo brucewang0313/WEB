@@ -1,125 +1,125 @@
 <!doctype html>
 <html lang="zh-Hant">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Vue 課程報名清單練習</title>
+  <title>Vue 課程報名清單練習</title>
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
 
-    <style>
-      body {
-        background-color: #f8f9fa;
-      }
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
 
-      .course-card {
-        transition: 0.2s;
-      }
+    .course-card {
+      transition: 0.2s;
+    }
 
-      .course-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
-      }
+    .course-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+    }
 
-      .course-card.joined {
-        border: 2px solid #198754;
-        background-color: #f0fff6;
-      }
+    .course-card.joined {
+      border: 2px solid #198754;
+      background-color: #f0fff6;
+    }
 
-      .course-card.full {
-        opacity: 0.65;
-        background-color: #f1f3f5;
-      }
+    .course-card.full {
+      opacity: 0.65;
+      background-color: #f1f3f5;
+    }
 
-      .price {
-        font-size: 1.25rem;
-        font-weight: bold;
-        color: #dc3545;
-      }
+    .price {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #dc3545;
+    }
 
-      .summary-card {
-        position: sticky;
-        top: 1rem;
-      }
-    </style>
-  </head>
+    .summary-card {
+      position: sticky;
+      top: 1rem;
+    }
+  </style>
+</head>
 
-  <body>
-    <div id="app" class="container py-5">
-      <!-- Header -->
-      <div class="mb-4">
-        <h1 class="fw-bold">課程報名清單</h1>
-        <p class="text-muted">
-          請使用 Vue 完成課程列表、報名、取消報名、狀態顯示與統計功能。
-        </p>
-      </div>
+<body>
+  <div id="app" class="container py-5">
 
-      <div class="row g-4">
-        <!-- 左側：課程列表 -->
-        <div class="col-lg-8">
-          <!-- TODO 1:
+    <!-- Header -->
+    <div class="mb-4">
+      <h1 class="fw-bold">課程報名清單</h1>
+      <p class="text-muted">
+        請使用 Vue 完成課程列表、報名、取消報名、狀態顯示與統計功能。
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- 左側：課程列表 -->
+      <div class="col-lg-8">
+
+        <!-- TODO 1:
           請使用 v-for 顯示 courses 內的課程資料。
           提示：
           v-for="course in courses"
           :key="course.id"
         -->
-          <div
-            class="card mb-3 course-card"
-            v-for="course in courses"
-            :key="course.id"
-          >
-            <div class="card-body">
-              <div
-                class="d-flex justify-content-between align-items-start mb-3"
-              >
-                <div>
-                  <!-- TODO 2: 顯示課程名稱 -->
-                  <h4 class="card-title mb-1">{{course.name}}</h4>
+        <div class="card mb-3 course-card" v-for="course in courses" :key="course.id">
 
-                  <!-- TODO 3: 顯示講師名稱 -->
-                  <p class="text-muted mb-0">{{course.teacher}}</p>
-                </div>
+          <div class="card-body">
 
-                <!-- TODO 4:
+            <div class="d-flex justify-content-between align-items-start mb-3">
+              <div>
+                <!-- TODO 2: 顯示課程名稱 -->
+                <h4 class="card-title mb-1">{{course.name}}</h4>
+
+                <!-- TODO 3: 顯示講師名稱 -->
+                <p class="text-muted mb-0">{{course.teacher}}</p>
+              </div>
+
+              <!-- TODO 4:
                 使用 v-if / v-else-if / v-else 顯示課程狀態
                 狀態：
                 1. 已報名
                 2. 已額滿
                 3. 可報名
               -->
-                <span class="badge text-bg-success">已報名</span>
+              <span class="badge text-bg-success">已報名</span>
+            </div>
+
+            <div class="row mb-3">
+              <div class="col-md-4">
+                <div class="text-muted small">課程價格</div>
+
+                <!-- TODO 5: 顯示課程價格 -->
+                <div class="price">NT$ {{course.price}}</div>
               </div>
 
-              <div class="row mb-3">
-                <div class="col-md-4">
-                  <div class="text-muted small">課程價格</div>
+              <div class="col-md-4">
+                <div class="text-muted small">報名人數</div>
 
-                  <!-- TODO 5: 顯示課程價格 -->
-                  <div class="price">NT$ {{course.price}}</div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="text-muted small">報名人數</div>
-
-                  <!-- TODO 6: 顯示 enrolled / capacity -->
-                  <div class="fw-bold">12 / 20 人</div>
-                </div>
-
-                <div class="col-md-4">
-                  <div class="text-muted small">剩餘名額</div>
-
-                  <!-- TODO 7: 顯示剩餘名額 -->
-                  <div class="fw-bold">8 人</div>
-                </div>
+                <!-- TODO 6: 顯示 enrolled / capacity -->
+                <div class="fw-bold">12 / 20 人</div>
               </div>
 
-              <div class="d-flex justify-content-end">
-                <!-- TODO 8:
+              <div class="col-md-4">
+                <div class="text-muted small">剩餘名額</div>
+
+                <!-- TODO 7: 顯示剩餘名額 -->
+                <div class="fw-bold">8 人</div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-end">
+
+              <!-- TODO 8:
                 使用 @click 呼叫報名或取消報名方法
 
                 如果尚未報名：
@@ -131,155 +131,171 @@
                 如果已額滿且尚未報名：
                 按鈕 disabled
               -->
-                <button class="btn btn-primary">報名</button>
-              </div>
+              <button class="btn btn-primary">
+                報名
+              </button>
+
             </div>
           </div>
         </div>
 
-        <!-- 右側：統計資料 -->
-        <div class="col-lg-4">
-          <div class="card summary-card">
-            <div class="card-header bg-dark text-white">報名統計</div>
+      </div>
 
-            <div class="card-body">
-              <div class="mb-3">
-                <div class="text-muted small">已報名課程數</div>
+      <!-- 右側：統計資料 -->
+      <div class="col-lg-4">
+        <div class="card summary-card">
+          <div class="card-header bg-dark text-white">
+            報名統計
+          </div>
 
-                <!-- TODO 9: 使用 computed 顯示已報名課程數 -->
-                <div class="fs-4 fw-bold">0 門</div>
-              </div>
+          <div class="card-body">
 
-              <div class="mb-3">
-                <div class="text-muted small">總費用</div>
+            <div class="mb-3">
+              <div class="text-muted small">已報名課程數</div>
 
-                <!-- TODO 10: 使用 computed 顯示總費用 -->
-                <div class="fs-4 fw-bold text-danger">NT$ 0</div>
-              </div>
+              <!-- TODO 9: 使用 computed 顯示已報名課程數 -->
+              <div class="fs-4 fw-bold">0 門</div>
+            </div>
 
-              <hr />
+            <div class="mb-3">
+              <div class="text-muted small">總費用</div>
 
-              <div>
-                <div class="text-muted small mb-2">已報名課程</div>
+              <!-- TODO 10: 使用 computed 顯示總費用 -->
+              <div class="fs-4 fw-bold text-danger">NT$ 0</div>
+            </div>
 
-                <!-- TODO 11:
+            <hr>
+
+            <div>
+              <div class="text-muted small mb-2">已報名課程</div>
+
+              <!-- TODO 11:
                 如果沒有報名任何課程，顯示「尚未報名任何課程」
 
                 如果有報名課程，使用 v-for 顯示已報名課程名稱
               -->
-                <p class="text-muted mb-0">尚未報名任何課程</p>
+              <p class="text-muted mb-0">尚未報名任何課程</p>
 
-                <!-- 範例樣式，可改成 v-for -->
-                <!--
+              <!-- 範例樣式，可改成 v-for -->
+              <!--
               <ul class="list-group">
                 <li class="list-group-item d-flex justify-content-between">
                   <span>Vue 基礎入門</span>
                   <span>NT$ 1,200</span>
                 </li>
               </ul>
-              --></div>
+              -->
             </div>
+
           </div>
         </div>
       </div>
+
     </div>
+  </div>
 
-    <!-- Vue CDN -->
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <!-- Vue CDN -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-    <script>
-      const app = Vue.createApp({
-        data() {
-          return {
-            courses: [
-              {
-                id: 1,
-                name: "Vue 基礎入門",
-                teacher: "Andy",
-                price: 1200,
-                capacity: 20,
-                enrolled: 12,
-                isJoined: false,
-              },
-              {
-                id: 2,
-                name: "JavaScript DOM 操作",
-                teacher: "ViViChu",
-                price: 1500,
-                capacity: 15,
-                enrolled: 15,
-                isJoined: false,
-              },
-              {
-                id: 3,
-                name: "Bootstrap 網頁排版",
-                teacher: "Jack",
-                price: 1000,
-                capacity: 10,
-                enrolled: 6,
-                isJoined: false,
-              },
-              {
-                id: 4,
-                name: "前端專案實作",
-                teacher: "Amy",
-                price: 2000,
-                capacity: 12,
-                enrolled: 9,
-                isJoined: false,
-              },
-            ],
-          };
+  <script>
+    const app = Vue.createApp({
+      data() {
+        return {
+          courses: [
+            {
+              id: 1,
+              name: 'Vue 基礎入門',
+              teacher: 'Andy',
+              price: 1200,
+              capacity: 20,
+              enrolled: 12,
+              isJoined: false
+            },
+            {
+              id: 2,
+              name: 'JavaScript DOM 操作',
+              teacher: 'ViViChu',
+              price: 1500,
+              capacity: 15,
+              enrolled: 15,
+              isJoined: false
+            },
+            {
+              id: 3,
+              name: 'Bootstrap 網頁排版',
+              teacher: 'Jack',
+              price: 1000,
+              capacity: 10,
+              enrolled: 6,
+              isJoined: false
+            },
+            {
+              id: 4,
+              name: '前端專案實作',
+              teacher: 'Amy',
+              price: 2000,
+              capacity: 12,
+              enrolled: 9,
+              isJoined: false
+            }
+          ]
+        }
+      },
+
+      computed: {
+        // TODO 12:
+        // 計算已報名課程
+        joinedCourses() {
+          return []
         },
 
-        computed: {
-          // TODO 12:
-          // 計算已報名課程
-          joinedCourses() {
-            return [];
-          },
-
-          // TODO 13:
-          // 計算已報名課程數量
-          joinedCount() {
-            return 0;
-          },
-
-          // TODO 14:
-          // 計算已報名課程總費用
-          totalPrice() {
-            return 0;
-          },
+        // TODO 13:
+        // 計算已報名課程數量
+        joinedCount() {
+          return 0
         },
 
-        methods: {
-          // TODO 15:
-          // 判斷課程是否已額滿
-          isFull(course) {
-            return false;
-          },
+        // TODO 14:
+        // 計算已報名課程總費用
+        totalPrice() {
+          return 0
+        }
+      },
 
-          // TODO 16:
-          // 報名課程
-          joinCourse(course) {},
-
-          // TODO 17:
-          // 取消報名
-          cancelCourse(course) {},
-
-          // TODO 18:
-          // 切換報名狀態
-          toggleCourse(course) {},
-
-          // TODO 19:
-          // 格式化金額
-          formatPrice(price) {
-            return price;
-          },
+      methods: {
+        // TODO 15:
+        // 判斷課程是否已額滿
+        isFull(course) {
+          return false
         },
-      });
 
-      app.mount("#app");
-    </script>
-  </body>
+        // TODO 16:
+        // 報名課程
+        joinCourse(course) {
+
+        },
+
+        // TODO 17:
+        // 取消報名
+        cancelCourse(course) {
+
+        },
+
+        // TODO 18:
+        // 切換報名狀態
+        toggleCourse(course) {
+
+        },
+
+        // TODO 19:
+        // 格式化金額
+        formatPrice(price) {
+          return price
+        }
+      }
+    })
+
+    app.mount('#app')
+  </script>
+</body>
 </html>
