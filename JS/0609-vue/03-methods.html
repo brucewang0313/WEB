@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <button @click="clickBtn">點我</button>
+      <p>點了：{{count}} 次</p>
+      <button @click="clickBtn2">-</button>
+      <span> {{input}} </span>
+      <button @click="clickBtn1">+</button>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {
+            count: 0,
+            input: 0,
+          };
+        },
+        methods: {
+          // clickBtn:function(){
+          //   this.count++;
+          //   // 因為在操作的是這個Vue所以用this.(綁定)
+          // }
+          // 可簡寫成下面
+          clickBtn() {
+            this.count++;
+          },
+          clickBtn1() {
+            this.input++;
+          },
+          clickBtn2() {
+            this.input--;
+            if (this.input < 0) {
+              this.input = 0;
+            }
+          },
+        },
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>

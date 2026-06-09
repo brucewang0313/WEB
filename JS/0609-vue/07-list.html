@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <ul>
+        <template v-for="(person,idx) in people" :key="person.id">
+          <li>
+            index:{{idx}} id: {{person.id}} - {{person.name}} - {{person.age}}
+          </li>
+          <li><br /></li>
+        </template>
+      </ul>
+
+      <template v-for="(person,idx) in people" :key="person.id">
+        <template v-if="person.age>=20">
+          <p>
+            index:{{idx}} id: {{person.id}} - {{person.name}} - {{person.age}}
+          </p>
+          <hr />
+        </template>
+      </template>
+
+      <template v-for="(person,idx) in moreThen20People">
+        <p>
+          index:{{idx}} id: {{person.id}} - {{person.name}} - {{person.age}}
+        </p>
+        <hr />
+      </template>
+
+      <ul>
+        <li v-for="(val,key,idx) in myObject">idx:{{idx}}.{{key}}--{{val}}</li>
+      </ul>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {
+            people: [
+              {
+                id: 1,
+                name: "P1",
+                age: 88,
+              },
+              {
+                id: 2,
+                name: "VIVICHU",
+                age: 35,
+              },
+              {
+                id: 3,
+                name: "P3",
+                age: 8,
+              },
+              {
+                id: 4,
+                name: "P4",
+                age: 20,
+              },
+              {
+                id: 5,
+                name: "P5",
+                age: 2,
+              },
+            ],
+            myObject: {
+              title: "How are u?",
+              author: "Andy",
+              publish: "2026-06-09",
+            },
+          };
+        },
+        computed: {
+          moreThen20People() {
+            return this.people.filter((p) => p.age >= 20);
+          },
+        },
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>

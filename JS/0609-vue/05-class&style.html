@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <div id="app">
+      <div>姓名：{{person.name}}</div>
+      <div>分數：{{person.score}}</div>
+      <div>通過狀態：{{showRes()}}</div>
+      <div>通過狀態：{{stateInfo}}</div>
+      <button @click="add" class="btn btn-outline-dark">+10</button>
+      <button @click="minus" :class="minusBtnClassObj">-10</button>
+      <button @click="reset" class="btn btn-warning" :class="resetBtnClassObj">
+        reset
+      </button>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {
+            person: {
+              name: "Andy",
+              score: 60,
+            },
+            count: 0,
+            btnClass: "btn btn-dark",
+            addBtnClassArr: ["btn", "btn-dark"],
+            minusBtnClassObj: {
+              btn: true,
+              // 要變成字串""當索引值
+              "btn-dark": true,
+            },
+            // resetBtnClassObj: {
+            //   disabled: true,
+            // },
+          };
+        },
+        methods: {
+          showRes() {
+            console.log("showRes");
+            return this.person.score >= 60 ? "及格" : "不及格";
+          },
+          add() {
+            this.person.score += 10;
+            if (this.person.score > 100) {
+              this.person.score = 100;
+            }
+          },
+          minus() {
+            this.person.score -= 10;
+            if (this.person.score < 0) {
+              this.person.score = 0;
+            }
+          },
+          reset() {
+            this.person.score = 60;
+          },
+        },
+        computed: {
+          stateInfo() {
+            console.log("stateInfo");
+            return this.person.score >= 60 ? "及格" : "不及格";
+          },
+          resetBtnClassObj() {
+            return {
+              // 如果分數等於60回傳disabled=true
+              disabled: this.person.score === 60,
+            };
+          },
+        },
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>

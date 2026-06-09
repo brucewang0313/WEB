@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <h2>v-if</h2>
+      <p v-if="isActive">看什麼看👁️</p>
+      <p v-else>看不見</p>
+      <button @click="toggle">isActive:{{isActive}}</button>
+
+      <!-- 用東西包起來 template(不會顯示) vs div(會顯示)  -->
+      <template v-if="isActive">
+        <p>看什麼看</p>
+        <p>看什麼看</p>
+        <p>看什麼看</p>
+      </template>
+
+      <template v-else>
+        <p>看不見🤓 </p>
+        <p>看不見🤓</p>
+        <p>看不見🤓</p>
+      </template>
+
+      <div v-if="type ===0">現在type是0</div>
+      <div v-else-if="type ===1">現在type是1</div>
+      <div v-else>現在type不是1也不是0</div>
+      <button @click="changeType">更換type：{{type}}</button>
+
+      <hr />
+      <h2>v-show</h2>
+      <p v-show="isActive">看什麼看👁️</p>
+      <p v-show="!isActive">看不見</p>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {
+            isActive: true,
+            type: 0,
+          };
+        },
+        methods: {
+          toggle() {
+            this.isActive = !this.isActive;
+          },
+          changeType() {
+            this.type++;
+            if (this.type > 2) {
+              this.type = 0;
+            }
+          },
+        },
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>

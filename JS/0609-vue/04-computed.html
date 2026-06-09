@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <div>姓名：{{person.name}}</div>
+      <div>分數：{{person.score}}</div>
+      <!-- <div>通過狀態：{{person.score>=60?"及格":"不及格"}}</div> -->
+      <!-- methods要呼叫用方法 畫面渲染的時候就會觸發 -->
+      <div>通過狀態：{{showRes()}}</div>
+      <!-- computed是不用()的 有使用到才會觸發 -->
+      <div>通過狀態：{{stateInfo}}</div>
+      <button @click="add">+10</button>
+      <button @click="minus">-10</button>
+      <br>
+      <button @click="count++">count : {{count}}</button>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {
+            person: {
+              name: "Andy",
+              score: 60,
+            },
+            count: 0,
+          };
+        },
+        methods: {
+          showRes() {
+            console.log("showRes")
+            return this.person.score >= 60 ? "及格" : "不及格";
+          },
+          add() {
+            this.person.score += 10;
+          },
+          minus() {
+            this.person.score -= 10;
+          },
+        },
+        computed: {
+          stateInfo() {
+            console.log("stateInfo")
+            return this.person.score >= 60 ? "及格" : "不及格";
+          },
+        },
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>

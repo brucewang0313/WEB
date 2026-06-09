@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- v-bind代表綁定的意思 後面接JS -->
+      <div class="card" v-bind:data-id="cardId">ID:{{cardId}}</div>
+      <!-- 縮寫可以簡寫成： -->
+      <div class="card" :data-id="cardId">ID:{{cardId}}</div>
+      <!-- 沒有綁到 -->
+      <div class="card" data-id="cardId">ID:{{cardId}}</div>
+
+      <button :disabled="!isClick">能點我嗎？{{isClick}}</button>
+
+      <img :src="imgUrl" />
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {
+            cardId: 1,
+            isClick: true,
+            imgUrl: "https://picsum.photos/300/200/?random=10",
+          };
+        },
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>

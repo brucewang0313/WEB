@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <p>{{count}}</p>
+    <div id="app">
+      <h1>{{message}}</h1>
+      <p>{{count}}</p>
+      <p>{{count}}</p>
+      <p>{{count}}</p>
+      <button @click="count=count+1">+1</button>
+      <!-- <span style="color: red">這是一段文字</span> -->
+      <div v-html="tempSpan"></div>
+      <div>{{tempSpan}}</div>
+    </div>
+
+    <div id="app2">
+      <h2>{{title}}</h2>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+      const app = createApp({
+        data: function () {
+          return {
+            message: "Hello Vue:)",
+            count: 0,
+            tempSpan: `<span style="color: blue;">這是一段文字</span>`,
+          };
+        },
+      });
+      app.mount("#app");
+
+      const app2 = createApp({
+        data: function () {
+          return {
+            title: "hello222",
+          };
+        },
+      });
+      app2.mount("#app2");
+    </script>
+  </body>
+</html>
