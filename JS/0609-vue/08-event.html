@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <!-- <button v-on:click="greet">greet Btn</button> -->
+      <button @click="greet">greet Btn</button>
+      <button @click="say(`Hi!`)">say</button>
+      <button @click="warn(`警告`,$event)">warn</button>
+      <button @click="(event)=>{warn(`警告arrow fn`,event)}">warn(Arrow fn)</button>
+      <a href="https://google.com" @click.prevent.once="clickTestHandler">前往google</a>
+      <!-- <a href="https://google.com" @click="clickTestHandler">前往google</a> -->
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {};
+        },
+        methods:{
+          greet(event){
+            console.log("click greet!!!")
+            console.log(event)
+          },
+          say(message){
+            console.log(message);
+          },
+          warn(mess,event){
+            console.warn(mess);
+            console.log(event);
+          },
+          clickTestHandler(event){
+            console.log("clickTestHandler")
+            event.preventDefault();//可以用事件修飾符(.prevent)取代
+          }
+        }
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>

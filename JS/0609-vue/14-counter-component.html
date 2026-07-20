@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <counter></counter>
+      <hr>
+      <prop-counter init-count="10"></prop-counter>
+      <prop-counter init-count="100"></prop-counter>
+      <hr>
+      <emit-counter @update-count="updateCountHandler"></emit-counter>
+      <hr>
+      <slot-component>
+        <counter></counter>
+      </slot-component>
+
+    </div>
+
+    
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script>
+      const { createApp } = Vue;
+
+      const Counter = {
+        data() {
+          return {
+            count: 0,
+          };
+        },
+        template: `
+          <div>
+            <button @click="count++">
+              點了 {{ count }} 次
+            </button>
+          </div>
+        `,
+      };
+
+      const PropCounter = {
+        props: ["initCount"],
+        data() {
+          return {
+            count: this.initCount,
+          };
+        },
+        template: `
+          <div>
+            <button @click="count++">
+              (Props) You clicked me {{ count }} times.
+            </button>
+          </div>
+        `,
+      };
+
+      const EmitCounter = {
+        emits: ["updateCount"],
+        data() {
+          return {
+            count: 0,
+          };
+        },
+        methods: {
+          increment() {
+            this.count++;
+            this.$emit("updateCount", this.count);
+          },
+        },
+        template: `
+          <div>
+            <button @click="increment">
+              (Emit) Count is {{ count }}.
+            </button>
+          </div>
+        `,
+      };
+
+      const SlotComponent={
+        template:`
+        <div>
+          <h2>我是SlotComponent</h2>
+          <slot></slot>
+        </div>
+        `
+      }
+
+      const app = createApp({
+        data() {
+          return {
+          };
+        },
+
+        methods: {
+          updateCountHandler(num) {
+            console.log(`更新後的EmitCounter的count:${num}`)
+          },
+        },
+
+        components: {
+          Counter,
+          PropCounter,
+          EmitCounter,
+          SlotComponent,
+        },
+      });
+
+      app.mount("#app");
+    </script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <ul>
+        <todo-item v-for="item in TodoItems" :key="item.id" :todo="item" @toggle="myToggleHandler">
+        </todo-item>
+      </ul>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const TodoItem = {
+        props: ["todo"],
+        emits: ["toggle"],
+        template: `<li><button @click="$emit('toggle',todo.id)">{{todo.text}}</button></li>`,
+      };
+
+      const app = createApp({
+        data() {
+          return {
+            TodoItems: [
+              { id: 1, text: "item1" },
+              { id: 2, text: "item2" },
+              { id: 3, text: "item3" },
+            ],
+          };
+        },
+        components: {
+          TodoItem: TodoItem,
+        },
+        methods:{
+          myToggleHandler(id){
+            console.log(id)
+          }
+        }
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>

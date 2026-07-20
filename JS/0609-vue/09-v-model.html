@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Vue</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="container">
+        <h2>v-bind + v-on:input</h2>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="這是一個輸入框"
+            :value="myValue"
+            @input="myValueHandler"
+          />
+        </div>
+        <div>
+          <p>你輸入的是：{{myValue}}</p>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <h2>v-Model</h2>
+        <div class="mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="這是一個輸入框"
+            v-model="myVal"
+          />
+        </div>
+        <div>
+          <p>你輸入的是：{{myVal}}</p>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <h2>CheckBox</h2>
+        <template v-for="item in people" :key="item.id">
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              v-model="checkedNames"
+              :value="item.name"
+              :id="item.id"
+            />
+            <label :for="item.id" class="form-check-label">{{item.id}}--{{item.name}}--{{item.age}}</label>
+          </div>
+        </template>
+        <div>
+          <p>你選得是：{{checkedNames}}</p>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <h2>CheckBox(自訂)</h2>
+        <template v-for="item in checkboxItems" :key="item.id">
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              v-model="checkedNames2"
+              :value="item.val"
+              :id="item.id"
+            />
+            <label :for="item.id" class="form-check-label">{{item.display}}</label>
+          </div>
+        </template>
+        <div>
+          <p>你選得是：{{checkedNames2}}</p>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <div>Picked:{{picked}}</div>
+        <template v-for="item in radioItems" :key="item.id">
+          <div class="mb-3 form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              v-model="picked"
+              :value="item.val"
+              :id="item.id"
+            />
+            <label :for="item.id" class="form-check-label">{{item.display}}</label>
+          </div>
+        </template>
+        <div>
+          <p>你選得是：{{picked}}</p>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <h2>Radio</h2>
+        <template v-for="radio in people" :key="radio.id">
+          <div class="mb-3 form-check">
+            <input
+              type="radio"
+              class="form-check-input"
+              v-model="radioedNames"
+              :value="radio.name"
+              :id="radio.id"
+            />
+            <label :for="radio.id" class="form-check-label">{{radio.id}}--{{radio.name}}--{{radio.age}}</label>
+          </div>
+        </template>
+        <div>
+          <p>你選得是：{{radioedNames}}</p>
+        </div>
+      </div>
+      <hr>
+      <div class="container">
+        <h2>下拉選單</h2>
+        <div>Select:{{selected}}</div>
+        <select class="form-select" v-model="selected">
+          <option value="" disabled>請選擇</option>
+          <option v-for="item in selectItems" :value="item.val" :key="item.id">{{item.display}}
+          </option>
+        </select>
+        <hr>
+      <div class="container">
+        <h2>下拉選單(複選)</h2>
+        <div>Select:{{selectedArr}}</div>
+        <select class="form-select" v-model="selectedArr" multiple>
+          <option value="" disabled>請選擇</option>
+          <option v-for="item in selectItems" :value="item.val" :key="item.id">{{item.display}}
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {
+            people: [
+              {
+                id: 1,
+                name: "P1",
+                age: 88,
+              },
+              {
+                id: 2,
+                name: "VIVICHU",
+                age: 35,
+              },
+              {
+                id: 3,
+                name: "P3",
+                age: 8,
+              },
+              {
+                id: 4,
+                name: "P4",
+                age: 20,
+              },
+              {
+                id: 5,
+                name: "P5",
+                age: 2,
+              },
+            ],
+            myValue: "test",
+            myVal:"",
+            checkedNames:[],
+            checkedNames2:[],
+            picked:"",
+            selected:"",
+            selectedArr:[],
+          };
+        },
+        methods: {
+          myValueHandler(event) {
+            this.myValue = event.target.value;
+          },
+        },
+        computed:{
+          checkboxItems(){
+            return this.people.map((p)=>{
+              return{
+                id:`checkbox_item_${p.id}`,
+                val:p.name,
+                display:`${p.name}:${p.age}歲`,
+              }
+            })
+          },
+          radioItems(){
+            return this.people.map((p)=>{
+              return{
+                id:`radio_item_${p.id}`,
+                val:p.name,
+                display:`${p.name}:${p.age}歲`,
+              }
+            })
+          },
+          selectItems(){
+            return this.people.map((p)=>{
+              return{
+                id:`my_option_item_${p.id}`,
+                val:p.name,
+                display:`${p.name}:${p.age}歲`,
+              }
+            })
+          }
+        }
+      });
+      app.mount("#app");
+    </script>
+  </body>
+</html>
