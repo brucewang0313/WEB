@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "FindEmployees";
+
+    string referer ="";
+
+    string uri = ViewContext.HttpContext.Request.Headers["Referer"].ToString();
+    var idx = uri.IndexOf("?");
+
+    if (idx>0)
+    {
+        referer = uri.Substring(0, idx-1);
+    }
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>收到你傳來的QueryString查詢參數</h1>
+</div>
+
+<h2><span class="badge bg-primary">以[FromQuery] string country繫結查詢字串</span></h2>
+
+
+<p>@ViewData["Country"]</p>
+<p>@ViewData["JobTitle"]</p>
+
+<a href="@ViewContext.HttpContext.Request.Headers["Referer"].ToString()"
+   class="btn btn-danger">Back返回上一頁</a>

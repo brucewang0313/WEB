@@ -1,0 +1,51 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Routing</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Automobile" asp-action="Index">Automobile汽車</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">Privacy</a>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Car汽車路由
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="~/Car">Car</a></li>
+                            <li><a class="dropdown-item" href="~/Car/Brand">Car/Brand/{brand?}</a></li>
+                            <li><a class="dropdown-item" href="~/Car/Category">Car/Category/{cat}</a></li>
+                            <li><a class="dropdown-item" href="~/Car/Id">Car/Id/{id}</a></li>
+                            <li><a class="dropdown-item" href="~/Car/Year">Car/Year/{year}</a></li>
+                            <li><a class="dropdown-item" href="~/Car/Brand-Year/BMW-2021">Car/Brand-Year/{brand}-{year}</a></li>
+                            <li><a class="dropdown-item" href="~/Car/TopSales">Car/TopSales/{topnumber}</a></li>
+                            <li><a class="dropdown-item" href="~/Car/Price/50000-60000">Car/Price/{min}-{max}</a></li>
+                            <li><a class="dropdown-item" href="~/Car/Pricing/50000/60000">Car/Pricing/{min}/{max}</a></li>
+                            <li><a class="dropdown-item" href="~/Car/PriceRange?min=50000&max=80000">Car/PriceRange?min=50000&max=80000</a></li>
+                            <li><a class="dropdown-item" href="~/Car/PriceCatchAll/Suv/Price/50000-80000?color=red&oil=gasoline">Car/PriceCatchAll/Suv/Price/50000-80000?color=red&oil=gasoline</a></li>
+                    </ul>
+
+                </li>
+                &nbsp;
+                <form class="d-flex" action="~/Search" method="get">
+                    <input class="form-control me-2" type="search" name="keyword" placeholder="搜尋產品關鍵字" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </ul>
+        </div>
+    </div>
+</nav>

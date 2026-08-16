@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Car>
+
+@{
+    ViewData["Title"] = "List";
+    string Category = "";
+}
+
+<h1>汽車種類列表</h1>
+
+
+@foreach (var car in Model)
+{
+    if (Category != car.Category)
+    {
+        <div class="alert alert-black mt-2 mb-0" role="alert">
+            <h2>@car.Category</h2>
+        </div>
+        Category = car.Category;
+    }
+
+    //呼叫Partial View顯示每筆車的資料
+    <partial name="~/Views/Shared/Car/_CarPartial.cshtml" model="car"></partial>
+}
+
+@section topCSS
+{
+<style>
+    .alert-black {
+        color: white;
+        background-color: black;
+        border-color: #b8daff;
+    }
+
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+</style>
+}

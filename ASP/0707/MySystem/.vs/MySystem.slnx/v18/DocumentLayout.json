@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0707\\MySystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Roaming\\Microsoft\\UserSecrets\\61b4c802-bb1d-45da-8397-ab154ab797c6\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540BA4A4-2C8E-43A0-850E-FF866C270411}|MySystem\\MySystem.csproj|c:\\asp\\0707\\mysystem\\mysystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{540BA4A4-2C8E-43A0-850E-FF866C270411}|MySystem\\MySystem.csproj|solutionrelative:mysystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 322,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\user\\AppData\\Roaming\\Microsoft\\UserSecrets\\61b4c802-bb1d-45da-8397-ab154ab797c6\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\user\\AppData\\Roaming\\Microsoft\\UserSecrets\\61b4c802-bb1d-45da-8397-ab154ab797c6\\secrets.json",
+              "ToolTip": "C:\\Users\\user\\AppData\\Roaming\\Microsoft\\UserSecrets\\61b4c802-bb1d-45da-8397-ab154ab797c6\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\Users\\user\\AppData\\Roaming\\Microsoft\\UserSecrets\\61b4c802-bb1d-45da-8397-ab154ab797c6\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-07T09:35:04.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ASP\\0707\\MySystem\\MySystem\\appsettings.json",
+              "RelativeDocumentMoniker": "MySystem\\appsettings.json",
+              "ToolTip": "C:\\ASP\\0707\\MySystem\\MySystem\\appsettings.json",
+              "RelativeToolTip": "MySystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-07T09:28:34.165Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+@model Product
+
+@{
+    ViewData["Title"] = "Details";
+    var prod = Model;
+}
+
+<h1>Details</h1>
+
+<h2>ID:@prod.ProductId</h2>
+<h2>Product Name:@prod.ProductName</h2>
+
+<p>單價 @prod.UnitPrice</p>
+<p>庫存數量 @prod.UnitsInStock</p>

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|c:\\asp\\0713\\mvc7_northwindpagination\\mvc7_northwindpagination\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|solutionrelative:mvc7_northwindpagination\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|c:\\asp\\0713\\mvc7_northwindpagination\\mvc7_northwindpagination\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|solutionrelative:mvc7_northwindpagination\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|c:\\asp\\0713\\mvc7_northwindpagination\\mvc7_northwindpagination\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|solutionrelative:mvc7_northwindpagination\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|c:\\asp\\0713\\mvc7_northwindpagination\\mvc7_northwindpagination\\mvc7_northwindpagination.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|solutionrelative:mvc7_northwindpagination\\mvc7_northwindpagination.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|c:\\asp\\0713\\mvc7_northwindpagination\\mvc7_northwindpagination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|solutionrelative:mvc7_northwindpagination\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|c:\\asp\\0713\\mvc7_northwindpagination\\mvc7_northwindpagination\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E1597E6-3C88-4E8B-B141-C6244ABCC7E3}|Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj|solutionrelative:mvc7_northwindpagination\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 236,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mvc7_NorthwindPagination.csproj",
+              "DocumentMoniker": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj",
+              "RelativeDocumentMoniker": "Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj",
+              "ToolTip": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj",
+              "RelativeToolTip": "Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-02T08:04:00.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Mvc7_NorthwindPagination\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Mvc7_NorthwindPagination\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:03:56.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\appsettings.json",
+              "RelativeDocumentMoniker": "Mvc7_NorthwindPagination\\appsettings.json",
+              "ToolTip": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\appsettings.json",
+              "RelativeToolTip": "Mvc7_NorthwindPagination\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-02T08:03:56.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Program.cs",
+              "RelativeDocumentMoniker": "Mvc7_NorthwindPagination\\Program.cs",
+              "ToolTip": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Program.cs",
+              "RelativeToolTip": "Mvc7_NorthwindPagination\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:03:56.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Mvc7_NorthwindPagination\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Mvc7_NorthwindPagination\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T08:03:56.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_NorthwindPagination\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\ASP\\0713\\Mvc7_NorthwindPagination\\Mvc7_NorthwindPagination\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Mvc7_NorthwindPagination\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-02T08:03:56.872Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

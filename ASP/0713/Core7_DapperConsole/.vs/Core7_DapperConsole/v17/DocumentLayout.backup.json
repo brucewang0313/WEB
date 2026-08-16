@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Core7_DapperConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34BD4AB4-38D8-4E0F-8DD2-1EE45DEC08A6}|Core7_DapperConsole\\Core7_DapperConsole.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\core7_dapperconsole\\core7_dapperconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BD4AB4-38D8-4E0F-8DD2-1EE45DEC08A6}|Core7_DapperConsole\\Core7_DapperConsole.csproj|solutionrelative:core7_dapperconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BD4AB4-38D8-4E0F-8DD2-1EE45DEC08A6}|Core7_DapperConsole\\Core7_DapperConsole.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\core7_dapperconsole\\core7_dapperconsole\\sp\u9810\u5B58\u7A0B\u5E8F.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{34BD4AB4-38D8-4E0F-8DD2-1EE45DEC08A6}|Core7_DapperConsole\\Core7_DapperConsole.csproj|solutionrelative:core7_dapperconsole\\sp\u9810\u5B58\u7A0B\u5E8F.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Core7_DapperConsole\\Core7_DapperConsole\\Program.cs",
+              "RelativeDocumentMoniker": "Core7_DapperConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Core7_DapperConsole\\Core7_DapperConsole\\Program.cs",
+              "RelativeToolTip": "Core7_DapperConsole\\Program.cs",
+              "ViewState": "AgIAAL8BAAAAAAAAAAAowI0BAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:15:40.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SP\u9810\u5B58\u7A0B\u5E8F.txt",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Core7_DapperConsole\\Core7_DapperConsole\\SP\u9810\u5B58\u7A0B\u5E8F.txt",
+              "RelativeDocumentMoniker": "Core7_DapperConsole\\SP\u9810\u5B58\u7A0B\u5E8F.txt",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Core7_DapperConsole\\Core7_DapperConsole\\SP\u9810\u5B58\u7A0B\u5E8F.txt",
+              "RelativeToolTip": "Core7_DapperConsole\\SP\u9810\u5B58\u7A0B\u5E8F.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-10T06:13:19.655Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

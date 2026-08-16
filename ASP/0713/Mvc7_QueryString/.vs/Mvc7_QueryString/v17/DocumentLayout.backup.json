@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_querystring\\mvc7_querystring\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_querystring\\mvc7_querystring\\views\\hotels\\makeanchors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\views\\hotels\\makeanchors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_querystring\\mvc7_querystring\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_querystring\\mvc7_querystring\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_querystring\\mvc7_querystring\\viewmodels\\querystringviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\viewmodels\\querystringviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_querystring\\mvc7_querystring\\viewmodels\\queryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\viewmodels\\queryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_querystring\\mvc7_querystring\\views\\hotels\\queryhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\views\\hotels\\queryhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_querystring\\mvc7_querystring\\views\\hotels\\findhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\views\\hotels\\findhotel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 152,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QueryHotel.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Views\\Hotels\\QueryHotel.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\Views\\Hotels\\QueryHotel.cshtml",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Views\\Hotels\\QueryHotel.cshtml",
+              "RelativeToolTip": "Mvc7_QueryString\\Views\\Hotels\\QueryHotel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T04:36:19.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Mvc7_QueryString\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T04:31:07.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Mvc7_QueryString\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:54:38.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FindHotel.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Views\\Hotels\\FindHotel.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\Views\\Hotels\\FindHotel.cshtml",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Views\\Hotels\\FindHotel.cshtml",
+              "RelativeToolTip": "Mvc7_QueryString\\Views\\Hotels\\FindHotel.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T09:23:13.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MakeAnchors.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Views\\Hotels\\MakeAnchors.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\Views\\Hotels\\MakeAnchors.cshtml",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Views\\Hotels\\MakeAnchors.cshtml",
+              "RelativeToolTip": "Mvc7_QueryString\\Views\\Hotels\\MakeAnchors.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T09:23:11.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "Mvc7_QueryString\\Controllers\\HotelsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T07:55:28.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QueryStringViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\ViewModels\\QueryStringViewModel.cs",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\ViewModels\\QueryStringViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\ViewModels\\QueryStringViewModel.cs",
+              "RelativeToolTip": "Mvc7_QueryString\\ViewModels\\QueryStringViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:25:42.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QueryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\ViewModels\\QueryViewModel.cs",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\ViewModels\\QueryViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_QueryString\\Mvc7_QueryString\\ViewModels\\QueryViewModel.cs",
+              "RelativeToolTip": "Mvc7_QueryString\\ViewModels\\QueryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T06:25:46.253Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

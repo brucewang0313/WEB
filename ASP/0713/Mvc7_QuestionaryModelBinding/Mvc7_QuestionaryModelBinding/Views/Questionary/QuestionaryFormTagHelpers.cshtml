@@ -1,0 +1,89 @@
+﻿@model QuestionaryViewModel
+
+@{
+    ViewData["Title"] = "QuestionaryFormTagHelpers";
+}
+
+<h1>QuestionaryFormTagHelpers</h1>
+
+<h4>QuestionaryViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="QuestionaryFormTagHelpers">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mobile" class="control-label"></label>
+                <input asp-for="Mobile" class="form-control" />
+                <span asp-validation-for="Mobile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="Gender">性別</label><br />
+                <input id="Gender" name="Gender" type="radio" value="Female" /> 女
+                <input id="Gender" name="Gender" type="radio" value="Male" /> 男
+                <input id="Gender" name="Gender" type="radio" value="Other" /> 其他
+
+               @* @Html.RadioButton("Gender", "Female") 女
+                @Html.RadioButton("Gender", "Male") 男
+                @Html.RadioButton("Gender", "Other") 其他*@
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <select asp-for="City" asp-items="Model.Cities" class="form-control"></select>
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car" class="control-label"></label>
+                <select asp-for="Car" asp-items="Model.Cars" class="form-control"></select>
+                <span asp-validation-for="Car" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Volume" class="control-label"></label>
+                <input asp-for="Volume" class="form-control" />
+                <span asp-validation-for="Volume" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Habbits" class="control-label"></label>
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" id="habbit01" name="habbits" value="唱歌">唱歌
+                        </label>
+                        <label>
+                            <input type="checkbox" id="habbit02" name="habbits" value="跳舞">跳舞
+                        </label>
+                        <label>
+                            <input type="checkbox" id="habbit03" name="habbits" value="聽音樂">聽音樂
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

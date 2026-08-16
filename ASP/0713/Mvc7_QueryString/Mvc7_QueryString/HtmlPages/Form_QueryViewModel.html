@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../js/Colors.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+            <h3>以fetch及XMLHttpRequest指令呼叫遠端API，取回JSON資料</h3>
+        </div>
+        <div id="urlText" class="alert alert-info"></div>
+
+        <form action="https://localhost:7400/Employees/SearchEmployees" method="post">
+            <div class="mb-3">
+                <label for="country" class="form-label">Country</label>
+                <input type="text" class="form-control" id="country" >
+            </div>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title">
+            </div>
+            <div class="mb-3">
+                <input type="submit" value="查詢">
+            </div>
+        </form>
+
+        <script>
+            const form = document.querySelector('form'); // 取得表單元素
+            form.addEventListener('submit', function (event) {
+                event.preventDefault(); // 阻止表單預設行為
+
+                const country = document.getElementById('country').value; // 取得國家輸入框的值
+                const title = document.getElementById('title').value; // 取得標題輸入框的值
+
+                // 修改表單的 action 屬性
+                form.action = `https://localhost:7400/Employees/SearchEmployees?country=${encodeURIComponent(country)}&title=${encodeURIComponent(title)}`;
+
+                console.log(form.action);
+                //1.提交表單-使用location.href
+                location.href = form.action;
+
+                //2.提交表單-使用sumit()方法, 但需配合pushState()更新網址列
+                //若無配合pushState()更新網址列, submit()提交網址列只會是https://localhost:7400/Employees/FindEmployees?
+                //history.pushState(null, "", form.action);  //無刷新更新URL網址列
+                //form.submit();
+            });
+
+        </script>
+
+    </div>
+
+</body>
+</html>

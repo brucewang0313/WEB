@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0713\\Mvc7_QueryString\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\asp\\0713\\mvc7_querystring\\mvc7_querystring\\views\\hotels\\makeanchors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\views\\hotels\\makeanchors.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|c:\\asp\\0713\\mvc7_querystring\\mvc7_querystring\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D48974C-4278-43D0-99FB-14A66BF8E032}|Mvc7_QueryString\\Mvc7_QueryString.csproj|solutionrelative:mvc7_querystring\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 152,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\ASP\\0713\\Mvc7_QueryString\\Mvc7_QueryString\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\ASP\\0713\\Mvc7_QueryString\\Mvc7_QueryString\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "Mvc7_QueryString\\Controllers\\HotelsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-13T09:44:07.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MakeAnchors.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0713\\Mvc7_QueryString\\Mvc7_QueryString\\Views\\Hotels\\MakeAnchors.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_QueryString\\Views\\Hotels\\MakeAnchors.cshtml",
+              "ToolTip": "C:\\ASP\\0713\\Mvc7_QueryString\\Mvc7_QueryString\\Views\\Hotels\\MakeAnchors.cshtml",
+              "RelativeToolTip": "Mvc7_QueryString\\Views\\Hotels\\MakeAnchors.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-13T09:43:21.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

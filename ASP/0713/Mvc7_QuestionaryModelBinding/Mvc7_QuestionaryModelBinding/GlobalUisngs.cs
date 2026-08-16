@@ -1,0 +1,7 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Mvc7_QuestionaryModelBinding.Models;
+global using Mvc7_QuestionaryModelBinding.ViewModels;
+global using Mvc7_QuestionaryModelBinding.Services;
+global using Mvc7_QuestionaryModelBinding.Repositories;
+global using Mvc7_QuestionaryModelBinding.Data;
+global using Mvc7_QuestionaryModelBinding.Helpers;

@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>替anchor製作Query String查詢字串的方式</h1>
+</div>
+
+
+<a href="~/Hotels/QueryHotel?city=Taipei&price=2000&network=wi-fi" class="link-primary">查詢HOTEL -  Hotels/QueryHotel()</a>
+<br />
+<a href="~/Hotels/FindHotel?city=Taoyuan&price=3000&network=wi-fi" class="link-danger">找尋HOTEL - Hotels/FindHotel()</a>
+<br />
+<a href="~/Hotels/SearchHotel?city=Taoyuan&price=3000&network=wi-fi" class="link-danger">找尋HOTEL - Hotels/SearchHotel()</a>
+
+<hr />
+<a asp-controller="Hotels" asp-action="QueryHotel" asp-route-city="Taipei" asp-route-price="2000" asp-route-network="wi-fi">查詢HOTEL -  Hotels/QueryHotel()</a>
+<br />
+<a asp-controller="Hotels" asp-action="FindHotel" asp-route-city="Taoyuan" asp-route-price="3000" asp-route-network="wi-fi">找尋HOTEL - Hotels/FindHotel()</a>
+
+<hr />
+@Html.ActionLink("查詢HOTEL -  Hotels/QueryHotel()", "QueryHotel","Hotels", new { city="Taipei", price=3000, network="wifi"})
+<br />
+<a href="@Url.Action("FindHotel","Hotels", new { city="Taoyuan", price=3000, network="wifi"})">查詢HOTEL -  Hotels/FindHotel()</a>
+<br />
+
+@{
+    var parameters = new Dictionary<string,string>()
+    {
+        { "city", "Taoyuan"},
+        { "price", "3000"},
+        { "network", "wifi"}
+    };
+}
+
+<a asp-controller="Hotels" asp-action="QueryHotel" asp-all-route-data="parameters">查詢HOTEL -  Hotels/QueryHotel()</a>

@@ -1,0 +1,8 @@
+﻿Create Procedure FindEmployeeByName
+@LastName nvarchar(20),
+@FirstName nvarchar(10)
+AS
+Select EmployeeID, LastName, FirstName, Title, City, Country
+from dbo.Employees
+where FirstName = @FirstName AND LastName = @LastName
+go

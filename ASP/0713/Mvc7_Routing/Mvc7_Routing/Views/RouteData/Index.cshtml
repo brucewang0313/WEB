@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Index";
+
+    var route = ViewContext.RouteData;  //取得路由資料
+    string controller = ViewContext.RouteData.Values["controller"].ToString(); //讀取controller名稱
+    string action = ViewContext.RouteData.Values["action"].ToString(); //讀取action名稱
+}
+
+
+<h1>Index</h1>
+<p>Controller : @controller , Action : @action</p>
+

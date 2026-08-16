@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
+    <script src="../js/Colors.js"></script>
+    <style>
+        #urlText {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        #result {
+            display: none;
+            border: 3px dashed black;
+            margin-top: 10px;
+        }
+
+        #urlText, #result {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+            <h3>以fetch及XMLHttpRequest指令呼叫遠端API，取回JSON資料</h3>
+        </div>
+        <div id="urlText" class="alert alert-info"></div>
+
+        <form>
+            <div class="mb-3">
+                <label for="country" class="form-label">Country</label>
+                <input type="text" class="form-control" id="country" placeholder="請輸入查詢國家">
+            </div>
+            <div class="mb-3">
+                <label for="title" class="form-label">Title</label>
+                <input type="text" class="form-control" id="title" placeholder="請輸入查詢Title">
+            </div>
+        </form>
+
+        <button class="btn btn-primary" id="btnFetchGet">以fetch Get呼叫遠端API</button>
+        <button class="btn btn-success" id="btnFetchPost">以fetch Post呼叫遠端API</button>
+        <button class="btn btn-warning" id="bthXhrGet">以xhr Get呼叫遠端API</button>
+        <button class="btn btn-info" id="bthXhrPost">以xhr Post呼叫遠端API</button>
+        <button class="btn btn-danger" id="reset">Reset</button>
+
+        <div id="result" class="alert alert-danger"></div>
+    </div>
+
+    <script>
+
+        const apiUrl = "https://localhost:7400/Employees/QueryEmployees";
+
+        let btnFetchGet, btnFetchPost, bthXhrGet, bthXhrPost, result;
+
+        window.onload = function () {
+            btnFetchGet = document.getElementById("btnFetchGet");
+            btnFetchPost = document.getElementById("btnFetchPost");
+            bthXhrGet = document.getElementById("bthXhrGet");
+            bthXhrPost = document.getElementById("bthXhrPost");
+            result = document.getElementById("result");
+
+            //顯示API URL
+            document.getElementById("urlText").innerText = apiUrl
+            //Reset
+            document.getElementById("reset").addEventListener("click", function () {
+                result.style.display = "none";
+                result.innerHTML = "";
+            });
+
+            //fetch - GET
+            btnFetchGet.addEventListener("click", function () {
+                let country = document.querySelector("#country").value;
+                let title = document.querySelector("#title").value;
+
+                let uri = apiUrl + `?country=${country}&title=${encodeURIComponent(title)}`;
+                history.pushState(null, "", uri);  //無刷新更新URL網址列
+
+                fetch(uri)
+                    .then(response => response.text())
+                    .then(data => {
+                        console.log(data);
+                        result.innerText = data;
+                        result.style.display = "block";
+                        result.className = getAlertStyle();
+                    });
+            });
+
+            //fetch - POST
+            btnFetchPost.addEventListener("click", function () {
+                //POST初始Request物作
+                let request = new Request(apiUrl, {
+                    method: "POST",
+                    headers: {
+                        "Content-type": "application/json; charset=UTF-8"
+                    },
+                    body: JSON.stringify("{}")
+                });
+
+                fetch(request)
+                    .then(response => {
+                        //檢查response是否ok ?
+                        if (response.ok) {
+                            return response.json();
+                        } else {
+                            throw new Error(`發生錯誤: ${response.status}, ${response.statusText}`);
+                        }
+                    })
+                    .then(data => {
+                        console.log(data);
+                        //顯示JSON資料
+                        showAjaxResult(data);
+                    });
+            });
+
+
+            //xhr - GET
+            bthXhrGet.addEventListener("click", function () {
+                let xhr = new XMLHttpRequest();
+
+                xhr.onload = function () {
+                    showAjaxResult(this.response)
+                }
+
+                xhr.open("GET", apiUrl);
+                xhr.responseType = "json";    //設定回應格式
+                xhr.send();
+
+            });
+
+
+            //xhr - POST
+            bthXhrPost.addEventListener("click", function () {
+                let xhr = new XMLHttpRequest();
+
+                xhr.onload = function () {
+                    showAjaxResult(this.response)
+                }
+
+                xhr.open("POST", apiUrl);
+                xhr.responseType = "json";    //設定回應格式
+                xhr.send();
+
+            });
+        }
+
+        //顯示JSON資料
+        function showAjaxResult(data) {
+            result.innerHTML = JSON.stringify(data);
+            result.className = getAlertStyle();
+            result.style.display = "block";
+        }
+    </script>
+</body>
+</html>

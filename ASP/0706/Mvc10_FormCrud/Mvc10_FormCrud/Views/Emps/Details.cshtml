@@ -1,0 +1,19 @@
+﻿@model IEnumerable<string>
+
+<h2>@ViewData["JsonData"]</h2>
+
+@{
+    List<string> urls = (List<string>)Model;
+}
+
+@foreach (var item in urls)
+{
+   <img src="@item" />
+   <br />
+}
+@section Scripts
+{
+    <script>
+        var dataArray=@Html.Raw(ViewData["JsonData"]);
+    </script>
+}

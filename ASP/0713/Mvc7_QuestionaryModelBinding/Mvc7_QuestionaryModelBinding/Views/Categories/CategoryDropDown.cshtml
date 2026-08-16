@@ -1,0 +1,164 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "CategoryDropDown";
+}
+
+<h1>CategoryDropDown</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CategoryName, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.CategoryId, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+}
+
+<div id='msg'></div>
+
+<hr>
+
+<div id="datatable"></div>
+
+@section endJS
+    {
+    <script>
+        let productArray = [];
+        let categorySelectOptions;
+        let datatable;
+        window.onload = function () {
+            categorySelectOptions = document.getElementById("CategoryID");
+            categorySelectOptions.addEventListener("change", displayCategoryProducts);
+
+            let optionTitle = document.createElement("option");
+            optionTitle.value = "";
+            optionTitle.text = "===請選擇產品種類===";
+            optionTitle.setAttribute('selected', '');    //預設選項
+            categorySelectOptions.add(optionTitle, 0);
+
+            datatable = document.getElementById("datatable");
+        }
+
+        function displayCategoryProducts(event) {
+            let categoryID = categorySelectOptions.selectedOptions[0].value;
+            let categoryName = categorySelectOptions.selectedOptions[0].text;
+
+            if (categoryID != "") {
+                //alert(`${categoryID} : ${categoryName}`);
+
+                //Todo : 實作前端Ajax查詢後端該類別的產品資料, 然後作Table顯示
+                //建立FormData
+                let formData = new FormData();
+                formData.append("categoryID", categoryID);
+
+
+                //傳送FormData資料到指定的Server，將資料交由Server處理
+                let xhr = new XMLHttpRequest();
+                xhr.onload = function () {
+                    if (xhr.readyState === 4 && xhr.status === 200) {
+                        debugger;
+                        msg.innerText = xhr.responseText;
+                        productArray = JSON.parse(xhr.responseText);
+                        TableList();
+                    }
+                    else {
+                        msg.innerText = `發生錯誤: ${xhr.status}, ${xhr.statusText}`;
+                    }
+                }
+
+                //配合PureBackendWebApi專案
+                xhr.open("POST", "https://localhost:7281/Categories/QueryCategoryProducts");
+                //xhr.responseType = "";
+                xhr.send(formData);
+            } else {
+                alert('請選擇產品種類!');
+            }
+        }
+
+        let data2DArray = []; //ex:[ [1, "Chai", 18, 39],  [2, "Meat", 36, 25], ...]
+        function TableList() {
+            //let titles = ["縣市", "行政區", "郵遞區號"];
+
+            let titles = Object.keys(productArray[0]);
+
+
+            data2DArray = productArray.map(p => { return Object.values(p) });
+
+            createTable(titles, data2DArray);
+        }
+
+
+        //create element & innerText
+        function $ce(element, text) {
+            let el = document.createElement(element);
+
+            //判斷text參數是否合規?
+            if (typeof (text) !== "undefined" && typeof (text) != "" && typeof (text) !== null) {
+                el.innerText = text;
+            }
+
+            return el;
+        }
+
+        function createTable(titles, rowsArray) {
+            //Create a table dynamically
+            table = $ce('table');
+            thead = createThead(titles);
+            tbody = createTbody(rowsArray);
+
+            table.append(thead, tbody);
+
+            datatable.innerHTML = "";
+            datatable.appendChild(table);
+
+            //<h1>用DOM動態建立Table</h1>
+            let h1 = $ce("h1");
+            h1.innerText = "用DOM動態建立Table";
+            datatable.insertBefore(h1, table);
+
+            table.className = "table table-bordered table-striped";
+        }
+
+        //建立標題
+        function createThead(titles) {
+            let Thead = $ce('thead', null);
+            let tr = document.createElement('tr');
+
+            titles.forEach(title => {
+                let th = $ce("th");
+                th.innerText = title;
+
+                tr.append(th);
+            });
+            Thead.append(tr)
+
+            //debugger;
+            return Thead;
+        }
+
+        function createTbody(rowsArray) {
+            let Tbody = $ce("tbody", "");
+            rowsArray.forEach(row => {
+                let tr = $ce("tr");
+                row.forEach(column => {
+                    let td = $ce("td");
+                    if (column.toString().includes("png")) {
+                        td.innerHTML = `<img src="${column}">`;
+                    } else {
+                        td.innerText = column;
+                    }
+
+                    tr.append(td);
+                });
+                Tbody.append(tr);
+            });
+
+            return Tbody;
+        }
+    </script>
+}

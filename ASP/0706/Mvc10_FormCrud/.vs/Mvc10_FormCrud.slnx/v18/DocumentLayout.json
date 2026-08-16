@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0706\\Mvc10_FormCrud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA01DE8-9BF2-4830-BB5D-450A75DE7CCA}|Mvc10_FormCrud\\Mvc10_FormCrud.csproj|c:\\asp\\0706\\mvc10_formcrud\\mvc10_formcrud\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBA01DE8-9BF2-4830-BB5D-450A75DE7CCA}|Mvc10_FormCrud\\Mvc10_FormCrud.csproj|solutionrelative:mvc10_formcrud\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA01DE8-9BF2-4830-BB5D-450A75DE7CCA}|Mvc10_FormCrud\\Mvc10_FormCrud.csproj|c:\\asp\\0706\\mvc10_formcrud\\mvc10_formcrud\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBA01DE8-9BF2-4830-BB5D-450A75DE7CCA}|Mvc10_FormCrud\\Mvc10_FormCrud.csproj|solutionrelative:mvc10_formcrud\\viewmodels\\employeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA01DE8-9BF2-4830-BB5D-450A75DE7CCA}|Mvc10_FormCrud\\Mvc10_FormCrud.csproj|c:\\asp\\0706\\mvc10_formcrud\\mvc10_formcrud\\views\\emps\\editdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FBA01DE8-9BF2-4830-BB5D-450A75DE7CCA}|Mvc10_FormCrud\\Mvc10_FormCrud.csproj|solutionrelative:mvc10_formcrud\\views\\emps\\editdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBA01DE8-9BF2-4830-BB5D-450A75DE7CCA}|Mvc10_FormCrud\\Mvc10_FormCrud.csproj|c:\\asp\\0706\\mvc10_formcrud\\mvc10_formcrud\\controllers\\empscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBA01DE8-9BF2-4830-BB5D-450A75DE7CCA}|Mvc10_FormCrud\\Mvc10_FormCrud.csproj|solutionrelative:mvc10_formcrud\\controllers\\empscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\ASP\\0706\\Mvc10_FormCrud\\Mvc10_FormCrud\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "Mvc10_FormCrud\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\ASP\\0706\\Mvc10_FormCrud\\Mvc10_FormCrud\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "Mvc10_FormCrud\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwJUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T09:50:08.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\ASP\\0706\\Mvc10_FormCrud\\Mvc10_FormCrud\\ViewModels\\EmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "Mvc10_FormCrud\\ViewModels\\EmployeeViewModel.cs",
+              "ToolTip": "C:\\ASP\\0706\\Mvc10_FormCrud\\Mvc10_FormCrud\\ViewModels\\EmployeeViewModel.cs",
+              "RelativeToolTip": "Mvc10_FormCrud\\ViewModels\\EmployeeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T09:37:00.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditData.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0706\\Mvc10_FormCrud\\Mvc10_FormCrud\\Views\\Emps\\EditData.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_FormCrud\\Views\\Emps\\EditData.cshtml",
+              "ToolTip": "C:\\ASP\\0706\\Mvc10_FormCrud\\Mvc10_FormCrud\\Views\\Emps\\EditData.cshtml",
+              "RelativeToolTip": "Mvc10_FormCrud\\Views\\Emps\\EditData.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-06T09:14:43.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpsController.cs",
+              "DocumentMoniker": "C:\\ASP\\0706\\Mvc10_FormCrud\\Mvc10_FormCrud\\Controllers\\EmpsController.cs",
+              "RelativeDocumentMoniker": "Mvc10_FormCrud\\Controllers\\EmpsController.cs",
+              "ToolTip": "C:\\ASP\\0706\\Mvc10_FormCrud\\Mvc10_FormCrud\\Controllers\\EmpsController.cs",
+              "RelativeToolTip": "Mvc10_FormCrud\\Controllers\\EmpsController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAcwHQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T09:15:18.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
