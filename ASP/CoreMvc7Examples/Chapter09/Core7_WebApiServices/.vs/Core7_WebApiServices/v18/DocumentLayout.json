@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|c:\\asp\\coremvc7examples\\chapter09\\core7_webapiservices\\core7_webapiservices\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|solutionrelative:core7_webapiservices\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|c:\\asp\\coremvc7examples\\chapter09\\core7_webapiservices\\core7_webapiservices\\core7_webapiservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|solutionrelative:core7_webapiservices\\core7_webapiservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|c:\\asp\\coremvc7examples\\chapter09\\core7_webapiservices\\core7_webapiservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|solutionrelative:core7_webapiservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|c:\\asp\\coremvc7examples\\chapter09\\core7_webapiservices\\core7_webapiservices\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|solutionrelative:core7_webapiservices\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|c:\\asp\\coremvc7examples\\chapter09\\core7_webapiservices\\core7_webapiservices\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A527B8C-24B9-4BBB-99A3-216EE41585B9}|Core7_WebApiServices\\Core7_WebApiServices.csproj|solutionrelative:core7_webapiservices\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 205,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Core7_WebApiServices.csproj",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Core7_WebApiServices.csproj",
+              "RelativeDocumentMoniker": "Core7_WebApiServices\\Core7_WebApiServices.csproj",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Core7_WebApiServices.csproj",
+              "RelativeToolTip": "Core7_WebApiServices\\Core7_WebApiServices.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-26T09:45:12.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Core7_WebApiServices\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Core7_WebApiServices\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:45:12.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarsController.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Controllers\\CarsController.cs",
+              "RelativeDocumentMoniker": "Core7_WebApiServices\\Controllers\\CarsController.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Controllers\\CarsController.cs",
+              "RelativeToolTip": "Core7_WebApiServices\\Controllers\\CarsController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:45:12.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Program.cs",
+              "RelativeDocumentMoniker": "Core7_WebApiServices\\Program.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Program.cs",
+              "RelativeToolTip": "Core7_WebApiServices\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:45:12.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Core7_WebApiServices\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter09\\Core7_WebApiServices\\Core7_WebApiServices\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Core7_WebApiServices\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-26T09:45:12.643Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

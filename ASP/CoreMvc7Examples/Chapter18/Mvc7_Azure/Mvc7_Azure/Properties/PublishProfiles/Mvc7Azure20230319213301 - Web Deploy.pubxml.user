@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此檔案由您的 Web 專案發佈/封裝處理序使用。您可以藉由編輯此 MSBuild 檔案，
+自訂此處理序的行為。若要深入了解，請前往 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALmFMdz0k4UukblEkxlDZ/AAAAAACAAAAAAAQZgAAAAEAACAAAACj9KmVU3BdRLiC6yvGpis37t1wbu1O4ttEvOFnqOxNGgAAAAAOgAAAAAIAACAAAAC2mDG50e9fFFLeiR/Zr3jskxHKf18EdwBcb4QRd6i09YAAAAAa4AbuN/WQyy0j87/5QmhiDVKxFAlYzub1SfAAhPjeTQ+gII2fJL5H0V6QSto0j8PnEDeljvE0MZ5X5r4iuWyMyneONBYRr7F4WK5wYVMEQsiqo4PJeOYtfT05WH8G+e3SgpIjfFmN3ShSPsxzxfI3n7KNSMgf9CxX6Y1Q68bBMEAAAADNfTYNgfEufHqb2NNsII3OUsrmrzhm4NagQDk24xvNYwUZkrGinXqp0D3ZGfnzEpY8B9UIcm3yhpirCI++1Drb</EncryptedPassword>
+    <History>True|2023-03-19T14:42:13.1455711Z;True|2023-03-19T21:58:57.6040434+08:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="Mvc7_Azure.Data.HRContext">
+      <Value>Data Source=tcp:mvc7-azuredbserver.database.windows.net,1433%3bInitial Catalog=Mvc7_Azure_db%3bUser Id=ironskymax%40mvc7-azuredbserver%3bPassword=skymax.069%2a</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

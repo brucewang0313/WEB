@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Card>
+
+@{
+    ViewData["Title"] = "CardListByOptionsBuilder";
+}
+
+<div class="h-100 p-3 text-white bg-info rounded-3 mb-4">
+    <h3>手工初始化CardContext實例時傳入DbContextOptionsBuilder建立選項</h3>
+</div>
+
+<div class="row">
+    @foreach (var card in Model)
+    {
+        <partial name="_CardPartial" model="card" />
+    }
+
+</div>
+
+@section topCSS{
+    <link href="~/css/card.css" rel="stylesheet" />
+}

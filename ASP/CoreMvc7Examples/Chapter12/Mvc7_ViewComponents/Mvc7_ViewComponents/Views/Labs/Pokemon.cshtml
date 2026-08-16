@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+
+    //標準數值格式字串
+    //https://docs.microsoft.com/zh-tw/dotnet/standard/base-types/standard-numeric-format-strings
+}
+
+<div class="jumbotron alert-success">
+    <h2>Pokemon寶可夢</h2>
+</div>
+
+
+
+@for (int i = 1; i < 809; i++)
+{
+    //string fileanme = $"{i.ToString("000")}.png";
+    string imageUrl = $"https://assets.pokemon.com/assets/cms2/img/pokedex/detail/{i.ToString("000")}.png";
+    <img src="@imageUrl">
+}
+
+@section topCSS{
+    <style>
+        img:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+            transition: transform 0.2s;
+        }
+
+        .zoom {
+            transition: transform .2s;
+        }
+
+            .zoom:hover {
+                -ms-transform: scale(1.5); /* IE 9 */
+                -webkit-transform: scale(1.5); /* Safari 3-8 */
+                transform: scale(1.5);
+            }
+    </style>
+}

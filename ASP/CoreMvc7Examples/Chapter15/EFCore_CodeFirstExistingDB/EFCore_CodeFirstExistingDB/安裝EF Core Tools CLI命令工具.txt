@@ -1,0 +1,14 @@
+﻿# 安裝工具
+dotnet tool install dotnet-ef -g --version 7.0.0
+
+#查看工具資訊
+dotnet tool list -g
+
+#更新工具
+dotnet tool update -g dotnet-ef
+
+#解除安裝
+dotnet tool uninstall -g dotnet-ef
+
+#在nuget.org搜尋工具詳細說明及所有版本資訊
+dotnet tool search dotnet-ef  --detail

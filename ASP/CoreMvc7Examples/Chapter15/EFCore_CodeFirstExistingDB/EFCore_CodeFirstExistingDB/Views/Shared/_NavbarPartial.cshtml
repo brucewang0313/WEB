@@ -1,0 +1,68 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CodeFirstExistingDB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Employees控制器
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Index">Index</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="GetConnectionString">GetConnectionString</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="ListCompact">ListCompact</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Details" asp-route-id="1">Details/1</a>
+                    </div>
+                </li>
+                &emsp;         
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products控制器
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="~/Products/Index">Index</a>
+                        <a class="dropdown-item" href="~/Products/Details/1">Details/1</a>
+                        <a class="dropdown-item" href="~/Products/Create">Create</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="~/Products/FirstSingle">FirstSingle</a>
+                        <a class="dropdown-item" href="~/Products/QueryAllData">QueryAllData</a>
+                        <a class="dropdown-item" href="~/Products/QuerySingleData">QuerySingleData</a>
+                        <a class="dropdown-item" href="~/Products/FilteringData">FilteringData</a>
+                        <a class="dropdown-item" href="~/Products/TablesJoin">TablesJoin</a>
+                        <a class="dropdown-item" href="~/Products/QueryType">QueryType</a>
+                        <a class="dropdown-item" href="~/Products/SkipTake">SkipTake</a>
+                        <a class="dropdown-item" href="~/Products/FromSql">FromSql</a>
+                        <a class="dropdown-item" href="~/Products/FromSqlRaw">FromSqlRaw</a>
+                        <a class="dropdown-item" href="~/Products/UpdateDelete">UpdateDelete</a>
+                        <a class="dropdown-item" href="~/Products/InOperator">InOperator</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="~/Products/DatabaseTransaction">DatabaseTransaction</a>
+                    </div>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dapper控制器
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="~/Dapper/OrdersDetails">OrdersDetails</a>
+                        <a class="dropdown-item" href="~/Dapper/OrdersDetailsDynamic">OrdersDetailsDynamic</a>
+                        <a class="dropdown-item" href="~/Dapper/OrdersDetailsDynamicJson1">OrdersDetailsDynamicJson1</a>
+                        <a class="dropdown-item" href="~/Dapper/OrdersDetailsDynamicJson2">OrdersDetailsDynamicJson2</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

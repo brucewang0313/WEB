@@ -1,0 +1,17 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\bin\Debug\net9.0-windows\MyFirstWinForm.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\bin\Debug\net9.0-windows\MyFirstWinForm.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\bin\Debug\net9.0-windows\MyFirstWinForm.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\bin\Debug\net9.0-windows\MyFirstWinForm.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\bin\Debug\net9.0-windows\MyFirstWinForm.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.Form1.resources
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.csproj.GenerateResource.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\refint\MyFirstWinForm.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\ref\MyFirstWinForm.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\MyFirstWinForm\obj\Debug\net9.0-windows\MyFirstWinForm.Properties.Resources.resources

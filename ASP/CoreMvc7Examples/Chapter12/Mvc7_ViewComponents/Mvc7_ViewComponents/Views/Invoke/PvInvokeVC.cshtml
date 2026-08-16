@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Card>
+
+@{
+    ViewData["Title"] = "PvInvokeVC";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h2>在Partial View叫用View Component</h2>
+    View呼叫_VcPartial部分檢視,然後_VcPartial再呼叫View Components
+</div>
+
+<h1><span class="badge bg-danger">1.Partial Tag Helper, 用model屬性傳遞模型物件</span></h1>
+<div class="row">
+    <partial name="_VcPartial" model="@Model" />
+</div>
+
+<h1><span class="badge bg-danger">2.Partial Tag Helper, 用for屬性傳遞模型物件</span></h1>
+<div class="row">
+    <partial name="_VcPartial" for="@Model" />
+</div>
+
+<h1><span class="badge bg-danger">3.Html.PartialAsync()</span></h1>
+<div class="row">
+    @await Html.PartialAsync("_VcPartial", @Model)
+</div>
+
+<h1><span class="badge bg-danger">4.Html.RenderPartialAsync()</span></h1>
+<div class="row">
+    @{ await Html.RenderPartialAsync("_VcPartial", @Model); }
+</div>
+
+@section topCSS{
+    <link href="~/css/card.css" rel="stylesheet" />
+}

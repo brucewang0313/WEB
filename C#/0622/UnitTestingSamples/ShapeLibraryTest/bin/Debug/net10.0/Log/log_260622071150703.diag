@@ -1,0 +1,27 @@
+2026-06-22T07:11:50.7143556+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 2.0.2+88c9fc53a3b4f0fdf6b29a54e0e9f39dd44d9ede
+2026-06-22T07:11:50.7293471+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-06-22T07:11:50.7304943+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-06-22T07:11:50.7305029+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 07:11:50.683
+2026-06-22T07:11:50.7305971+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 26376
+2026-06-22T07:11:50.7306278+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 10.0.9
+2026-06-22T07:11:50.7306470+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.9\System.Private.CoreLib.dll
+2026-06-22T07:11:50.7306573+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-06-22T07:11:50.7307364+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll
+2026-06-22T07:11:50.7309099+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\Log --results-directory C:\C#\0622\UnitTestingSamples\TestResults --client-port 61087'
+2026-06-22T07:11:50.7318493+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-06-22T07:11:50.7816292+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-06-22T07:11:50.8063964+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-06-22T07:11:51.0884191+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '4.0.2' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2026-06-22T07:11:51.1418574+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2026-06-22T07:11:51.2186199+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 4 tests from source C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll
+2026-06-22T07:11:51.2475541+00:00 mstest-trace INFORMATION Created unit-test runner C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll
+2026-06-22T07:11:51.2570046+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION 已為 C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll 啟用平行測試 (Workers: 8, Scope: MethodLevel)
+2026-06-22T07:11:51.2768879+00:00 mstest-trace INFORMATION Executing test Rectangle_GetAreaTest
+2026-06-22T07:11:51.2769125+00:00 mstest-trace INFORMATION Executing test GivenRectangle_Width_6_Height_5_WhenComputeArea_Then30
+2026-06-22T07:11:51.2769092+00:00 mstest-trace INFORMATION Executing test Rectangle_GetAreaTest
+2026-06-22T07:11:51.2769262+00:00 mstest-trace INFORMATION Executing test Rectangle_GetAreaTest
+2026-06-22T07:11:51.3126026+00:00 mstest-trace INFORMATION Executed test Rectangle_GetAreaTest
+2026-06-22T07:11:51.3126292+00:00 mstest-trace INFORMATION Executed test Rectangle_GetAreaTest
+2026-06-22T07:11:51.3126758+00:00 mstest-trace INFORMATION Executed test Rectangle_GetAreaTest
+2026-06-22T07:11:51.3126824+00:00 mstest-trace INFORMATION Executed test GivenRectangle_Width_6_Height_5_WhenComputeArea_Then30
+2026-06-22T07:11:51.3196765+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll

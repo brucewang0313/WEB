@@ -1,0 +1,9 @@
+﻿USE Northwind
+GO  
+CREATE PROCEDURE [dbo].GetAllEmployees 
+
+AS   
+    SET NOCOUNT ON;  
+    SELECT *  
+    FROM Employees  
+GO

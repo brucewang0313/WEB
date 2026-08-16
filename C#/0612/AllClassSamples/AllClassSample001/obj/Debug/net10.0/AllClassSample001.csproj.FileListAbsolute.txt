@@ -1,0 +1,14 @@
+C:\C#\AllClassSamples\AllClassSample001\bin\Debug\net10.0\AllClassSample001.exe
+C:\C#\AllClassSamples\AllClassSample001\bin\Debug\net10.0\AllClassSample001.deps.json
+C:\C#\AllClassSamples\AllClassSample001\bin\Debug\net10.0\AllClassSample001.runtimeconfig.json
+C:\C#\AllClassSamples\AllClassSample001\bin\Debug\net10.0\AllClassSample001.dll
+C:\C#\AllClassSamples\AllClassSample001\bin\Debug\net10.0\AllClassSample001.pdb
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\AllClassSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\AllClassSample001.AssemblyInfoInputs.cache
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\AllClassSample001.AssemblyInfo.cs
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\AllClassSample001.csproj.CoreCompileInputs.cache
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\AllClassSample001.dll
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\refint\AllClassSample001.dll
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\AllClassSample001.pdb
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\AllClassSample001.genruntimeconfig.cache
+C:\C#\AllClassSamples\AllClassSample001\obj\Debug\net10.0\ref\AllClassSample001.dll

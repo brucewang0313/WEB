@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\bin\Debug\net9.0\ForLoopSample.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\bin\Debug\net9.0\ForLoopSample.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\bin\Debug\net9.0\ForLoopSample.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\bin\Debug\net9.0\ForLoopSample.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\bin\Debug\net9.0\ForLoopSample.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\ForLoopSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\ForLoopSample.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\ForLoopSample.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\ForLoopSample.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\ForLoopSample.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\refint\ForLoopSample.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\ForLoopSample.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\ForLoopSample.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\LoopSamples\ForLoopSample\obj\Debug\net9.0\ref\ForLoopSample.dll

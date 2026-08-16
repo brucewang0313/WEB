@@ -1,0 +1,14 @@
+C:\C#\0617\DoWhereSamples\DoWhereSample006\bin\Debug\net10.0\DoWhereSample006.exe
+C:\C#\0617\DoWhereSamples\DoWhereSample006\bin\Debug\net10.0\DoWhereSample006.deps.json
+C:\C#\0617\DoWhereSamples\DoWhereSample006\bin\Debug\net10.0\DoWhereSample006.runtimeconfig.json
+C:\C#\0617\DoWhereSamples\DoWhereSample006\bin\Debug\net10.0\DoWhereSample006.dll
+C:\C#\0617\DoWhereSamples\DoWhereSample006\bin\Debug\net10.0\DoWhereSample006.pdb
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\DoWhereSample006.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\DoWhereSample006.AssemblyInfoInputs.cache
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\DoWhereSample006.AssemblyInfo.cs
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\DoWhereSample006.csproj.CoreCompileInputs.cache
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\DoWhereSample006.dll
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\refint\DoWhereSample006.dll
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\DoWhereSample006.pdb
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\DoWhereSample006.genruntimeconfig.cache
+C:\C#\0617\DoWhereSamples\DoWhereSample006\obj\Debug\net10.0\ref\DoWhereSample006.dll

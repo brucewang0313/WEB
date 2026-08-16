@@ -1,0 +1,14 @@
+C:\C#\EqualitySamples\EqualitySample002\bin\Debug\net10.0\EqualitySample002.exe
+C:\C#\EqualitySamples\EqualitySample002\bin\Debug\net10.0\EqualitySample002.deps.json
+C:\C#\EqualitySamples\EqualitySample002\bin\Debug\net10.0\EqualitySample002.runtimeconfig.json
+C:\C#\EqualitySamples\EqualitySample002\bin\Debug\net10.0\EqualitySample002.dll
+C:\C#\EqualitySamples\EqualitySample002\bin\Debug\net10.0\EqualitySample002.pdb
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\EqualitySample002.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\EqualitySample002.AssemblyInfoInputs.cache
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\EqualitySample002.AssemblyInfo.cs
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\EqualitySample002.csproj.CoreCompileInputs.cache
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\EqualitySample002.dll
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\refint\EqualitySample002.dll
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\EqualitySample002.pdb
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\EqualitySample002.genruntimeconfig.cache
+C:\C#\EqualitySamples\EqualitySample002\obj\Debug\net10.0\ref\EqualitySample002.dll

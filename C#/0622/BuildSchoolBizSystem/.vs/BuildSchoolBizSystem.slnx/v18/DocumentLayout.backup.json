@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\0622\\BuildSchoolBizSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\services\\sellingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\services\\sellingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|C:\\C#\\0622\\BuildSchoolBizSystem\\buildschoolbizapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\queryinventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\queryinventoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\services\\procurementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\services\\procurementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\viewmodels\\inventoryqueryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\viewmodels\\inventoryqueryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\querysellingbysalesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\querysellingbysalesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\addsellingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\addsellingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|C:\\C#\\0622\\BuildSchoolBizSystem\\buildschoolbizapp\\addsellingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\addsellingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 322,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QueryInventoryForm.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\QueryInventoryForm.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\QueryInventoryForm.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\QueryInventoryForm.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\QueryInventoryForm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T08:42:25.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProcurementService.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Services\\ProcurementService.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\Services\\ProcurementService.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Services\\ProcurementService.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\Services\\ProcurementService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvywAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T08:40:27.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Form1.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\Form1.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Form1.cs [Design]",
+              "RelativeToolTip": "BuildSchoolBizApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:43:45.287Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Form1.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\Form1.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Form1.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\Form1.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAcwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:43:47.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryQueryViewModel.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\ViewModels\\InventoryQueryViewModel.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\ViewModels\\InventoryQueryViewModel.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\ViewModels\\InventoryQueryViewModel.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\ViewModels\\InventoryQueryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T08:36:47.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuerySellingBySalesForm.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\QuerySellingBySalesForm.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\QuerySellingBySalesForm.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\QuerySellingBySalesForm.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\QuerySellingBySalesForm.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:58:16.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SellingService.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Services\\SellingService.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\Services\\SellingService.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Services\\SellingService.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\Services\\SellingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:22:12.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddSellingForm.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\AddSellingForm.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\AddSellingForm.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\AddSellingForm.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\AddSellingForm.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:26:25.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddSellingForm.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\AddSellingForm.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\AddSellingForm.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\AddSellingForm.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "BuildSchoolBizApp\\AddSellingForm.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T07:26:22.503Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

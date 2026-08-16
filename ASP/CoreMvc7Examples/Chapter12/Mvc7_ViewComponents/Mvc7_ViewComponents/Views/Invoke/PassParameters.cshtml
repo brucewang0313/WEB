@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "PassParameter";
+}
+
+<h1><span class="badge bg-danger">方法1 - 傳遞匿名型別物件</span></h1>
+<div class="row">
+    @await Component.InvokeAsync("ProductRange", new { lower = 100M, higher = 3000M })
+</div>
+
+<h1><span class="badge bg-danger">方法2 - 傳遞ViewModel物件</span></h1>
+@{
+    RangeViewModel parameters = new RangeViewModel { lower = 2500M, higher = 3500M };
+}
+<div class="row">
+    @await Component.InvokeAsync("ProductRange", parameters)
+</div>
+
+
+<h1><span class="badge bg-danger">方法3 - 傳遞IDictionary</span></h1>
+@{
+    IDictionary<string, object> param = new Dictionary<string, object>
+    {
+        ["lower"] = 5000M,
+        ["higher"] = 20000M
+    };
+}
+<div class="row">
+    @await Component.InvokeAsync("ProductRange", param)
+</div>
+
+<h1><span class="badge bg-danger">方法4 - 用Tag Helper逐一指定屬性參數值</span></h1>
+<vc:product-range lower=200M higher=5000M>
+</vc:product-range>
+
+
+
+@section topCSS{
+    <style>
+        /*設定Table欄位標題顏色*/
+        th {
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+
+        /*設定Table資料列Hover時的光棒效果*/
+        .table > tbody > tr:hover {
+            background-color: antiquewhite !important;
+        }
+    </style>
+}

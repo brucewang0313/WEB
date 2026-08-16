@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\0612\\ConstructorSamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{542A1188-DCF6-4C3F-93BD-279972F12E13}|ContructorSample001\\ContructorSample001.csproj|c:\\c#\\0612\\constructorsamples\\contructorsample001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542A1188-DCF6-4C3F-93BD-279972F12E13}|ContructorSample001\\ContructorSample001.csproj|solutionrelative:contructorsample001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{542A1188-DCF6-4C3F-93BD-279972F12E13}|ContructorSample001\\ContructorSample001.csproj|c:\\c#\\0612\\constructorsamples\\contructorsample001\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{542A1188-DCF6-4C3F-93BD-279972F12E13}|ContructorSample001\\ContructorSample001.csproj|solutionrelative:contructorsample001\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseClass.cs",
+              "DocumentMoniker": "C:\\C#\\0612\\ConstructorSamples\\ContructorSample001\\BaseClass.cs",
+              "RelativeDocumentMoniker": "ContructorSample001\\BaseClass.cs",
+              "ToolTip": "C:\\C#\\0612\\ConstructorSamples\\ContructorSample001\\BaseClass.cs",
+              "RelativeToolTip": "ContructorSample001\\BaseClass.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:40:21.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\0612\\ConstructorSamples\\ContructorSample001\\Program.cs",
+              "RelativeDocumentMoniker": "ContructorSample001\\Program.cs",
+              "ToolTip": "C:\\C#\\0612\\ConstructorSamples\\ContructorSample001\\Program.cs",
+              "RelativeToolTip": "ContructorSample001\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-12T08:40:04.349Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

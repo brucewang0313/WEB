@@ -1,0 +1,14 @@
+C:\C#\MethodSamples\0420hw\bin\Debug\net10.0\0420hw.exe
+C:\C#\MethodSamples\0420hw\bin\Debug\net10.0\0420hw.deps.json
+C:\C#\MethodSamples\0420hw\bin\Debug\net10.0\0420hw.runtimeconfig.json
+C:\C#\MethodSamples\0420hw\bin\Debug\net10.0\0420hw.dll
+C:\C#\MethodSamples\0420hw\bin\Debug\net10.0\0420hw.pdb
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\0420hw.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\0420hw.AssemblyInfoInputs.cache
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\0420hw.AssemblyInfo.cs
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\0420hw.csproj.CoreCompileInputs.cache
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\0420hw.dll
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\refint\0420hw.dll
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\0420hw.pdb
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\0420hw.genruntimeconfig.cache
+C:\C#\MethodSamples\0420hw\obj\Debug\net10.0\ref\0420hw.dll

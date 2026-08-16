@@ -1,0 +1,2 @@
+System.ArgumentException: 料號1234已存在
+   at BuildSchoolBizApp.Services.ProductService.Create(ProductViewModel input) in C:\C#\0622\BuildSchoolBizSystem\BuildSchoolBizApp\Services\ProductService.cs:line 18

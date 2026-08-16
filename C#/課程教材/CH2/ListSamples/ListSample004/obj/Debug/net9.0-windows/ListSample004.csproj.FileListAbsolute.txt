@@ -1,0 +1,16 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\bin\Debug\net9.0-windows\ListSample004.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\bin\Debug\net9.0-windows\ListSample004.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\bin\Debug\net9.0-windows\ListSample004.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\bin\Debug\net9.0-windows\ListSample004.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\bin\Debug\net9.0-windows\ListSample004.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.Form1.resources
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.csproj.GenerateResource.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\refint\ListSample004.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ListSample004.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\ListSamples\ListSample004\obj\Debug\net9.0-windows\ref\ListSample004.dll

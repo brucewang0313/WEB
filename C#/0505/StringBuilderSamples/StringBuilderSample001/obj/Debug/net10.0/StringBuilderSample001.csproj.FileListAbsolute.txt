@@ -1,0 +1,14 @@
+C:\C#\StringBuilderSamples\StringBuilderSample001\bin\Debug\net10.0\StringBuilderSample001.exe
+C:\C#\StringBuilderSamples\StringBuilderSample001\bin\Debug\net10.0\StringBuilderSample001.deps.json
+C:\C#\StringBuilderSamples\StringBuilderSample001\bin\Debug\net10.0\StringBuilderSample001.runtimeconfig.json
+C:\C#\StringBuilderSamples\StringBuilderSample001\bin\Debug\net10.0\StringBuilderSample001.dll
+C:\C#\StringBuilderSamples\StringBuilderSample001\bin\Debug\net10.0\StringBuilderSample001.pdb
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\StringBuilderSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\StringBuilderSample001.AssemblyInfoInputs.cache
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\StringBuilderSample001.AssemblyInfo.cs
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\StringBuilderSample001.csproj.CoreCompileInputs.cache
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\StringBuilderSample001.dll
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\refint\StringBuilderSample001.dll
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\StringBuilderSample001.pdb
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\StringBuilderSample001.genruntimeconfig.cache
+C:\C#\StringBuilderSamples\StringBuilderSample001\obj\Debug\net10.0\ref\StringBuilderSample001.dll

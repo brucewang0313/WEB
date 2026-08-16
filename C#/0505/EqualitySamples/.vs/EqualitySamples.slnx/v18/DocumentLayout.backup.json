@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\EqualitySamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A52963DE-2D0A-4292-8AE5-C7ADBCB5511E}|EqualitySample003\\EqualitySample003.csproj|c:\\c#\\equalitysamples\\equalitysample003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A52963DE-2D0A-4292-8AE5-C7ADBCB5511E}|EqualitySample003\\EqualitySample003.csproj|solutionrelative:equalitysample003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C91A28C-D85F-4131-8A51-963F4B6F56A3}|EqualitySample001\\EqualitySample001.csproj|c:\\c#\\equalitysamples\\equalitysample001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C91A28C-D85F-4131-8A51-963F4B6F56A3}|EqualitySample001\\EqualitySample001.csproj|solutionrelative:equalitysample001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35FB5203-9521-4D86-AE86-F33F4ED535EC}|EqualitySample002\\EqualitySample002.csproj|c:\\c#\\equalitysamples\\equalitysample002\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35FB5203-9521-4D86-AE86-F33F4ED535EC}|EqualitySample002\\EqualitySample002.csproj|solutionrelative:equalitysample002\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\EqualitySamples\\EqualitySample003\\Program.cs",
+              "RelativeDocumentMoniker": "EqualitySample003\\Program.cs",
+              "ToolTip": "C:\\C#\\EqualitySamples\\EqualitySample003\\Program.cs*",
+              "RelativeToolTip": "EqualitySample003\\Program.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wA4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T06:14:42.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\EqualitySamples\\EqualitySample002\\Program.cs",
+              "RelativeDocumentMoniker": "EqualitySample002\\Program.cs",
+              "ToolTip": "C:\\C#\\EqualitySamples\\EqualitySample002\\Program.cs",
+              "RelativeToolTip": "EqualitySample002\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwA8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T04:27:05.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\EqualitySamples\\EqualitySample001\\Program.cs",
+              "RelativeDocumentMoniker": "EqualitySample001\\Program.cs",
+              "ToolTip": "C:\\C#\\EqualitySamples\\EqualitySample001\\Program.cs",
+              "RelativeToolTip": "EqualitySample001\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T04:12:42.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

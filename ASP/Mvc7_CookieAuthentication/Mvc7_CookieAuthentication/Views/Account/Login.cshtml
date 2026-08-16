@@ -1,0 +1,38 @@
+﻿@model LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    // 獲取 Controller 傳遞過來的 ReturnUrl
+    var returnUrl = ViewData["ReturnUrl"] as string;
+}
+
+<h1>Login</h1>
+
+<h4>LoginViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" asp-route-returnurl="@(ViewContext.HttpContext.Request.Query["ReturnUrl"])">
+            @* <form asp-action="Login" asp-route-returnUrl="@returnUrl" method="post"> *@
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="登入" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

@@ -1,0 +1,14 @@
+C:\C#練習\MyFirstSolution\SwitchDisplay\bin\Debug\net10.0\SwitchDisplay.exe
+C:\C#練習\MyFirstSolution\SwitchDisplay\bin\Debug\net10.0\SwitchDisplay.deps.json
+C:\C#練習\MyFirstSolution\SwitchDisplay\bin\Debug\net10.0\SwitchDisplay.runtimeconfig.json
+C:\C#練習\MyFirstSolution\SwitchDisplay\bin\Debug\net10.0\SwitchDisplay.dll
+C:\C#練習\MyFirstSolution\SwitchDisplay\bin\Debug\net10.0\SwitchDisplay.pdb
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\SwitchDisplay.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\SwitchDisplay.AssemblyInfoInputs.cache
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\SwitchDisplay.AssemblyInfo.cs
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\SwitchDisplay.csproj.CoreCompileInputs.cache
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\SwitchDisplay.dll
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\refint\SwitchDisplay.dll
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\SwitchDisplay.pdb
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\SwitchDisplay.genruntimeconfig.cache
+C:\C#練習\MyFirstSolution\SwitchDisplay\obj\Debug\net10.0\ref\SwitchDisplay.dll

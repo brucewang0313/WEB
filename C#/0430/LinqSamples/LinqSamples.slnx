@@ -1,0 +1,11 @@
+<Solution>
+  <Project Path="LinqSample001/LinqSample001.csproj" />
+  <Project Path="LinqSample003/LinqSample003.csproj" />
+  <Project Path="LinqSample013/LinqSample013.csproj" />
+  <Project Path="LinqSample015/LinqSample015.csproj" />
+  <Project Path="LinqSample016/LinqSample016.csproj" Id="48f94b8e-08a2-4392-8495-2becb05e1881" />
+  <Project Path="LinqSample017/LinqSample017.csproj" Id="6f21ebc7-f164-468a-b666-4dfe72e5fa77" />
+  <Project Path="LinqSample018/LinqSample018.csproj" Id="ed984a3b-5bd3-4c1c-8954-1881a85eebe9" />
+  <Project Path="LinqSample020/LinqSample020.csproj" Id="2b9fa05b-5f98-4257-a8f2-fb4d173fb96b" />
+  <Project Path="LinqSample021/LinqSample021.csproj" Id="023be878-9097-4b43-9309-3ff61eb1f1c5" />
+</Solution>

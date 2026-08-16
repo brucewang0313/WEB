@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Sales>
+
+@{
+    ViewData["Title"] = "Top Ranking產品銷售排行榜";
+
+    int counter =1;
+
+    //標準數值格式字串
+    //https://docs.microsoft.com/zh-tw/dotnet/standard/base-types/standard-numeric-format-strings
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>排名</th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProductId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SalesVolume)
+            </th>
+            <th>
+                銷售總額
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @($"第{(counter++).ToString("000")}名")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SalesVolume)
+            </td>
+            <td>
+                @((item.Price * item.SalesVolume).ToString("C", new System.Globalization.CultureInfo("en-US") ))
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SalesId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SalesId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SalesId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

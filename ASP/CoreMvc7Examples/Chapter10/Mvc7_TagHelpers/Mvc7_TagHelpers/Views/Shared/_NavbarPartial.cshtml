@@ -1,0 +1,71 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Tag Helpers</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        內建的Tag Helpers
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/TagHelpers/PartialTagHelper">Partial Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/ImageTagHelper">Image Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/AnchorTagHelper">Anchor Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/FormTagHelper">Form Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/FormActionTagHelper">Form Action Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/InputTagHelper">Input & Label Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/SelectTagHelper">Select Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/SelectEnum">Select Enum</a>
+                        <a class="dropdown-item" href="~/TagHelpers/SelectOptionGroup">Select List Option Group</a>
+                        <a class="dropdown-item" href="~/TagHelpers/MultiSelect">Multi Select</a>
+                        <a class="dropdown-item" href="~/TagHelpers/NoSelection">No Selection</a>
+                        <a class="dropdown-item" href="~/TagHelpers/NoSelectionByCode">No Selection By C# Code</a>
+                        <a class="dropdown-item" href="~/TagHelpers/TextareaTagHelper">Textarea Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/ValidationTagHelper">Validation Message & ValidationSummary Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/CacheTagHelper">Cache Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/DistributedCacheTagHelper">Distributed Cache Tag Helper</a>
+                        <a class="dropdown-item" href="~/TagHelpers/CitiesCheckbox">Select Cities with CheckBox</a>
+                        <a class="dropdown-item" href="~/TagHelpers/CheckboxEditorTemplate">CheckBox Editor Template</a>
+                    </div>
+                </li>
+
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Products控制器
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Products/Index">Index</a>
+                        <a class="dropdown-item" href="~/Products/1">Details</a>
+                        <a class="dropdown-item" href="~/Products/Eval">Evaluations</a>
+                        <a class="dropdown-item" href="~/Products/Avail">Available</a>                    
+                    </div>
+                </li>
+
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                        自訂Tag Helpers
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/CustomTagHelpers/Email">自訂Email Tag Helper</a>
+                        <a class="dropdown-item" href="~/CustomTagHelpers/EmailAsynchrous">非同非Email Tag Helper</a>
+                        <a class="dropdown-item" href="~/CustomTagHelpers/AnchorEmail">Simple Anchor Email Tag Helper</a>
+                    </div>
+                </li>
+            </ul>
+            <partial name="_LoginPartial" />
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ShapeLibrary/ShapeLibrary.csproj" />
+  <Project Path="ShapeLibraryTest/ShapeLibraryTest.csproj" Id="2854c118-c32c-4c49-97b9-cbbd2b42b800" />
+</Solution>

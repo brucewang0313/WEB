@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "EqualitySample001/1.0.0": {
+        "runtime": {
+          "EqualitySample001.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EqualitySample001/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

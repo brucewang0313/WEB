@@ -1,0 +1,14 @@
+C:\C#\MethodSamples\MethodSample001_R1\bin\Debug\net10.0\MethodSample001_R1.exe
+C:\C#\MethodSamples\MethodSample001_R1\bin\Debug\net10.0\MethodSample001_R1.deps.json
+C:\C#\MethodSamples\MethodSample001_R1\bin\Debug\net10.0\MethodSample001_R1.runtimeconfig.json
+C:\C#\MethodSamples\MethodSample001_R1\bin\Debug\net10.0\MethodSample001_R1.dll
+C:\C#\MethodSamples\MethodSample001_R1\bin\Debug\net10.0\MethodSample001_R1.pdb
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\MethodSample001_R1.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\MethodSample001_R1.AssemblyInfoInputs.cache
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\MethodSample001_R1.AssemblyInfo.cs
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\MethodSample001_R1.csproj.CoreCompileInputs.cache
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\MethodSample001_R1.dll
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\refint\MethodSample001_R1.dll
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\MethodSample001_R1.pdb
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\MethodSample001_R1.genruntimeconfig.cache
+C:\C#\MethodSamples\MethodSample001_R1\obj\Debug\net10.0\ref\MethodSample001_R1.dll

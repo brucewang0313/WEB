@@ -1,0 +1,14 @@
+C:\C#練習\0417pa\0417hw\bin\Debug\net10.0\0417hw.exe
+C:\C#練習\0417pa\0417hw\bin\Debug\net10.0\0417hw.deps.json
+C:\C#練習\0417pa\0417hw\bin\Debug\net10.0\0417hw.runtimeconfig.json
+C:\C#練習\0417pa\0417hw\bin\Debug\net10.0\0417hw.dll
+C:\C#練習\0417pa\0417hw\bin\Debug\net10.0\0417hw.pdb
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\0417hw.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\0417hw.AssemblyInfoInputs.cache
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\0417hw.AssemblyInfo.cs
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\0417hw.csproj.CoreCompileInputs.cache
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\0417hw.dll
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\refint\0417hw.dll
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\0417hw.pdb
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\0417hw.genruntimeconfig.cache
+C:\C#練習\0417pa\0417hw\obj\Debug\net10.0\ref\0417hw.dll

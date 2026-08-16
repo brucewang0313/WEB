@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mvc7_Bootstrap
+build_property.RootNamespace = Mvc7_Bootstrap
+build_property.ProjectDir = C:\Web\ASP\CoreMvc7Examples\Chapter06\Mvc7_Bootstrap\Mvc7_Bootstrap\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Web\ASP\CoreMvc7Examples\Chapter06\Mvc7_Bootstrap\Mvc7_Bootstrap
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Employees/IndexBootstrap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4Qm9vdHN0cmFwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/GridSystem/ColumnsExample.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JpZFN5c3RlbVxDb2x1bW5zRXhhbXBsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/GridSystem/ColumnsMixed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JpZFN5c3RlbVxDb2x1bW5zTWl4ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/GridSystem/ColumnsOffset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JpZFN5c3RlbVxDb2x1bW5zT2Zmc2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/GridSystem/GridBasic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JpZFN5c3RlbVxHcmlkQmFzaWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Shared/_ColumnHeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db2x1bW5IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Shared/_MoviePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb3ZpZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Shared/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-amp2jpyf7g
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter06/Mvc7_Bootstrap/Mvc7_Bootstrap/Views/Shared/_LayoutFluid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGbHVpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-7myhl33b8l

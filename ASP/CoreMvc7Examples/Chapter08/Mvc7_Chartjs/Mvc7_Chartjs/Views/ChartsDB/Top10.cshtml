@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Top10Products";
+}
+
+<h1>Top10</h1>
+
+
+<canvas id="myChart"></canvas>
+
+@section endJS{
+    <script>
+
+        var jsProducts = @Html.Raw(ViewData["Products"]);
+
+        let nameArray = [], priceArray = [];
+
+        jsProducts.forEach(product => {
+            nameArray.push(product.Name);
+            priceArray.push(product.Price);
+        });
+
+        var ctx = document.getElementById('myChart');
+        var chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: nameArray,
+                datasets: [{
+                    label: 'Products',
+                    data: priceArray,
+                    fill: 'origin',
+                    backgroundColor: 'rgba(255,165,0,0.5)',
+                    borderColor: 'rgb(255,165,0)',
+                    pointStyle: "circle",
+                    pointBackgroundColor: 'blue',
+                    pointRadius: 15,
+                    pointHoverRadius: 10,
+                }]
+            },
+            options: {
+                responsive: true,
+                title: {
+                    display: true,
+                    fontSize: 26,
+                    text: '單價最高前10大產品'
+                },
+                tooltips: {
+                    mode: 'point',
+                    intersect: true,
+                },
+                legend: {
+                    position: 'bottom',
+                    labels: {
+                        fontColor: 'black',
+                    }
+                }
+            }
+        });
+    </script>
+}

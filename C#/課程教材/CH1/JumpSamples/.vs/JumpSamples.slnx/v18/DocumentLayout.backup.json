@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B9BA2BD-0167-EAD6-E542-55194EDFAD7B}|ReturnSample001\\ReturnSample001.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch1\\jumpsamples\\returnsample001\\returnsample001.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B9BA2BD-0167-EAD6-E542-55194EDFAD7B}|ReturnSample001\\ReturnSample001.csproj|solutionrelative:returnsample001\\returnsample001.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451B51C9-5CDA-CC61-2494-76A5A00CF629}|ContinueSample\\ContinueSample.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch1\\jumpsamples\\continuesample\\continuesample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{451B51C9-5CDA-CC61-2494-76A5A00CF629}|ContinueSample\\ContinueSample.csproj|solutionrelative:continuesample\\continuesample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B9BA2BD-0167-EAD6-E542-55194EDFAD7B}|ReturnSample001\\ReturnSample001.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch1\\jumpsamples\\returnsample001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B9BA2BD-0167-EAD6-E542-55194EDFAD7B}|ReturnSample001\\ReturnSample001.csproj|solutionrelative:returnsample001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{451B51C9-5CDA-CC61-2494-76A5A00CF629}|ContinueSample\\ContinueSample.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch1\\jumpsamples\\continuesample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{451B51C9-5CDA-CC61-2494-76A5A00CF629}|ContinueSample\\ContinueSample.csproj|solutionrelative:continuesample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2738A8F-885C-33A4-074A-AC2B6108D090}|BreakSample\\BreakSample.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch1\\jumpsamples\\breaksample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2738A8F-885C-33A4-074A-AC2B6108D090}|BreakSample\\BreakSample.csproj|solutionrelative:breaksample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2738A8F-885C-33A4-074A-AC2B6108D090}|BreakSample\\BreakSample.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch1\\jumpsamples\\breaksample\\breaksample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2738A8F-885C-33A4-074A-AC2B6108D090}|BreakSample\\BreakSample.csproj|solutionrelative:breaksample\\breaksample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReturnSample001",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\ReturnSample001\\ReturnSample001.csproj",
+              "RelativeDocumentMoniker": "ReturnSample001\\ReturnSample001.csproj",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\ReturnSample001\\ReturnSample001.csproj",
+              "RelativeToolTip": "ReturnSample001\\ReturnSample001.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T14:32:59.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContinueSample",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\ContinueSample\\ContinueSample.csproj",
+              "RelativeDocumentMoniker": "ContinueSample\\ContinueSample.csproj",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\ContinueSample\\ContinueSample.csproj",
+              "RelativeToolTip": "ContinueSample\\ContinueSample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T14:32:52.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\ReturnSample001\\Program.cs",
+              "RelativeDocumentMoniker": "ReturnSample001\\Program.cs",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\ReturnSample001\\Program.cs",
+              "RelativeToolTip": "ReturnSample001\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T14:32:47.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\ContinueSample\\Program.cs",
+              "RelativeDocumentMoniker": "ContinueSample\\Program.cs",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\ContinueSample\\Program.cs",
+              "RelativeToolTip": "ContinueSample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T14:32:44.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\BreakSample\\Program.cs",
+              "RelativeDocumentMoniker": "BreakSample\\Program.cs",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\BreakSample\\Program.cs",
+              "RelativeToolTip": "BreakSample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T14:31:45.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BreakSample",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\BreakSample\\BreakSample.csproj",
+              "RelativeDocumentMoniker": "BreakSample\\BreakSample.csproj",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\JumpSamples\\BreakSample\\BreakSample.csproj",
+              "RelativeToolTip": "BreakSample\\BreakSample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T14:31:30.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 58,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

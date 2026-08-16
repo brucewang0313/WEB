@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ListSample001/ListSample001.csproj" />
+  <Project Path="ListSample002/ListSample002.csproj" />
+  <Project Path="ListSample003/ListSample003.csproj" />
+  <Project Path="ListSample004/ListSample004.csproj" />
+  <Project Path="ListSample005/ListSample005.csproj" />
+</Solution>

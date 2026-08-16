@@ -1,0 +1,270 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\views\\reports\\salesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\views\\reports\\salesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\data\\accountcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\data\\accountcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\services\\hashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\services\\hashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\interfaces\\ihashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\interfaces\\ihashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\views\\shared\\_navbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\views\\shared\\_navbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_cookieauthentication\\mvc7_cookieauthentication\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7076D5D-0613-4FB5-A071-50EE13235912}|Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication.csproj|solutionrelative:mvc7_cookieauthentication\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 239,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\GlobalUsings.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T04:40:53.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SalesReport.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Views\\Reports\\SalesReport.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Views\\Reports\\SalesReport.cshtml",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Views\\Reports\\SalesReport.cshtml",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Views\\Reports\\SalesReport.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T04:40:18.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:44:19.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Data\\AccountContext.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Data\\AccountContext.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Data\\AccountContext.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Data\\AccountContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:20:42.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Program.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Program.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:15:24.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:58:05.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T08:01:37.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_NavbarPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Views\\Shared\\_NavbarPartial.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Views\\Shared\\_NavbarPartial.cshtml",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Views\\Shared\\_NavbarPartial.cshtml",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Views\\Shared\\_NavbarPartial.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T08:46:43.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HashService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Services\\HashService.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Services\\HashService.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Services\\HashService.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Services\\HashService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:11:20.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IHashService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Interfaces\\IHashService.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Interfaces\\IHashService.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Interfaces\\IHashService.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Interfaces\\IHashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:11:27.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:01:13.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Mvc7_CookieAuthentication\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_CookieAuthentication\\Mvc7_CookieAuthentication\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Mvc7_CookieAuthentication\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T07:55:57.347Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿USE Northwind
+GO  
+CREATE PROCEDURE [dbo].[FindEmployeeByName] 
+    @LastName nvarchar(50),   
+    @FirstName nvarchar(50)   
+AS   
+    SET NOCOUNT ON;  
+    SELECT *  
+    FROM Employees  
+    WHERE FirstName = @FirstName AND LastName = @LastName  ;  
+GO

@@ -1,0 +1,20 @@
+﻿# 在Terminal以CLI命令安裝套件
+dotnet add package Microsoft.EntityFrameworkCore --version 7.0.4
+dotnet add package Microsoft.EntityFrameworkCore.Tools  --version 7.0.4
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer  --version 7.0.4
+dotnet add package Microsoft.EntityFrameworkCore.Design  --version 7.0.4
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design  --version 7.0.4
+
+dotnet list package
+
+注意:以上--version是雙dash
+
+
+# 在Visual Studo的NuGet主控台之安裝命令
+install-package Microsoft.EntityFrameworkCore -Version 7.0.4
+install-package Microsoft.EntityFrameworkCore.Tools -Version 7.0.4
+install-package Microsoft.EntityFrameworkCore.SqlServer -Version 7.0.4
+install-package Microsoft.EntityFrameworkCore.Design -Version 7.0.4
+install-package Microsoft.VisualStudio.Web.CodeGeneration.Design -Version 7.0.4
+
+注意:以上-version是單dash

@@ -1,0 +1,14 @@
+C:\C#練習\LoopSamples\ForLoopSample\bin\Debug\net10.0\ForLoopSample.exe
+C:\C#練習\LoopSamples\ForLoopSample\bin\Debug\net10.0\ForLoopSample.deps.json
+C:\C#練習\LoopSamples\ForLoopSample\bin\Debug\net10.0\ForLoopSample.runtimeconfig.json
+C:\C#練習\LoopSamples\ForLoopSample\bin\Debug\net10.0\ForLoopSample.dll
+C:\C#練習\LoopSamples\ForLoopSample\bin\Debug\net10.0\ForLoopSample.pdb
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\ForLoopSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\ForLoopSample.AssemblyInfoInputs.cache
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\ForLoopSample.AssemblyInfo.cs
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\ForLoopSample.csproj.CoreCompileInputs.cache
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\ForLoopSample.dll
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\refint\ForLoopSample.dll
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\ForLoopSample.pdb
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\ForLoopSample.genruntimeconfig.cache
+C:\C#練習\LoopSamples\ForLoopSample\obj\Debug\net10.0\ref\ForLoopSample.dll

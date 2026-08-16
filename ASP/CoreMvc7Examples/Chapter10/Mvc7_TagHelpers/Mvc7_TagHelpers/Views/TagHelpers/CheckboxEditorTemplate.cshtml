@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Mvc.ModelBinding
+
+@model CityViewModel
+
+<form asp-controller="TagHelpers" asp-action="CitiesCheckbox" method="post">
+    @Html.ValidationMessage("ErrorReport", new { @class = "text-danger" })
+    <h3>請選擇你去過的縣市:</h3>
+    <div class="form-group">
+        @Html.EditorForModel()
+    </div>
+    <br /><br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section endJS
+{
+    <script>
+        //JavaScript前端驗證
+        $(function () {
+            $('#btnSubmit').on('click', function (e) {
+                var counter = $('input[name="SelectedCities"]:checked').length;
+                if (counter < 1) {
+                    //alert('請至少選擇一個縣市!');
+                    $("#validationMsg").html('<h1>請至少選擇一個縣市!<h1>');
+                    $("#msg").text('請選擇一個縣市!')
+                    e.preventDefault();
+                }
+            })
+        });
+    </script>
+}

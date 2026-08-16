@@ -1,0 +1,73 @@
+﻿@using System.Net.Http
+@using System.Net.Http.Headers
+
+@inject IHttpClientFactory _httpClientFactory
+
+@*@inject Microsoft.Extensions.Logging.ILogger _logger*@
+
+@{
+    ViewBag.Title = "Index";
+
+    //標準數值格式字串
+    //https://docs.microsoft.com/zh-tw/dotnet/standard/base-types/standard-numeric-format-strings
+}
+
+<div class="jumbotron alert-success">
+    <h2>Pokemon寶可夢</h2>
+</div>
+
+@{
+    HttpClient client = _httpClientFactory.CreateClient();
+
+    for (int i = 1; i < 10; i++)
+    {
+        string imageUrl = $"https://assets.pokemon.com/assets/cms2/img/pokedex/detail/{i.ToString("000")}.png";
+
+        //client.DefaultRequestHeaders.Accept.Clear();
+        //client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/image"));
+
+        try
+        {
+            HttpResponseMessage response = await client.GetAsync(imageUrl);
+
+            if (response.IsSuccessStatusCode)
+            {
+                //讀取成Byte Array
+                var content = await response.Content.ReadAsByteArrayAsync();
+                //轉成Base64字串
+                var base64 = Convert.ToBase64String(content);
+                //讓<img >可以讀取Base64字串資料來源
+                var imgSrc = $"data:image/png;base64,{base64}";
+
+                <img src="@imgSrc">
+            }
+        }
+        catch (Exception ex)
+        {
+            <p>@ex.ToString()</p>
+        }
+    }
+}
+
+
+
+@section topCSS{
+    <style>
+        img:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+            transition: transform 0.2s;
+        }
+
+        .zoom {
+            transition: transform .2s;
+        }
+
+        .zoom:hover {
+            -ms-transform: scale(1.5); /* IE 9 */
+            -webkit-transform: scale(1.5); /* Safari 3-8 */
+            transform: scale(1.5);
+        }
+    </style>
+}

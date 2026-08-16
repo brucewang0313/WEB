@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA8AA24-A8B6-3D03-0E97-C6BD7BAD349B}|CakeSample\\CakeSample.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch1\\cakesample\\cakesample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA8AA24-A8B6-3D03-0E97-C6BD7BAD349B}|CakeSample\\CakeSample.csproj|solutionrelative:cakesample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA8AA24-A8B6-3D03-0E97-C6BD7BAD349B}|CakeSample\\CakeSample.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch1\\cakesample\\cakesample\\cakesample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0BA8AA24-A8B6-3D03-0E97-C6BD7BAD349B}|CakeSample\\CakeSample.csproj|solutionrelative:cakesample\\cakesample.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "RelativeDocumentMoniker": "CakeSample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "RelativeToolTip": "CakeSample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T03:53:37.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CakeSample",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\CakeSample.csproj",
+              "RelativeDocumentMoniker": "CakeSample\\CakeSample.csproj",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\CakeSample.csproj",
+              "RelativeToolTip": "CakeSample\\CakeSample.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-23T03:53:32.264Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\C#\JumpSamples\And_Or_OperatorSample\bin\Debug\net10.0\And_Or_OperatorSample.exe
+C:\C#\JumpSamples\And_Or_OperatorSample\bin\Debug\net10.0\And_Or_OperatorSample.deps.json
+C:\C#\JumpSamples\And_Or_OperatorSample\bin\Debug\net10.0\And_Or_OperatorSample.runtimeconfig.json
+C:\C#\JumpSamples\And_Or_OperatorSample\bin\Debug\net10.0\And_Or_OperatorSample.dll
+C:\C#\JumpSamples\And_Or_OperatorSample\bin\Debug\net10.0\And_Or_OperatorSample.pdb
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\And_Or_OperatorSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\And_Or_OperatorSample.AssemblyInfoInputs.cache
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\And_Or_OperatorSample.AssemblyInfo.cs
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\And_Or_OperatorSample.csproj.CoreCompileInputs.cache
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\And_Or_OperatorSample.dll
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\refint\And_Or_OperatorSample.dll
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\And_Or_OperatorSample.pdb
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\And_Or_OperatorSample.genruntimeconfig.cache
+C:\C#\JumpSamples\And_Or_OperatorSample\obj\Debug\net10.0\ref\And_Or_OperatorSample.dll

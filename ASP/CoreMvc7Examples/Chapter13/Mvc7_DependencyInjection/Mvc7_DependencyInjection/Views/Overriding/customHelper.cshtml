@@ -1,0 +1,13 @@
+﻿@inject MyHtmlHelper Html
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h2>覆寫預設的HTML Helpers</h2>
+</div>
+
+<ul>
+    <li>Company : @Html.Company</li>
+    <li>Url : @Html.Url</li>
+    <li>Tel : @Html.GetPhoneNumber()</li>
+</ul>
+
+

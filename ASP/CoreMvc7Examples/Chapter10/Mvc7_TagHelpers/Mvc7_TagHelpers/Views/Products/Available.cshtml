@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Available";
+}
+
+<h1>Product Available</h1>
+
+@if (Context.Request.Query.Count > 0)
+{
+    <p>ProductId : @ViewContext.HttpContext.Request.Query["ProductId"]</p>
+    <p>Available : @ViewContext.HttpContext.Request.Query["Available"]</p>
+}

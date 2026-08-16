@@ -1,0 +1,42 @@
+﻿@model UserProfile
+@{
+    ViewData["Title"] = "FormActionTagHelper";
+    int counter = 1;
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h2>Form Action Tag Helper</h2>
+</div>
+
+<div class="alert alert-success"><h3>@(counter++). Submit提交至Controller / Action</h3></div>
+<form method="post">
+    <input asp-for="Id" placeholder="輸入你的Id號碼" /> <br /><br />
+    <input asp-for="Name" placeholder="輸入你的名字" /> <br /><br />
+
+    <button asp-controller="Person" asp-action="PostData">提交資料</button> &emsp;
+    <input type="submit" value="Submit" alt="" asp-controller="Person" asp-action="QueryPersonalData" class="btn btn-info" />
+    <input type="image" src="~/images/SubmitButton.jpg" height="30" alt="" asp-controller="Person" asp-action="QueryPersonalData" />
+</form>
+
+
+<div class="alert alert-success"><h3>@(counter++). Submit提交至Route路由 -- Attribute Route</h3></div>
+<form method="post">
+    <input asp-for="Id" placeholder="輸入你的Id號碼" /> <br /><br />
+    <input asp-for="Name" placeholder="輸入你的名字" /> <br /><br />
+
+    <button asp-route="PersonalData">提交資料</button> &emsp;
+    <input type="submit" value="Submit" alt="" asp-route="PersonalData" class="btn btn-warning" /> &emsp;
+    <input type="image" src="~/images/SubmitButton.jpg" height="30" alt="" asp-route="PersonalData" />
+</form>
+
+
+<div class="alert alert-success"><h3>@(counter++). Submit提交至Route路由 -- Convention Route</h3></div>
+<form method="post">
+    <input asp-for="Id" placeholder="輸入你的Id號碼" /> <br /><br />
+    <input asp-for="Name" placeholder="輸入你的名字" /> <br /><br />
+
+    <button asp-route="UserInfo">提交資料</button> &emsp;
+    <input type="submit" value="Submit" alt="" asp-route="UserInfo" class="btn btn-danger" /> &emsp;
+    <input type="image" src="~/images/SubmitButton.jpg" height="30" alt="" asp-route="UserInfo"  />
+</form>
+

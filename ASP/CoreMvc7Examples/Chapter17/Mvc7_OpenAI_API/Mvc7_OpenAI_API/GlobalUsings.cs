@@ -1,0 +1,1 @@
+﻿global using Mvc7_OpenAI_API.ViewModels;

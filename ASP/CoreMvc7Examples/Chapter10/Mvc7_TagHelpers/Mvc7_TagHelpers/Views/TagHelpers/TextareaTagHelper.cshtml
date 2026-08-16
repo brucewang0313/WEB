@@ -1,0 +1,18 @@
+﻿@model FeedbackViewModel
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>顧客意見回饋</h1>
+</div>
+
+<form asp-controller="TagHelpers" asp-action="TextareaTagHelper" method="post">
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Opinion"></label>
+        <textarea asp-for="Opinion" rows="4" cols="40"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">送出</button>
+</form>
+

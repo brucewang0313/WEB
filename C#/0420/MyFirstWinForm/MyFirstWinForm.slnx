@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="SimpleCalculator01/SimpleCalculator01.csproj" />
+  <Project Path="SimpleCalculator03/SimpleCalculator03.csproj" />
+  <Project Path="WinFormSolution/WinFormSolution.csproj" />
+</Solution>

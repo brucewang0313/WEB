@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EFCore_DbContextConfig
+build_property.RootNamespace = EFCore_DbContextConfig
+build_property.ProjectDir = C:\Web\ASP\CoreMvc7Examples\Chapter16\EFCore_DbContextConfig\EFCore_DbContextConfig\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Web\ASP\CoreMvc7Examples\Chapter16\EFCore_DbContextConfig\EFCore_DbContextConfig
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Cards/CardContextByIServiceProvider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcQ2FyZENvbnRleHRCeUlTZXJ2aWNlUHJvdmlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Cards/CardListByDI.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcQ2FyZExpc3RCeURJLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Cards/CardListByOnConfiguring.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcQ2FyZExpc3RCeU9uQ29uZmlndXJpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Cards/CardListByOptionsBuilder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcQ2FyZExpc3RCeU9wdGlvbnNCdWlsZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Cards/DirectNewCardContext.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcRGlyZWN0TmV3Q2FyZENvbnRleHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Cards/GetIConfigurationByIServiceProvider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcR2V0SUNvbmZpZ3VyYXRpb25CeUlTZXJ2aWNlUHJvdmlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Cards/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/OptionBuilder/CardListByOptionsBuilder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3B0aW9uQnVpbGRlclxDYXJkTGlzdEJ5T3B0aW9uc0J1aWxkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Shared/_CardPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXJkUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Shared/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter16/EFCore_DbContextConfig/EFCore_DbContextConfig/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-z6hmsiloxp

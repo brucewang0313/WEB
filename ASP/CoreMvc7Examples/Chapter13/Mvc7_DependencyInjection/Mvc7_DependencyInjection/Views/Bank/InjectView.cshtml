@@ -1,0 +1,16 @@
+﻿@inject IBankService _bankService
+
+@{
+    ViewData["Title"] = "InjectView";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h2>網路銀行Dependency Injection相依性注入</h2>
+    <h3>在View注入相依性服務</h3>
+</div>
+
+<ul>
+    <li>銀行代碼 : @_bankService.BankId</li>
+    <li>銀行名稱 : @_bankService.BankName</li>
+    <li>存款餘額 : @_bankService.AccountBalance("18072").ToString("C")</li>
+</ul>

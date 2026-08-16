@@ -1,0 +1,16 @@
+C:\C#\0612\EventSamples\EventSample001\bin\Debug\net10.0-windows\EventSample001.exe
+C:\C#\0612\EventSamples\EventSample001\bin\Debug\net10.0-windows\EventSample001.deps.json
+C:\C#\0612\EventSamples\EventSample001\bin\Debug\net10.0-windows\EventSample001.runtimeconfig.json
+C:\C#\0612\EventSamples\EventSample001\bin\Debug\net10.0-windows\EventSample001.dll
+C:\C#\0612\EventSamples\EventSample001\bin\Debug\net10.0-windows\EventSample001.pdb
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.Form1.resources
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.csproj.GenerateResource.cache
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.AssemblyInfoInputs.cache
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.AssemblyInfo.cs
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.csproj.CoreCompileInputs.cache
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.dll
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\refint\EventSample001.dll
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.pdb
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\EventSample001.genruntimeconfig.cache
+C:\C#\0612\EventSamples\EventSample001\obj\Debug\net10.0-windows\ref\EventSample001.dll

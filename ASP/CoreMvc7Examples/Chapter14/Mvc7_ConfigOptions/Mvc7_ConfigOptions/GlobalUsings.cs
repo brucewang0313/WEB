@@ -1,0 +1,11 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using Mvc7_ConfigOptions.Models;
+global using Mvc7_ConfigOptions.ViewModels;
+global using Mvc7_ConfigOptions.Interfaces;
+global using Mvc7_ConfigOptions.Services;
+global using Mvc7_ConfigOptions.Options;
+global using Microsoft.AspNetCore.Mvc.Rendering;
+global using Microsoft.AspNetCore.Mvc;
+global using Newtonsoft.Json;

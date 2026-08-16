@@ -1,0 +1,26 @@
+﻿@model CountryGroupViewModel
+
+@{
+    ViewData["Title"] = "MultiSelect";
+}
+
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h2>Multi Select</h2>
+    <p>Select Tag Helper的asp-for屬性如果指定的是IEnumerable則會自動產生multiple="multiple"</p>
+</div>
+
+
+<form asp-action="MultiSelect" method="post">
+    <label asp-for="CountryCodes">請選擇國家 : </label><br />
+    <select asp-for="CountryCodes" asp-items="Model.Countries" size="10">
+    </select>
+    <br /><br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section endJS
+{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

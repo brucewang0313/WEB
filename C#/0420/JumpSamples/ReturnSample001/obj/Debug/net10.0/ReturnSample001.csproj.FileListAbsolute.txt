@@ -1,0 +1,14 @@
+C:\C#\JumpSamples\ReturnSample001\bin\Debug\net10.0\ReturnSample001.exe
+C:\C#\JumpSamples\ReturnSample001\bin\Debug\net10.0\ReturnSample001.deps.json
+C:\C#\JumpSamples\ReturnSample001\bin\Debug\net10.0\ReturnSample001.runtimeconfig.json
+C:\C#\JumpSamples\ReturnSample001\bin\Debug\net10.0\ReturnSample001.dll
+C:\C#\JumpSamples\ReturnSample001\bin\Debug\net10.0\ReturnSample001.pdb
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\ReturnSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\ReturnSample001.AssemblyInfoInputs.cache
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\ReturnSample001.AssemblyInfo.cs
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\ReturnSample001.csproj.CoreCompileInputs.cache
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\ReturnSample001.dll
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\refint\ReturnSample001.dll
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\ReturnSample001.pdb
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\ReturnSample001.genruntimeconfig.cache
+C:\C#\JumpSamples\ReturnSample001\obj\Debug\net10.0\ref\ReturnSample001.dll

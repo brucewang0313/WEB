@@ -1,0 +1,14 @@
+C:\C#練習\MyFirstSolution\MyFirstApp\bin\Debug\net10.0\MyFirstApp.exe
+C:\C#練習\MyFirstSolution\MyFirstApp\bin\Debug\net10.0\MyFirstApp.deps.json
+C:\C#練習\MyFirstSolution\MyFirstApp\bin\Debug\net10.0\MyFirstApp.runtimeconfig.json
+C:\C#練習\MyFirstSolution\MyFirstApp\bin\Debug\net10.0\MyFirstApp.dll
+C:\C#練習\MyFirstSolution\MyFirstApp\bin\Debug\net10.0\MyFirstApp.pdb
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\MyFirstApp.AssemblyInfoInputs.cache
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\MyFirstApp.AssemblyInfo.cs
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\MyFirstApp.csproj.CoreCompileInputs.cache
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\MyFirstApp.dll
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\refint\MyFirstApp.dll
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\MyFirstApp.pdb
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\MyFirstApp.genruntimeconfig.cache
+C:\C#練習\MyFirstSolution\MyFirstApp\obj\Debug\net10.0\ref\MyFirstApp.dll

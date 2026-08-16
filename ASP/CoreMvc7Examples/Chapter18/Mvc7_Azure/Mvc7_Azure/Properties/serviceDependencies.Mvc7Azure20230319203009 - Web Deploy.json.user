@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "restored": true,
+      "restoreTime": "2023-03-19T12:56:26.445746Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2023-03-19T12:55:53.8627936Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "2e8a6ff6-a66f-44aa-987b-447172c8e0f8"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "Mvc7Azure20230319203009ResourceGroup"
+    }
+  }
+}

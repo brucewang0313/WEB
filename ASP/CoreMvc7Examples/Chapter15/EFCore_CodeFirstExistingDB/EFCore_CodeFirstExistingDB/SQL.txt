@@ -1,0 +1,1 @@
+﻿SELECT  Orders.OrderID, [Order Details].ProductID, Products.ProductName, [Order Details].UnitPrice, Orders.OrderDate, Orders.ShipAddress, Orders.ShipCity, Orders.ShipCountry FROM Orders INNER JOIN [Order Details] ON Orders.OrderID = [Order Details].OrderID INNER JOIN Products ON [Order Details].ProductID = Products.ProductID

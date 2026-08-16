@@ -1,0 +1,7 @@
+﻿@model CityViewModel
+
+@foreach (var item in Model.Cities)
+{
+    <input id="@(item.Text+item.Value)" name="SelectedCities" type="checkbox" value="@item.Text" />
+    @item.Text
+}

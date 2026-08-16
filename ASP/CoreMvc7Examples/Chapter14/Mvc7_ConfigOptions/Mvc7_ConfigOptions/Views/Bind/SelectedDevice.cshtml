@@ -1,0 +1,17 @@
+﻿@model DeviceViewModel
+
+@{
+    ViewData["Title"] = "SelectedDeviceOptions";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>以下是你所選擇的裝置規格</h1>
+</div>
+
+<ul>
+    <li>RAM : @Model.Ram</li>
+    <li>CPU : @Model.Cpu</li>
+    <li>GPU : @Model.Gpu</li>
+    <li>Storage : @Model.Storage</li>
+</ul>
+

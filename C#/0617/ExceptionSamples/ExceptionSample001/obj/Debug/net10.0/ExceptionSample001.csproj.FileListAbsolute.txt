@@ -1,0 +1,14 @@
+C:\C#\0617\ExceptionSamples\ExceptionSample001\bin\Debug\net10.0\ExceptionSample001.exe
+C:\C#\0617\ExceptionSamples\ExceptionSample001\bin\Debug\net10.0\ExceptionSample001.deps.json
+C:\C#\0617\ExceptionSamples\ExceptionSample001\bin\Debug\net10.0\ExceptionSample001.runtimeconfig.json
+C:\C#\0617\ExceptionSamples\ExceptionSample001\bin\Debug\net10.0\ExceptionSample001.dll
+C:\C#\0617\ExceptionSamples\ExceptionSample001\bin\Debug\net10.0\ExceptionSample001.pdb
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\ExceptionSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\ExceptionSample001.AssemblyInfoInputs.cache
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\ExceptionSample001.AssemblyInfo.cs
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\ExceptionSample001.csproj.CoreCompileInputs.cache
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\ExceptionSample001.dll
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\refint\ExceptionSample001.dll
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\ExceptionSample001.pdb
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\ExceptionSample001.genruntimeconfig.cache
+C:\C#\0617\ExceptionSamples\ExceptionSample001\obj\Debug\net10.0\ref\ExceptionSample001.dll

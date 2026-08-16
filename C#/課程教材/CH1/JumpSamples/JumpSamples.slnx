@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="BreakSample/BreakSample.csproj" />
+  <Project Path="ContinueSample/ContinueSample.csproj" />
+  <Project Path="ReturnSample001/ReturnSample001.csproj" />
+</Solution>

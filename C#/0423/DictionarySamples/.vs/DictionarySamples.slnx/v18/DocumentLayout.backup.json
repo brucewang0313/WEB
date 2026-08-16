@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\DictionarySamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E765117-28C8-45D9-AC5E-819F7B6234A4}|DictionarySample001\\DictionarySample001.csproj|c:\\c#\\dictionarysamples\\dictionarysample001\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E765117-28C8-45D9-AC5E-819F7B6234A4}|DictionarySample001\\DictionarySample001.csproj|solutionrelative:dictionarysample001\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E765117-28C8-45D9-AC5E-819F7B6234A4}|DictionarySample001\\DictionarySample001.csproj|c:\\c#\\dictionarysamples\\dictionarysample001\\myrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E765117-28C8-45D9-AC5E-819F7B6234A4}|DictionarySample001\\DictionarySample001.csproj|solutionrelative:dictionarysample001\\myrectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E765117-28C8-45D9-AC5E-819F7B6234A4}|DictionarySample001\\DictionarySample001.csproj|c:\\c#\\dictionarysamples\\dictionarysample001\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E765117-28C8-45D9-AC5E-819F7B6234A4}|DictionarySample001\\DictionarySample001.csproj|solutionrelative:dictionarysample001\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyRectangle.cs",
+              "DocumentMoniker": "C:\\C#\\DictionarySamples\\DictionarySample001\\MyRectangle.cs",
+              "RelativeDocumentMoniker": "DictionarySample001\\MyRectangle.cs",
+              "ToolTip": "C:\\C#\\DictionarySamples\\DictionarySample001\\MyRectangle.cs",
+              "RelativeToolTip": "DictionarySample001\\MyRectangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T04:43:05.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\C#\\DictionarySamples\\DictionarySample001\\Form1.cs",
+              "RelativeDocumentMoniker": "DictionarySample001\\Form1.cs",
+              "ToolTip": "C:\\C#\\DictionarySamples\\DictionarySample001\\Form1.cs",
+              "RelativeToolTip": "DictionarySample001\\Form1.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T04:41:31.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\C#\\DictionarySamples\\DictionarySample001\\Form1.cs",
+              "RelativeDocumentMoniker": "DictionarySample001\\Form1.cs",
+              "ToolTip": "C:\\C#\\DictionarySamples\\DictionarySample001\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "DictionarySample001\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T04:40:25.401Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

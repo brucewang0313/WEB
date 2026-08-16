@@ -1,0 +1,14 @@
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\bin\Debug\net10.0\Nullable_Struct_Sample001.exe
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\bin\Debug\net10.0\Nullable_Struct_Sample001.deps.json
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\bin\Debug\net10.0\Nullable_Struct_Sample001.runtimeconfig.json
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\bin\Debug\net10.0\Nullable_Struct_Sample001.dll
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\bin\Debug\net10.0\Nullable_Struct_Sample001.pdb
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\Nullable_Struct_Sample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\Nullable_Struct_Sample001.AssemblyInfoInputs.cache
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\Nullable_Struct_Sample001.AssemblyInfo.cs
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\Nullable_Struct_Sample001.csproj.CoreCompileInputs.cache
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\Nullable_Struct_Sample001.dll
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\refint\Nullable_Struct_Sample001.dll
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\Nullable_Struct_Sample001.pdb
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\Nullable_Struct_Sample001.genruntimeconfig.cache
+C:\C#\Nullable_Struct_Samples\Nullable_Struct_Sample001\obj\Debug\net10.0\ref\Nullable_Struct_Sample001.dll

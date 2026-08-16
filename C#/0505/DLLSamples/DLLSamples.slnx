@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DLLSample001/DLLSample001.csproj" />
+  <Project Path="MyLibrary/MyLibrary.csproj" />
+</Solution>

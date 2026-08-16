@@ -1,0 +1,14 @@
+C:\C#\0612\DelegateSample001\DelegateSamples\bin\Debug\net10.0\DelegateSample001.exe
+C:\C#\0612\DelegateSample001\DelegateSamples\bin\Debug\net10.0\DelegateSample001.deps.json
+C:\C#\0612\DelegateSample001\DelegateSamples\bin\Debug\net10.0\DelegateSample001.runtimeconfig.json
+C:\C#\0612\DelegateSample001\DelegateSamples\bin\Debug\net10.0\DelegateSample001.dll
+C:\C#\0612\DelegateSample001\DelegateSamples\bin\Debug\net10.0\DelegateSample001.pdb
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\DelegateSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\DelegateSample001.AssemblyInfoInputs.cache
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\DelegateSample001.AssemblyInfo.cs
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\DelegateSample001.csproj.CoreCompileInputs.cache
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\DelegateSample001.dll
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\refint\DelegateSample001.dll
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\DelegateSample001.pdb
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\DelegateSample001.genruntimeconfig.cache
+C:\C#\0612\DelegateSample001\DelegateSamples\obj\Debug\net10.0\ref\DelegateSample001.dll

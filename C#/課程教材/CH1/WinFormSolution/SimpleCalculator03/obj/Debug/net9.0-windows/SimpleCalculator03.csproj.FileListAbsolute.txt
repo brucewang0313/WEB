@@ -1,0 +1,16 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\bin\Debug\net9.0-windows\SimpleCalculator03.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\bin\Debug\net9.0-windows\SimpleCalculator03.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\bin\Debug\net9.0-windows\SimpleCalculator03.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\bin\Debug\net9.0-windows\SimpleCalculator03.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\bin\Debug\net9.0-windows\SimpleCalculator03.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.Form1.resources
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.csproj.GenerateResource.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\refint\SimpleCalculator03.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\SimpleCalculator03.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\WinFormSolution\SimpleCalculator03\obj\Debug\net9.0-windows\ref\SimpleCalculator03.dll

@@ -1,0 +1,17 @@
+#Linux或macOS下的curl命令:
+
+curl https://api.openai.com/v1/completions \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer sk-JxDZoyD8k326Bp1sEUyWT3…" \
+  -d '{
+    "model": "text-davinci-003",
+    "prompt": "Say this is a test",
+    "max_tokens": 7,
+    "temperature": 0
+  }'
+
+#拉平成一行
+curl "https://api.openai.com/v1/completions" -H "Content-Type: application/json" -H "Authorization: Bearer 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" -d '{ "model": "text-davinci-003","prompt": "Say this is a test", "max_tokens": 7,"temperature": 0}'
+
+#Windows命令修正
+curl https://api.openai.com/v1/completions -H "Content-Type: application/json" -H "Authorization: Bearer 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" -d "{ \"model\": \"text-davinci-003\",\"prompt\": \"什麼是ChatGPT?\", \"max_tokens\": 2048,\"temperature\": 0}"

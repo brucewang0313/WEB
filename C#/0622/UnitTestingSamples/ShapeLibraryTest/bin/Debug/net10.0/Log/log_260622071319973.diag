@@ -1,0 +1,15 @@
+2026-06-22T07:13:19.9829252+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 2.0.2+88c9fc53a3b4f0fdf6b29a54e0e9f39dd44d9ede
+2026-06-22T07:13:19.9980898+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-06-22T07:13:19.9990760+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-06-22T07:13:19.9990805+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 07:13:19.955
+2026-06-22T07:13:19.9991644+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 23932
+2026-06-22T07:13:19.9991960+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 10.0.9
+2026-06-22T07:13:19.9992195+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.9\System.Private.CoreLib.dll
+2026-06-22T07:13:19.9992287+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-06-22T07:13:19.9993070+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll
+2026-06-22T07:13:19.9994730+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\Log --results-directory C:\C#\0622\UnitTestingSamples\TestResults --client-port 61125'
+2026-06-22T07:13:20.0004481+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-06-22T07:13:20.0413179+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-06-22T07:13:20.0604252+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-06-22T07:13:20.3203383+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '4.0.2' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2026-06-22T07:13:20.4151760+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 4 tests from source C:\C#\0622\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll

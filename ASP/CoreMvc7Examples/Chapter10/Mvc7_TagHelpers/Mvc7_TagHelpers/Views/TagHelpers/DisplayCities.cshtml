@@ -1,0 +1,21 @@
+﻿@model  List<string>
+
+@{
+    ViewData["Title"] = "DisplayCountries";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>Display Countries</h1>
+</div>
+
+
+
+你選擇的縣市有:
+<ul>
+    @foreach(var item in Model)
+    {
+        <li>@item</li>
+    }
+</ul>
+
+<a href="@ViewContext.HttpContext.Request.Headers["Referer"].ToString()" class="btn btn-primary">Back返回上一頁</a>

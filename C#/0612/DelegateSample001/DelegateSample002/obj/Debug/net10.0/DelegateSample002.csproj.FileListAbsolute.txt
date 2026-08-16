@@ -1,0 +1,14 @@
+C:\C#\0612\DelegateSample001\DelegateSample002\bin\Debug\net10.0\DelegateSample002.exe
+C:\C#\0612\DelegateSample001\DelegateSample002\bin\Debug\net10.0\DelegateSample002.deps.json
+C:\C#\0612\DelegateSample001\DelegateSample002\bin\Debug\net10.0\DelegateSample002.runtimeconfig.json
+C:\C#\0612\DelegateSample001\DelegateSample002\bin\Debug\net10.0\DelegateSample002.dll
+C:\C#\0612\DelegateSample001\DelegateSample002\bin\Debug\net10.0\DelegateSample002.pdb
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\DelegateSample002.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\DelegateSample002.AssemblyInfoInputs.cache
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\DelegateSample002.AssemblyInfo.cs
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\DelegateSample002.csproj.CoreCompileInputs.cache
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\DelegateSample002.dll
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\refint\DelegateSample002.dll
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\DelegateSample002.pdb
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\DelegateSample002.genruntimeconfig.cache
+C:\C#\0612\DelegateSample001\DelegateSample002\obj\Debug\net10.0\ref\DelegateSample002.dll

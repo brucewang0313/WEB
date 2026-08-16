@@ -1,0 +1,56 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ConfigOptions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Config控制器
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Config/ReadConfig">在Controller存組態設定</a>
+                        <a class="dropdown-item" href="~/Config/InjectConfigView">將IConfiguration直接注入View</a>
+                        <a class="dropdown-item" href="~/Config/ReadJsonConfig">自訂FutureCorp.json組態檔的載入與讀取</a>
+                        <a class="dropdown-item" href="~/Config/ReadIniConfig">自訂Mobile.ini組態檔的載入與讀取</a>
+                        <a class="dropdown-item" href="~/Config/ReadXmlConfig">自訂Computer.xml組態檔的載入與讀取</a>
+                        <a class="dropdown-item" href="~/Config/GetValue">用GetValue()存取組態值</a>
+                        <a class="dropdown-item" href="~/Config/GetSection">用GetSection()方法取得組態Section區段物件</a>
+                        <a class="dropdown-item" href="~/Config/ListConfig">ListConfig</a>
+                    </div>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Bind控制器
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Bind/BindToClass">將組態Bind繫結至Class類別</a>
+                        <a class="dropdown-item" href="~/Bind/BindToObjectGraph">將組態資料繫結至Object Graph</a>
+                        <a class="dropdown-item" href="~/Bind/BindToArray">將組態資料繫結至陣列</a>
+                    </div>
+                </li>
+                &emsp;
+                <li class="nav-item dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                        Options控制器
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="~/Options/FoodWithOptions">FoodWithOptions</a>
+                        <a class="dropdown-item" href="~/Options/SelectDeviceOptions">Select Tag Helper結合Options Pattern</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

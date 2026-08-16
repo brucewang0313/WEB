@@ -1,0 +1,100 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "AnchorTagHelper";
+    int counter = 1;
+
+    var ProductParameters = new Dictionary<string, string>
+    {
+        { "ProductId", "3" },
+        { "Available", "true" }
+    };
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>Anchor Tag Helper</h1>
+</div>
+
+<div class="alert alert-success">@(counter++).  asp-action="About"</div>
+<a asp-action="About">About</a>
+
+<div class="alert alert-success">@(counter++). asp-controller & asp-action</div>
+<a asp-controller="Products"
+   asp-action="Index">Products/Index</a>
+
+<div class="alert alert-success">@(counter++). asp-area</div>
+<a asp-area="Blogs"
+   asp-controller="Home"
+   asp-action="About">Area的Blogs/Blog/About</a>
+
+<br />
+@Html.ActionLink("Area的Blogs/Home/About", "About", "Home", new { area = "Blogs" })
+
+<br />
+<a href='@Url.Action("About", "Home", new { area="Blogs" })'>Area的Blogs/Blog/About</a>
+
+<div class="alert alert-success">@(counter++). asp-route-{value}, asp-route-id :  路由參數名稱id </div>
+<a asp-controller="Products"
+   asp-action="Details"
+   asp-route-id="@Model.ProductId">Product Id : @Model.ProductId</a>
+<br />
+
+<div class="alert alert-success">@(counter++). asp-route-{value}, asp-route-productid : 路由參數名稱productid </div>
+<a asp-controller="Products"
+   asp-action="Details"
+   asp-route-productid="@Model.ProductId">productid: @Model.ProductId</a>
+<section>
+    <h4><strong>說明:</strong></h4>
+    <div>以上路由參數productid,因為Details()沒有接收這樣的參數名稱,所以找不到此路由</div>
+    <div>故顯示https://localhost:7053/Products/Details?productid=1</div>
+    <div>在此用錯誤方式突顯對比前一例,強調正確的asp-route-{value}該如何宣告</div>
+    <div>但亦可利用此特性, 刻意製作出Query String查詢參數型式</div>
+</section>
+
+<div class="alert alert-success">@(counter++). 使用具名路由 : asp-route="ProductsEvals"</div>
+<a asp-route="ProductsEvals">Products Evaluations</a>
+<br />
+
+<div class="alert alert-success">@(counter++). 用asp-route="ProductsAvailable" & asp-all-route-data="ProductsParameters"指定Dictionary路由參數</div>
+<a asp-route="ProductsAvailable" asp-all-route-data="ProductParameters">Products Available</a>
+
+<div class="alert alert-success">@(counter++). 用asp-route-{value}指定多個路由參數</div>
+<a asp-controller="Products"
+   asp-action="Available"
+   asp-route-productid="1"
+   asp-route-available="true">用asp-route-{value}指定多個路由參數</a>
+
+<br />
+<a asp-controller="Products"
+   asp-action="Eval"
+   asp-route-productid="2"
+   asp-route-available="true">用asp-route-{value}指定多個路由參數</a>
+
+<br />
+<a asp-route="ProductsAvailable"
+   asp-route-productid="3"
+   asp-route-available="true">用asp-route-{value}指定多個路由參數</a>
+
+<div class="alert alert-success">@(counter++). asp-route + asp-fragment</div>
+<a asp-route="ProductsAvailable"
+   asp-fragment="Description">Products Available + fragment</a>
+
+<div class="alert alert-success">@(counter++). asp-protocol</div>
+<a asp-controller="Home"
+   asp-action="Privacy">Home/Privacy</a>
+<br />
+<a asp-protocol="https"
+   asp-controller="Home"
+   asp-action="Privacy">Home/Privacy</a>
+<br />
+<a asp-protocol="http"
+   asp-controller="Home"
+   asp-action="Privacy">Home/Privacy</a>
+
+<div class="alert alert-success">@(counter++). asp-host</div>
+<a asp-protocol="https"
+   asp-host="codemagic.com"
+   asp-controller="Home"
+   asp-action="About">Code Magic</a>
+
+

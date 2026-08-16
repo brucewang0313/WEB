@@ -1,0 +1,16 @@
+C:\C#\MyFirstWinForm\SimpleCalculator03\bin\Debug\net10.0-windows\SimpleCalculator03.exe
+C:\C#\MyFirstWinForm\SimpleCalculator03\bin\Debug\net10.0-windows\SimpleCalculator03.deps.json
+C:\C#\MyFirstWinForm\SimpleCalculator03\bin\Debug\net10.0-windows\SimpleCalculator03.runtimeconfig.json
+C:\C#\MyFirstWinForm\SimpleCalculator03\bin\Debug\net10.0-windows\SimpleCalculator03.dll
+C:\C#\MyFirstWinForm\SimpleCalculator03\bin\Debug\net10.0-windows\SimpleCalculator03.pdb
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.Form1.resources
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.csproj.GenerateResource.cache
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.AssemblyInfoInputs.cache
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.AssemblyInfo.cs
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.csproj.CoreCompileInputs.cache
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.dll
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\refint\SimpleCalculator03.dll
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.pdb
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\SimpleCalculator03.genruntimeconfig.cache
+C:\C#\MyFirstWinForm\SimpleCalculator03\obj\Debug\net10.0-windows\ref\SimpleCalculator03.dll

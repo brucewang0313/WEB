@@ -1,0 +1,16 @@
+C:\C#\TextFileSamples\TextFileSample001\bin\Debug\net10.0-windows\TextFileSample001.exe
+C:\C#\TextFileSamples\TextFileSample001\bin\Debug\net10.0-windows\TextFileSample001.deps.json
+C:\C#\TextFileSamples\TextFileSample001\bin\Debug\net10.0-windows\TextFileSample001.runtimeconfig.json
+C:\C#\TextFileSamples\TextFileSample001\bin\Debug\net10.0-windows\TextFileSample001.dll
+C:\C#\TextFileSamples\TextFileSample001\bin\Debug\net10.0-windows\TextFileSample001.pdb
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.Form1.resources
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.csproj.GenerateResource.cache
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.AssemblyInfoInputs.cache
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.AssemblyInfo.cs
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.csproj.CoreCompileInputs.cache
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.dll
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\refint\TextFileSample001.dll
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.pdb
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\TextFileSample001.genruntimeconfig.cache
+C:\C#\TextFileSamples\TextFileSample001\obj\Debug\net10.0-windows\ref\TextFileSample001.dll

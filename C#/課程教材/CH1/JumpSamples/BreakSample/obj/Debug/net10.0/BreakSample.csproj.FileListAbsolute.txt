@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\refint\BreakSample.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH1\JumpSamples\BreakSample\obj\Debug\net10.0\ref\BreakSample.dll

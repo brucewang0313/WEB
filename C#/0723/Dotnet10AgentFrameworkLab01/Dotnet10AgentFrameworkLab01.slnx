@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsoleApp2/ConsoleApp2.csproj" />
+  <Project Path="Dotnet10AgentFrameworkLab/Dotnet10AgentFrameworkLab.csproj" />
+</Solution>

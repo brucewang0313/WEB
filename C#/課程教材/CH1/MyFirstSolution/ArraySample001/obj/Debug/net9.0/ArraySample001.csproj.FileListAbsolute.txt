@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\bin\Debug\net9.0\ArraySample001.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\bin\Debug\net9.0\ArraySample001.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\bin\Debug\net9.0\ArraySample001.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\bin\Debug\net9.0\ArraySample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\bin\Debug\net9.0\ArraySample001.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\ArraySample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\ArraySample001.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\ArraySample001.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\ArraySample001.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\ArraySample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\refint\ArraySample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\ArraySample001.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\ArraySample001.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\ArraySample001\obj\Debug\net9.0\ref\ArraySample001.dll

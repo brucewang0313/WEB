@@ -1,0 +1,11 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using Mvc7_DependencyInjection.Models;
+global using Mvc7_DependencyInjection.ViewModels;
+global using Mvc7_DependencyInjection.Interfaces;
+global using Mvc7_DependencyInjection.Services;
+global using Mvc7_DependencyInjection.Options;
+global using Mvc7_DependencyInjection.Helpers;
+global using Microsoft.AspNetCore.Mvc.Rendering;
+global using Microsoft.AspNetCore.Mvc;

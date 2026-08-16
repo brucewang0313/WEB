@@ -1,0 +1,16 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\bin\Debug\net9.0-windows\DictionarySample001.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\bin\Debug\net9.0-windows\DictionarySample001.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\bin\Debug\net9.0-windows\DictionarySample001.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\bin\Debug\net9.0-windows\DictionarySample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\bin\Debug\net9.0-windows\DictionarySample001.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.Form1.resources
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.csproj.GenerateResource.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\refint\DictionarySample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\DictionarySample001.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH2\DictionarySamples\DictionarySample001\obj\Debug\net9.0-windows\ref\DictionarySample001.dll

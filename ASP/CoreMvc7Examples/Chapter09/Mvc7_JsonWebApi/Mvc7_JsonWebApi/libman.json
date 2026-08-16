@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "bootstrap@5.2.2",
+      "destination": "wwwroot/lib/bootstrap/"
+    },
+    {
+      "library": "Chart.js@2.9.4",
+      "destination": "wwwroot/lib/Chart.js/",
+      "files": [
+        "Chart.bundle.js",
+        "Chart.bundle.min.js",
+        "Chart.css",
+        "Chart.js",
+        "Chart.min.css",
+        "Chart.min.js"
+      ]
+    }
+  ]
+}

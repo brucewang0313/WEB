@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Card>
+
+@{
+    ViewData["Title"] = "DirectNewCardContext";
+}
+
+<div class="h-100 p-3 text-white bg-success rounded-3 mb-4">
+    <h3>直接初始化CardContext類別</h3>
+    <h5>需配合DbContext中OnConfiguring方法設定Provider及資料庫連線</h5>
+</div>
+
+<div class="row">
+    @foreach (var card in Model)
+    {
+        <partial name="_CardPartial" model="card" />
+    }
+
+</div>
+
+@section topCSS{
+    <link href="~/css/card.css" rel="stylesheet" />
+}

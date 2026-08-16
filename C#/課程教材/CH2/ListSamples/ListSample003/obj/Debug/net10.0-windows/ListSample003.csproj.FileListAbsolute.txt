@@ -1,0 +1,16 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\bin\Debug\net10.0-windows\ListSample003.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\bin\Debug\net10.0-windows\ListSample003.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\bin\Debug\net10.0-windows\ListSample003.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\bin\Debug\net10.0-windows\ListSample003.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\bin\Debug\net10.0-windows\ListSample003.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.Form1.resources
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.csproj.GenerateResource.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\refint\ListSample003.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ListSample003.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample003\obj\Debug\net10.0-windows\ref\ListSample003.dll

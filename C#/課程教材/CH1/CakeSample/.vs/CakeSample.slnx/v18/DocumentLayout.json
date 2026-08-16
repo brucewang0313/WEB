@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA8AA24-A8B6-3D03-0E97-C6BD7BAD349B}|CakeSample\\CakeSample.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch1\\cakesample\\cakesample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA8AA24-A8B6-3D03-0E97-C6BD7BAD349B}|CakeSample\\CakeSample.csproj|solutionrelative:cakesample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B6E435E-BAEA-42AE-A527-9D0A06A26E9E}|CakeSample\\CakeSample.csproj|C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\cakesample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7B6E435E-BAEA-42AE-A527-9D0A06A26E9E}|CakeSample\\CakeSample.csproj|solutionrelative:cakesample\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA8AA24-A8B6-3D03-0E97-C6BD7BAD349B}|CakeSample\\CakeSample.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch1\\cakesample\\cakesample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BA8AA24-A8B6-3D03-0E97-C6BD7BAD349B}|CakeSample\\CakeSample.csproj|solutionrelative:cakesample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "RelativeDocumentMoniker": "CakeSample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "RelativeToolTip": "CakeSample\\\u96DE\u86CB\u7CD5\u6A21\u5177.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:05:31.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\Form1.cs",
+              "RelativeDocumentMoniker": "CakeSample\\Form1.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\Form1.cs",
+              "RelativeToolTip": "CakeSample\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:05:00.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH1\\CakeSample\\CakeSample\\Form1.cs",
+              "RelativeDocumentMoniker": "CakeSample\\Form1.cs",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\CakeSample\\CakeSample\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "..\\..\\..\\..\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH1\\CakeSample\\CakeSample\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T16:03:47.561Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

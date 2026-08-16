@@ -1,0 +1,14 @@
+C:\C#\0617\IteratorSamples\IteratorSample001\bin\Debug\net10.0\IteratorSample001.exe
+C:\C#\0617\IteratorSamples\IteratorSample001\bin\Debug\net10.0\IteratorSample001.deps.json
+C:\C#\0617\IteratorSamples\IteratorSample001\bin\Debug\net10.0\IteratorSample001.runtimeconfig.json
+C:\C#\0617\IteratorSamples\IteratorSample001\bin\Debug\net10.0\IteratorSample001.dll
+C:\C#\0617\IteratorSamples\IteratorSample001\bin\Debug\net10.0\IteratorSample001.pdb
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\IteratorSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\IteratorSample001.AssemblyInfoInputs.cache
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\IteratorSample001.AssemblyInfo.cs
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\IteratorSample001.csproj.CoreCompileInputs.cache
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\IteratorSample001.dll
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\refint\IteratorSample001.dll
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\IteratorSample001.pdb
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\IteratorSample001.genruntimeconfig.cache
+C:\C#\0617\IteratorSamples\IteratorSample001\obj\Debug\net10.0\ref\IteratorSample001.dll

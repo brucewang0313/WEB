@@ -1,0 +1,21 @@
+﻿@model IEnumerable<Card>
+
+@{
+    ViewData["Title"] = "CardContextByIServiceProvider";
+}
+
+<div class="h-100 p-3 text-white bg-danger rounded-3 mb-4">
+    <h3>透過IServiceProvider介面的GetService()或GetRequiredService()方法取得CardContext實例</h3>
+</div>
+
+<div class="row">
+    @foreach (var card in Model)
+    {
+        <partial name="_CardPartial" model="card" />
+    }
+
+</div>
+
+@section topCSS{
+    <link href="~/css/card.css" rel="stylesheet" />
+}

@@ -1,0 +1,76 @@
+﻿@model Employee
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4 class="alert alert-danger">員工個人資料明細</h4>
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(m => m.Name)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(m => m.Mobile)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Mobile)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(m => m.Email)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(m => m.Department)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Department)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(m => m.Title)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(m => m.Title)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">編輯</a> |
+    <a asp-action="Index">返回員工列表</a>
+</div>
+
+@section topCSS{
+    <style>
+        .row {
+            background-color: lightblue !important;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        dt {
+            border-radius: 3px 3px 3px 3px !important;
+            background-color: aquamarine !important;
+            border-width: 1px !important;
+            border-style: solid;
+        }
+
+        dd {
+            border-bottom-width: 2px !important;
+            border-color: gray !important;
+            border-bottom: dashed;
+            margin-left: 15px;
+        }
+
+    </style>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

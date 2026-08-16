@@ -1,0 +1,45 @@
+﻿@model CityViewModel
+
+@{
+    ViewData["Title"] = "CountriesCheckBox";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>Countries CheckBox</h1>
+</div>
+
+
+<form asp-controller="TagHelpers" asp-action="CitiesCheckbox" method="post">
+    <div class="form-group">
+        @foreach (var item in Model.Cities)
+        {
+            <input id="@(item.Text+item.Value)" name="SelectedCities" type="checkbox" value="@item.Text" /> @item.Text
+
+            @*@Html.CheckBox(item.Text)*@
+        }
+    </div>
+    @Html.ValidationMessage("ErrorReport", new { @class = "text-danger" })
+
+    <p id="validationMsg" class="text-danger"></p>
+    <p id="msg" class="text-warning"></p>
+    <br /><br />
+    <button id="btnSubmit" type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section endJS
+{
+    <script>
+        //JavaScript前端驗證
+        $(function () {
+            $('#btnSubmit').on('click', function (e) {
+                var counter = $('input[name="SelectedCities"]:checked').length;
+                if (counter < 1) {
+                    //alert('請至少選擇一個縣市!');
+                    $("#validationMsg").html('<h1>請至少選擇一個縣市!<h1>');
+                    $("#msg").text('請選擇一個縣市!')
+                    e.preventDefault();
+                }
+            })
+        });
+    </script>
+}

@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EA0C5D-5D5C-45AB-BA14-48D9293D7863}|Mvc7_Chartjs\\Mvc7_Chartjs.csproj|c:\\asp\\coremvc7examples\\chapter08\\mvc7_chartjs\\mvc7_chartjs\\controllers\\chartsdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EA0C5D-5D5C-45AB-BA14-48D9293D7863}|Mvc7_Chartjs\\Mvc7_Chartjs.csproj|solutionrelative:mvc7_chartjs\\controllers\\chartsdbcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EA0C5D-5D5C-45AB-BA14-48D9293D7863}|Mvc7_Chartjs\\Mvc7_Chartjs.csproj|c:\\asp\\coremvc7examples\\chapter08\\mvc7_chartjs\\mvc7_chartjs\\controllers\\chartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6EA0C5D-5D5C-45AB-BA14-48D9293D7863}|Mvc7_Chartjs\\Mvc7_Chartjs.csproj|solutionrelative:mvc7_chartjs\\controllers\\chartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EA0C5D-5D5C-45AB-BA14-48D9293D7863}|Mvc7_Chartjs\\Mvc7_Chartjs.csproj|c:\\asp\\coremvc7examples\\chapter08\\mvc7_chartjs\\mvc7_chartjs\\htmlpages\\linestyle.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6EA0C5D-5D5C-45AB-BA14-48D9293D7863}|Mvc7_Chartjs\\Mvc7_Chartjs.csproj|solutionrelative:mvc7_chartjs\\htmlpages\\linestyle.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6EA0C5D-5D5C-45AB-BA14-48D9293D7863}|Mvc7_Chartjs\\Mvc7_Chartjs.csproj|c:\\asp\\coremvc7examples\\chapter08\\mvc7_chartjs\\mvc7_chartjs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6EA0C5D-5D5C-45AB-BA14-48D9293D7863}|Mvc7_Chartjs\\Mvc7_Chartjs.csproj|solutionrelative:mvc7_chartjs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 220,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChartsDBController.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\Mvc7_Chartjs\\Controllers\\ChartsDBController.cs",
+              "RelativeDocumentMoniker": "Mvc7_Chartjs\\Controllers\\ChartsDBController.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\Mvc7_Chartjs\\Controllers\\ChartsDBController.cs",
+              "RelativeToolTip": "Mvc7_Chartjs\\Controllers\\ChartsDBController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T04:22:21.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChartsController.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\Mvc7_Chartjs\\Controllers\\ChartsController.cs",
+              "RelativeDocumentMoniker": "Mvc7_Chartjs\\Controllers\\ChartsController.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\Mvc7_Chartjs\\Controllers\\ChartsController.cs",
+              "RelativeToolTip": "Mvc7_Chartjs\\Controllers\\ChartsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T04:22:21.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LineStyle.html",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\Mvc7_Chartjs\\HtmlPages\\LineStyle.html",
+              "RelativeDocumentMoniker": "Mvc7_Chartjs\\HtmlPages\\LineStyle.html",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\Mvc7_Chartjs\\HtmlPages\\LineStyle.html",
+              "RelativeToolTip": "Mvc7_Chartjs\\HtmlPages\\LineStyle.html",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADUAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-26T04:22:22.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\Mvc7_Chartjs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_Chartjs\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter08\\Mvc7_Chartjs\\Mvc7_Chartjs\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Mvc7_Chartjs\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T04:22:22.003Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

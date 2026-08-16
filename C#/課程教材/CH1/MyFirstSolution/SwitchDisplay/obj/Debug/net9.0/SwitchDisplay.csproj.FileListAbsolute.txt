@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\bin\Debug\net9.0\SwitchDisplay.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\bin\Debug\net9.0\SwitchDisplay.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\bin\Debug\net9.0\SwitchDisplay.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\bin\Debug\net9.0\SwitchDisplay.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\bin\Debug\net9.0\SwitchDisplay.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\SwitchDisplay.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\SwitchDisplay.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\SwitchDisplay.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\SwitchDisplay.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\SwitchDisplay.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\refint\SwitchDisplay.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\SwitchDisplay.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\SwitchDisplay.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH1\MyFirstSolution\SwitchDisplay\obj\Debug\net9.0\ref\SwitchDisplay.dll

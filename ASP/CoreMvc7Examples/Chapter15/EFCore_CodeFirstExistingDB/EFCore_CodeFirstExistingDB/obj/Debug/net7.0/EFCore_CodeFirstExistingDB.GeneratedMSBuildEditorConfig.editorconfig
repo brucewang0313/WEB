@@ -1,0 +1,148 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EFCore_CodeFirstExistingDB
+build_property.RootNamespace = EFCore_CodeFirstExistingDB
+build_property.ProjectDir = C:\Web\ASP\CoreMvc7Examples\Chapter15\EFCore_CodeFirstExistingDB\EFCore_CodeFirstExistingDB\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Web\ASP\CoreMvc7Examples\Chapter15\EFCore_CodeFirstExistingDB\EFCore_CodeFirstExistingDB
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Dapper/OrdersDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFwcGVyXE9yZGVyc0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Dapper/OrdersDetailsDynamic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFwcGVyXE9yZGVyc0RldGFpbHNEeW5hbWljLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Employees/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Employees/GetConnectionString.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEdldENvbm5lY3Rpb25TdHJpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Employees/ListCompact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXExpc3RDb21wYWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/FilteringData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRmlsdGVyaW5nRGF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/FromSql.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRnJvbVNxbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/FromSqlRaw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRnJvbVNxbFJhdy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/InOperator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5PcGVyYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/QueryAllData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUXVlcnlBbGxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/QuerySingleData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUXVlcnlTaW5nbGVEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/QueryType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUXVlcnlUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/RawSqlQuery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcUmF3U3FsUXVlcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Products/SkipTake.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2tpcFRha2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Shared/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter15/EFCore_CodeFirstExistingDB/EFCore_CodeFirstExistingDB/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-e2wjsvxlkv

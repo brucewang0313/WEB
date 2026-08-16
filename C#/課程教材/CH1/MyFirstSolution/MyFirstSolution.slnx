@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="ArraySample001/ArraySample001.csproj" />
+  <Project Path="ConditionDisplay/ConditionDisplay.csproj" />
+  <Project Path="MyFirstApp/MyFirstApp.csproj" />
+  <Project Path="ReadThenDisplay/ReadThenDisplay.csproj" />
+  <Project Path="SwitchDisplay/SwitchDisplay.csproj" />
+  <Project Path="SwitchDisplay2/SwitchDisplay2.csproj" />
+</Solution>

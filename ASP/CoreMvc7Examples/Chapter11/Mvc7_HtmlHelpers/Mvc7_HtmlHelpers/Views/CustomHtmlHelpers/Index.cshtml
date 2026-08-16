@@ -1,0 +1,24 @@
+﻿@using Mvc7_HtmlHelpers.Helpers
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="jumbotron">
+    <h2>自訂HTML Helpers</h2>
+</div>
+
+@LabelHelper.Label("Name", "姓名")
+@Html.TextBox("Name")
+
+<br />
+
+@Html.Label("Mobile", "行動電話", "", "")
+@Html.TextBox("Mobile")
+
+<br />
+@Html.Image("ps", Url.Content("~/images/PS4.jpeg"), "Play Station")
+
+@Html.Image("ps4", Url.Content("~/images/PS4.jpeg"), "Play Station 4", new { style = "color:red;border:5px dashed red", onclick="alert('Play Station!');" })
+
+

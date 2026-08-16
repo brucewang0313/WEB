@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11910D12-6D86-44DE-B00F-F44FED6F34D4}|ForeachLoopSample\\ForeachLoopSample.csproj|c:\\c#\u7DF4\u7FD2\\loopsamples\\foreachloopsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11910D12-6D86-44DE-B00F-F44FED6F34D4}|ForeachLoopSample\\ForeachLoopSample.csproj|solutionrelative:foreachloopsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{272F56F9-3866-4A7A-A148-A7630D7B275C}|DoWhileLoopSample\\DoWhileLoopSample.csproj|c:\\c#\u7DF4\u7FD2\\loopsamples\\dowhileloopsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{272F56F9-3866-4A7A-A148-A7630D7B275C}|DoWhileLoopSample\\DoWhileLoopSample.csproj|solutionrelative:dowhileloopsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2125EEC-9877-4B31-94E2-4F6B3E9C01F2}|ForLoopSample\\ForLoopSample.csproj|c:\\c#\u7DF4\u7FD2\\loopsamples\\forloopsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2125EEC-9877-4B31-94E2-4F6B3E9C01F2}|ForLoopSample\\ForLoopSample.csproj|solutionrelative:forloopsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{992CE410-BEB5-4622-84AC-3EE758208CFB}|WhileLoopSample\\WhileLoopSample.csproj|c:\\c#\u7DF4\u7FD2\\loopsamples\\whileloopsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{992CE410-BEB5-4622-84AC-3EE758208CFB}|WhileLoopSample\\WhileLoopSample.csproj|solutionrelative:whileloopsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\ForeachLoopSample\\Program.cs",
+              "RelativeDocumentMoniker": "ForeachLoopSample\\Program.cs",
+              "ToolTip": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\ForeachLoopSample\\Program.cs",
+              "RelativeToolTip": "ForeachLoopSample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:56:39.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\DoWhileLoopSample\\Program.cs",
+              "RelativeDocumentMoniker": "DoWhileLoopSample\\Program.cs",
+              "ToolTip": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\DoWhileLoopSample\\Program.cs",
+              "RelativeToolTip": "DoWhileLoopSample\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:41:48.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\WhileLoopSample\\Program.cs",
+              "RelativeDocumentMoniker": "WhileLoopSample\\Program.cs",
+              "ToolTip": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\WhileLoopSample\\Program.cs",
+              "RelativeToolTip": "WhileLoopSample\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:26:52.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\ForLoopSample\\Program.cs",
+              "RelativeDocumentMoniker": "ForLoopSample\\Program.cs",
+              "ToolTip": "C:\\C#\u7DF4\u7FD2\\LoopSamples\\ForLoopSample\\Program.cs",
+              "RelativeToolTip": "ForLoopSample\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T09:04:01.854Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

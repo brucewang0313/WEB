@@ -1,0 +1,14 @@
+C:\C#\ToStringSamples\CustomToStringSample\bin\Debug\net10.0\CustomToStringSample.exe
+C:\C#\ToStringSamples\CustomToStringSample\bin\Debug\net10.0\CustomToStringSample.deps.json
+C:\C#\ToStringSamples\CustomToStringSample\bin\Debug\net10.0\CustomToStringSample.runtimeconfig.json
+C:\C#\ToStringSamples\CustomToStringSample\bin\Debug\net10.0\CustomToStringSample.dll
+C:\C#\ToStringSamples\CustomToStringSample\bin\Debug\net10.0\CustomToStringSample.pdb
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\CustomToStringSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\CustomToStringSample.AssemblyInfoInputs.cache
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\CustomToStringSample.AssemblyInfo.cs
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\CustomToStringSample.csproj.CoreCompileInputs.cache
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\CustomToStringSample.dll
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\refint\CustomToStringSample.dll
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\CustomToStringSample.pdb
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\CustomToStringSample.genruntimeconfig.cache
+C:\C#\ToStringSamples\CustomToStringSample\obj\Debug\net10.0\ref\CustomToStringSample.dll

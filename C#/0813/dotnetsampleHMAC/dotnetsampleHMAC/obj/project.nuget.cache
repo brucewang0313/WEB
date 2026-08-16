@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KBrJa5cWswk=",
+  "success": true,
+  "projectFilePath": "C:\\Web\\C#\\0813\\dotnetsampleHMAC\\dotnetsampleHMAC\\dotnetsampleHMAC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}

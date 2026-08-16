@@ -1,0 +1,14 @@
+C:\C#練習\MyFirstSolution\ConditionDisplay\bin\Debug\net10.0\ConditionDisplay.exe
+C:\C#練習\MyFirstSolution\ConditionDisplay\bin\Debug\net10.0\ConditionDisplay.deps.json
+C:\C#練習\MyFirstSolution\ConditionDisplay\bin\Debug\net10.0\ConditionDisplay.runtimeconfig.json
+C:\C#練習\MyFirstSolution\ConditionDisplay\bin\Debug\net10.0\ConditionDisplay.dll
+C:\C#練習\MyFirstSolution\ConditionDisplay\bin\Debug\net10.0\ConditionDisplay.pdb
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\ConditionDisplay.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\ConditionDisplay.AssemblyInfoInputs.cache
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\ConditionDisplay.AssemblyInfo.cs
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\ConditionDisplay.csproj.CoreCompileInputs.cache
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\ConditionDisplay.dll
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\refint\ConditionDisplay.dll
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\ConditionDisplay.pdb
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\ConditionDisplay.genruntimeconfig.cache
+C:\C#練習\MyFirstSolution\ConditionDisplay\obj\Debug\net10.0\ref\ConditionDisplay.dll

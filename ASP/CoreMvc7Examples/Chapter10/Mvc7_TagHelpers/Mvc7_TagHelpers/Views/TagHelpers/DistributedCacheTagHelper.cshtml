@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "DistributedCacheTagHelper";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h2>Distributed Cache Tag Helper</h2>
+    <h3>@("<distributed-cach>")和@("<cache>")共用以下10個屬性:</h3>
+    enabled, expires-on, expires-after
+    expires-sliding, vary-by-header
+    vary-by-query, vary-by-route
+    vary-by-cookie, vary-by-user
+    vary-by priority
+</div>
+
+
+<div class="alert alert-success">分散式快取以name作為快取的key</div>
+<distributed-cache name="product-cache-unique-key-topsales">
+    目前時間: @DateTime.Now
+</distributed-cache>

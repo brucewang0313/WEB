@@ -1,0 +1,120 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mvc7_DependencyInjection
+build_property.RootNamespace = Mvc7_DependencyInjection
+build_property.ProjectDir = C:\Web\ASP\CoreMvc7Examples\Chapter13\Mvc7_DependencyInjection\Mvc7_DependencyInjection\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Web\ASP\CoreMvc7Examples\Chapter13\Mvc7_DependencyInjection\Mvc7_DependencyInjection
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Bank/Balance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xCYWxhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Bank/InjectAction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xJbmplY3RBY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Bank/InjectView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xJbmplY3RWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Bank/InjectViewMulti.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFua1xJbmplY3RWaWV3TXVsdGkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Labs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFic1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Options/FoodsOptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3B0aW9uc1xGb29kc09wdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Options/InjectSelectionWithOptions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3B0aW9uc1xJbmplY3RTZWxlY3Rpb25XaXRoT3B0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Options/ViewInjectionOption.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3B0aW9uc1xWaWV3SW5qZWN0aW9uT3B0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Overriding/customHelper.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnJpZGluZ1xjdXN0b21IZWxwZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Overriding/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3ZlcnJpZGluZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Shared/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/ViewInjection/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0luamVjdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/ViewInjection/InjectCityService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0luamVjdGlvblxJbmplY3RDaXR5U2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/ViewInjection/InjectConfiguration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0luamVjdGlvblxJbmplY3RDb25maWd1cmF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/ViewInjection/InjectDeviceData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0luamVjdGlvblxJbmplY3REZXZpY2VEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/ViewInjection/InjectLogger.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0luamVjdGlvblxJbmplY3RMb2dnZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/ViewInjection/InjectZipcodeService.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlld0luamVjdGlvblxJbmplY3RaaXBjb2RlU2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/CoreMvc7Examples/Chapter13/Mvc7_DependencyInjection/Mvc7_DependencyInjection/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wfohse90yv

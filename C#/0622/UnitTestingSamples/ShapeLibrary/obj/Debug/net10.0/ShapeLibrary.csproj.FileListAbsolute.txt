@@ -1,0 +1,11 @@
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\bin\Debug\net10.0\ShapeLibrary.deps.json
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\bin\Debug\net10.0\ShapeLibrary.dll
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\bin\Debug\net10.0\ShapeLibrary.pdb
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.AssemblyInfoInputs.cache
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.AssemblyInfo.cs
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.csproj.CoreCompileInputs.cache
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.dll
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\refint\ShapeLibrary.dll
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.pdb
+C:\C#\0622\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ref\ShapeLibrary.dll

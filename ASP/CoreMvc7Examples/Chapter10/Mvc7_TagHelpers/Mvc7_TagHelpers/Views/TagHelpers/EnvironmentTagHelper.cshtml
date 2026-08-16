@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "EnvironmentTagHelper";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>EnvironmentTagHelper</h1>
+</div>
+
+<environment include="Staging,Development">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+</environment>

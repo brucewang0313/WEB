@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "dotnetsampleHMAC": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

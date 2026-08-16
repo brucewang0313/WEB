@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DelegateSample002/DelegateSample002.csproj" />
+  <Project Path="DelegateSample003/DelegateSample003.csproj" />
+  <Project Path="DelegateSamples/DelegateSample001.csproj" />
+</Solution>

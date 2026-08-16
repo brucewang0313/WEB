@@ -1,0 +1,14 @@
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.AssemblyInfoInputs.cache
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.AssemblyInfo.cs
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.csproj.CoreCompileInputs.cache
+C:\C#\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.exe
+C:\C#\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.deps.json
+C:\C#\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.runtimeconfig.json
+C:\C#\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.dll
+C:\C#\JumpSamples\BreakSample\bin\Debug\net10.0\BreakSample.pdb
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.dll
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\refint\BreakSample.dll
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.pdb
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\BreakSample.genruntimeconfig.cache
+C:\C#\JumpSamples\BreakSample\obj\Debug\net10.0\ref\BreakSample.dll

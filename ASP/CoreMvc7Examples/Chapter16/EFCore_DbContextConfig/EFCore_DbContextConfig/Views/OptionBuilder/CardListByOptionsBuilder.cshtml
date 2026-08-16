@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Card>
+@{
+    ViewData["Title"] = "CardListByOptionsBuilder";
+}
+
+<h1>CardListByOptionsBuilder</h1>
+
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h2>人物牌卡(從List集合資料動態產生)</h2>
+</div>
+
+<div class="row">
+    @foreach (var card in Model)
+    {
+        <partial name="_CardPartial" model="card" />
+    }
+
+</div>
+
+@section topCSS{
+    <link href="~/css/card.css" rel="stylesheet" />
+}

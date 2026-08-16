@@ -1,0 +1,14 @@
+C:\C#\LinqSamples\LinqSample003\bin\Debug\net10.0\LinqSample003.exe
+C:\C#\LinqSamples\LinqSample003\bin\Debug\net10.0\LinqSample003.deps.json
+C:\C#\LinqSamples\LinqSample003\bin\Debug\net10.0\LinqSample003.runtimeconfig.json
+C:\C#\LinqSamples\LinqSample003\bin\Debug\net10.0\LinqSample003.dll
+C:\C#\LinqSamples\LinqSample003\bin\Debug\net10.0\LinqSample003.pdb
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\LinqSample003.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\LinqSample003.AssemblyInfoInputs.cache
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\LinqSample003.AssemblyInfo.cs
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\LinqSample003.csproj.CoreCompileInputs.cache
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\LinqSample003.dll
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\refint\LinqSample003.dll
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\LinqSample003.pdb
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\LinqSample003.genruntimeconfig.cache
+C:\C#\LinqSamples\LinqSample003\obj\Debug\net10.0\ref\LinqSample003.dll

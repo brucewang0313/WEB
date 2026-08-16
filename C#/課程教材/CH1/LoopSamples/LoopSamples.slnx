@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DoWhileLoopSample/DoWhileLoopSample.csproj" />
+  <Project Path="ForeachLoopSample/ForeachLoopSample.csproj" />
+  <Project Path="ForLoopSample/ForLoopSample.csproj" />
+  <Project Path="WhileLoopSample/WhileLoopSample.csproj" />
+</Solution>

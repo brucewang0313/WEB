@@ -1,0 +1,14 @@
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\bin\Debug\net10.0\ValueTupleReturn.exe
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\bin\Debug\net10.0\ValueTupleReturn.deps.json
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\bin\Debug\net10.0\ValueTupleReturn.runtimeconfig.json
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\bin\Debug\net10.0\ValueTupleReturn.dll
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\bin\Debug\net10.0\ValueTupleReturn.pdb
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\ValueTupleReturn.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\ValueTupleReturn.AssemblyInfoInputs.cache
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\ValueTupleReturn.AssemblyInfo.cs
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\ValueTupleReturn.csproj.CoreCompileInputs.cache
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\ValueTupleReturn.dll
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\refint\ValueTupleReturn.dll
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\ValueTupleReturn.pdb
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\ValueTupleReturn.genruntimeconfig.cache
+C:\C#\Nullable_Struct_Samples\ValueTupleReturn\obj\Debug\net10.0\ref\ValueTupleReturn.dll

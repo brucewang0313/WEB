@@ -1,0 +1,16 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\bin\Debug\net10.0-windows\ListSample002.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\bin\Debug\net10.0-windows\ListSample002.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\bin\Debug\net10.0-windows\ListSample002.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\bin\Debug\net10.0-windows\ListSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\bin\Debug\net10.0-windows\ListSample002.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.Form1.resources
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.csproj.GenerateResource.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\refint\ListSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ListSample002.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH2\ListSamples\ListSample002\obj\Debug\net10.0-windows\ref\ListSample002.dll

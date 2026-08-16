@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ConditionDisplay/ConditionDisplay.csproj" />
+  <Project Path="MyFirstApp/MyFirstApp.csproj" />
+  <Project Path="ReadThenDisplay/ReadThenDisplay.csproj" />
+  <Project Path="SwitchDisplay/SwitchDisplay.csproj" />
+</Solution>

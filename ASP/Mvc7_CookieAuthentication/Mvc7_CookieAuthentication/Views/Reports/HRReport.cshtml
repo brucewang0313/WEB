@@ -1,0 +1,13 @@
+﻿@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "HRReport";
+}
+
+<h1>HR人力資源報表</h1>
+
+<h2>僅限Administrator角色存取</h2>
+<h2>
+    你所屬角色是: @(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role).Value)
+</h2>
+

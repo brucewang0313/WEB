@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ArraySample001/1.0.0": {
+        "runtime": {
+          "ArraySample001.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArraySample001/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

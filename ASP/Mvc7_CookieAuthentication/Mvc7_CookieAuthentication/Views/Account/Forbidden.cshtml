@@ -1,0 +1,32 @@
+﻿@using System.Security.Claims
+
+@{
+    ViewData["Title"] = "Forbidden";
+
+}
+
+<h1>Forbidden</h1>
+<p>本報表僅限Administrator群組存取</p>
+
+<h2>@(User.Identity.Name)雖通過帳密驗證</h2>
+但你所屬群組是@(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role))
+<ul>
+    @foreach (var roleClaim in User.Claims.Where(c => c.Type == ClaimTypes.Role))
+    {
+        {
+            List<string> roles = Newtonsoft.Json.JsonConvert.DeserializeObject<List<string>>(roleClaim.Value);
+
+            if (roles.Count>0)
+            {
+                foreach (var role in roles)
+                {
+                    <li>@role</li>
+                }
+            }
+            else
+            {
+                <li>不屬於任何角色群組</li>
+            }
+        }
+    }
+</ul>

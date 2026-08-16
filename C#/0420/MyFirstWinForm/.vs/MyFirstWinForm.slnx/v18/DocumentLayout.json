@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\MyFirstWinForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70DF0B9F-307E-8B98-98D7-7FABDE8ED199}|SimpleCalculator03\\SimpleCalculator03.csproj|c:\\c#\\myfirstwinform\\simplecalculator03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DF0B9F-307E-8B98-98D7-7FABDE8ED199}|SimpleCalculator03\\SimpleCalculator03.csproj|solutionrelative:simplecalculator03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DF0B9F-307E-8B98-98D7-7FABDE8ED199}|SimpleCalculator03\\SimpleCalculator03.csproj|c:\\c#\\myfirstwinform\\simplecalculator03\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70DF0B9F-307E-8B98-98D7-7FABDE8ED199}|SimpleCalculator03\\SimpleCalculator03.csproj|solutionrelative:simplecalculator03\\calculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70DF0B9F-307E-8B98-98D7-7FABDE8ED199}|SimpleCalculator03\\SimpleCalculator03.csproj|c:\\c#\\myfirstwinform\\simplecalculator03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70DF0B9F-307E-8B98-98D7-7FABDE8ED199}|SimpleCalculator03\\SimpleCalculator03.csproj|solutionrelative:simplecalculator03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A760EDE-2A2A-4BD7-B5B9-E41FF663536B}|SimpleCalculator03\\SimpleCalculator03.csproj|C:\\C#\\MyFirstWinForm\\simplecalculator03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6A760EDE-2A2A-4BD7-B5B9-E41FF663536B}|SimpleCalculator03\\SimpleCalculator03.csproj|solutionrelative:simplecalculator03\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\C#\\MyFirstWinForm\\SimpleCalculator03\\Form1.cs",
+              "RelativeDocumentMoniker": "SimpleCalculator03\\Form1.cs",
+              "ToolTip": "C:\\C#\\MyFirstWinForm\\SimpleCalculator03\\Form1.cs",
+              "RelativeToolTip": "SimpleCalculator03\\Form1.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T09:46:58.535Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calculator.cs",
+              "DocumentMoniker": "C:\\C#\\MyFirstWinForm\\SimpleCalculator03\\Calculator.cs",
+              "RelativeDocumentMoniker": "SimpleCalculator03\\Calculator.cs",
+              "ToolTip": "C:\\C#\\MyFirstWinForm\\SimpleCalculator03\\Calculator.cs",
+              "RelativeToolTip": "SimpleCalculator03\\Calculator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T09:48:35.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\C#\\MyFirstWinForm\\SimpleCalculator03\\Form1.cs",
+              "RelativeDocumentMoniker": "SimpleCalculator03\\Form1.cs",
+              "ToolTip": "C:\\C#\\MyFirstWinForm\\SimpleCalculator03\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "SimpleCalculator03\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T03:25:38.273Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\C#\\MyFirstWinForm\\SimpleCalculator03\\Form1.cs",
+              "RelativeDocumentMoniker": "SimpleCalculator03\\Form1.cs",
+              "ToolTip": "C:\\C#\\MyFirstWinForm\\SimpleCalculator03\\Form1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "SimpleCalculator03\\Form1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T09:45:40.689Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

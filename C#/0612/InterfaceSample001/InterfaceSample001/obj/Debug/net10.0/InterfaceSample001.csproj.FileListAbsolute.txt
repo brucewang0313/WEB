@@ -1,0 +1,14 @@
+C:\C#\0612\InterfaceSample001\InterfaceSample001\bin\Debug\net10.0\InterfaceSample001.exe
+C:\C#\0612\InterfaceSample001\InterfaceSample001\bin\Debug\net10.0\InterfaceSample001.deps.json
+C:\C#\0612\InterfaceSample001\InterfaceSample001\bin\Debug\net10.0\InterfaceSample001.runtimeconfig.json
+C:\C#\0612\InterfaceSample001\InterfaceSample001\bin\Debug\net10.0\InterfaceSample001.dll
+C:\C#\0612\InterfaceSample001\InterfaceSample001\bin\Debug\net10.0\InterfaceSample001.pdb
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\InterfaceSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\InterfaceSample001.AssemblyInfoInputs.cache
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\InterfaceSample001.AssemblyInfo.cs
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\InterfaceSample001.csproj.CoreCompileInputs.cache
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\InterfaceSample001.dll
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\refint\InterfaceSample001.dll
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\InterfaceSample001.pdb
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\InterfaceSample001.genruntimeconfig.cache
+C:\C#\0612\InterfaceSample001\InterfaceSample001\obj\Debug\net10.0\ref\InterfaceSample001.dll

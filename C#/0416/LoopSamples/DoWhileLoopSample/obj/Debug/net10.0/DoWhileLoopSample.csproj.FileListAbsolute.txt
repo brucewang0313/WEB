@@ -1,0 +1,14 @@
+C:\C#練習\LoopSamples\DoWhileLoopSample\bin\Debug\net10.0\DoWhileLoopSample.exe
+C:\C#練習\LoopSamples\DoWhileLoopSample\bin\Debug\net10.0\DoWhileLoopSample.deps.json
+C:\C#練習\LoopSamples\DoWhileLoopSample\bin\Debug\net10.0\DoWhileLoopSample.runtimeconfig.json
+C:\C#練習\LoopSamples\DoWhileLoopSample\bin\Debug\net10.0\DoWhileLoopSample.dll
+C:\C#練習\LoopSamples\DoWhileLoopSample\bin\Debug\net10.0\DoWhileLoopSample.pdb
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\DoWhileLoopSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\DoWhileLoopSample.AssemblyInfoInputs.cache
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\DoWhileLoopSample.AssemblyInfo.cs
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\DoWhileLoopSample.csproj.CoreCompileInputs.cache
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\DoWhileLoopSample.dll
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\refint\DoWhileLoopSample.dll
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\DoWhileLoopSample.pdb
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\DoWhileLoopSample.genruntimeconfig.cache
+C:\C#練習\LoopSamples\DoWhileLoopSample\obj\Debug\net10.0\ref\DoWhileLoopSample.dll

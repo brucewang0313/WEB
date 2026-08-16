@@ -1,0 +1,16 @@
+﻿@model FoodOptions
+
+@{
+    ViewData["Title"] = "FoodWithOptions";
+}
+
+<div class="h-100 p-3 text-white bg-dark rounded-3 mb-4">
+    <h1>今日特餐</h1>
+</div>
+
+<ul>
+    <li>開胃菜 : @Model.Appetizer</li>
+    <li>主菜 : @Model.MainCourse</li>
+    <li>甜點 : @Model.Dessert</li>
+    <li>飲料 : @Model.Beverage</li>
+</ul>

@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\0622\\BuildSchoolBizSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\services\\sellingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\services\\sellingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97DCD322-353C-9353-A6E6-10D151AB7E12}|BizDataLibrary\\BizDataLibrary.csproj|c:\\c#\\0622\\buildschoolbizsystem\\bizdatalibrary\\repositories\\bizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DCD322-353C-9353-A6E6-10D151AB7E12}|BizDataLibrary\\BizDataLibrary.csproj|solutionrelative:bizdatalibrary\\repositories\\bizrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|c:\\c#\\0622\\buildschoolbizsystem\\buildschoolbizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E864EE2-21B5-4013-8ABE-A40A22747B71}|BuildSchoolBizApp\\BuildSchoolBizApp.csproj|solutionrelative:buildschoolbizapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97DCD322-353C-9353-A6E6-10D151AB7E12}|BizDataLibrary\\BizDataLibrary.csproj|c:\\c#\\0622\\buildschoolbizsystem\\bizdatalibrary\\models\\bizcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DCD322-353C-9353-A6E6-10D151AB7E12}|BizDataLibrary\\BizDataLibrary.csproj|solutionrelative:bizdatalibrary\\models\\bizcontext .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 322,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BizContext .cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BizDataLibrary\\Models\\BizContext .cs",
+              "RelativeDocumentMoniker": "BizDataLibrary\\Models\\BizContext .cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BizDataLibrary\\Models\\BizContext .cs",
+              "RelativeToolTip": "BizDataLibrary\\Models\\BizContext .cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T02:51:24.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SellingService.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Services\\SellingService.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\Services\\SellingService.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Services\\SellingService.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\Services\\SellingService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T02:49:31.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BizRepository.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BizDataLibrary\\Repositories\\BizRepository.cs",
+              "RelativeDocumentMoniker": "BizDataLibrary\\Repositories\\BizRepository.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BizDataLibrary\\Repositories\\BizRepository.cs",
+              "RelativeToolTip": "BizDataLibrary\\Repositories\\BizRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T02:48:43.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Program.cs",
+              "RelativeDocumentMoniker": "BuildSchoolBizApp\\Program.cs",
+              "ToolTip": "C:\\C#\\0622\\BuildSchoolBizSystem\\BuildSchoolBizApp\\Program.cs",
+              "RelativeToolTip": "BuildSchoolBizApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-28T02:48:27.92Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
