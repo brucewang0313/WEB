@@ -1,0 +1,149 @@
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: https://localhost:5000
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware Information: 1 : Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+Mvc7_Fundamentals.Controllers.HomeController Warning: 1234 : Logging - LogWarning()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware Information: 2 : Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware Information: 1 : Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Mvc7_Fundamentals.styles.css
+Accept: text/css,*/*;q=0.1
+Host: localhost:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+If-Modified-Since: [Redacted]
+If-None-Match: [Redacted]
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware Information: 2 : Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Fri, 30 Dec 2022 08:40:02 GMT
+Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware Information: 1 : Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Home/Index
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+Mvc7_Fundamentals.Controllers.HomeController Warning: 1234 : Logging - LogWarning()記錄資訊- Home/Index被呼叫
+Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware Information: 2 : Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware Information: 1 : Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Home/paivacy
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Host: localhost:5000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: [Redacted]
+Upgrade-Insecure-RequestMicrosoft.Hosting.Lifetime Information: 14 : Now listening on: https://localhost:443
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:80
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: https://localhost:443
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:80
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Mvc7_Fundamentals.Controllers.HomeController Warning: 1234 : Logging - LogWarning()記錄資訊- Home/Index被呼叫
+Mvc7_Fundamentals.Controllers.HomeController Warning: 1234 : Logging - LogWarning()記錄資訊- Home/Index被呼叫
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.AspNetCore.Server.Kestrel Warning: 0 : Overriding address(es) 'http://localhost:5555'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5000
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: https://localhost:5001
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5555
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5239
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5239
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5239
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5239
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5239
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: https://localhost:7299
+Microsoft.Hosting.Lifetime Information: 14 : Now listening on: http://localhost:5239
+Microsoft.Hosting.Lifetime Information: 0 : Application started. Press Ctrl+C to shut down.
+Microsoft.Hosting.Lifetime Information: 0 : Hosting environment: Development
+Microsoft.Hosting.Lifetime Information: 0 : Content root path: C:\Users\Microsoft\Dropbox\SourceCode_Dropbox\CoreMvc7Examples\Chapter04\Mvc7_Fundamentals\Mvc7_Fundamentals
+Microsoft.Hosting.Lifetime Information: 0 : Application is shutting down...

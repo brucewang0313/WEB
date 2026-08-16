@@ -1,0 +1,132 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EntryPointFilePath = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mvc7_Routing_Clone
+build_property.RootNamespace = Mvc7_Routing_Clone
+build_property.ProjectDir = C:\Web\ASP\0713\Mvc7_Routing_Clone\Mvc7_Routing\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Web\ASP\0713\Mvc7_Routing_Clone\Mvc7_Routing
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/FindBrand.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxGaW5kQnJhbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/FindBrandYear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxGaW5kQnJhbmRZZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/FindCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxGaW5kQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/FindId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxGaW5kSWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/FindYear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxGaW5kWWVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/Price.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxQcmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/PriceCatchAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxQcmljZUNhdGNoQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/PriceRange.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxQcmljZVJhbmdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/Pricing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxQcmljaW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/Repair.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxSZXBhaXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/AutoMobile/TopSales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b01vYmlsZVxUb3BTYWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Errors/ErrorPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JzXEVycm9yUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Shared/Car/_CarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENhclxfQ2FyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Shared/ShowMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNob3dNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Shared/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Site/SearchKeyword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2l0ZVxTZWFyY2hLZXl3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Web/ASP/0713/Mvc7_Routing_Clone/Mvc7_Routing/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yf33vy2v5q

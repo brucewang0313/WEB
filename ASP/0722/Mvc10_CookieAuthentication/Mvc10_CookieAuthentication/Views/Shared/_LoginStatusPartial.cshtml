@@ -1,0 +1,14 @@
+﻿<ul class="navbar-nav flex-grow-1">
+    @if (User.Identity.IsAuthenticated)
+    {
+        //顯示帳號，登出按鈕
+        <li><a href="#" class="btn btn-primary">@User.Identity.Name</a></li>
+        <li>@Html.ActionLink("登出", "SignOut", "Account", null, new { @class = "btn btn-danger" })</li>
+    }
+    else
+    {
+        //登入和註冊按鈕
+        <li><a href="@Url.Action("Login", "Account")" class="btn btn-primary me-2">登入</a></li>
+        <li><a href="@Url.Action("Register", "Account")" class="btn btn-warning">註冊</a></li>
+    }
+</ul>

@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|c:\\asp\\coremvc7examples\\chapter04\\mvc7_fundamentals\\mvc7_fundamentals\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|solutionrelative:mvc7_fundamentals\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|c:\\asp\\coremvc7examples\\chapter04\\mvc7_fundamentals\\mvc7_fundamentals\\views\\fundamentals\\readappsettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|solutionrelative:mvc7_fundamentals\\views\\fundamentals\\readappsettings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|c:\\asp\\coremvc7examples\\chapter04\\mvc7_fundamentals\\mvc7_fundamentals\\migrations\\20230724081149_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|solutionrelative:mvc7_fundamentals\\migrations\\20230724081149_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|c:\\asp\\coremvc7examples\\chapter04\\mvc7_fundamentals\\mvc7_fundamentals\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|solutionrelative:mvc7_fundamentals\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|c:\\asp\\coremvc7examples\\chapter04\\mvc7_fundamentals\\mvc7_fundamentals\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|solutionrelative:mvc7_fundamentals\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|c:\\asp\\coremvc7examples\\chapter04\\mvc7_fundamentals\\mvc7_fundamentals\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F7674D5-6BB7-491A-9C43-031350CE1216}|Mvc7_Fundamentals\\Mvc7_Fundamentals.csproj|solutionrelative:mvc7_fundamentals\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReadAppsettings.cshtml",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Views\\Fundamentals\\ReadAppsettings.cshtml",
+              "RelativeDocumentMoniker": "Mvc7_Fundamentals\\Views\\Fundamentals\\ReadAppsettings.cshtml",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Views\\Fundamentals\\ReadAppsettings.cshtml",
+              "RelativeToolTip": "Mvc7_Fundamentals\\Views\\Fundamentals\\ReadAppsettings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-30T04:31:19.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20230724081149_InitialDB.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Migrations\\20230724081149_InitialDB.cs",
+              "RelativeDocumentMoniker": "Mvc7_Fundamentals\\Migrations\\20230724081149_InitialDB.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Migrations\\20230724081149_InitialDB.cs",
+              "RelativeToolTip": "Mvc7_Fundamentals\\Migrations\\20230724081149_InitialDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:15:51.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Program.cs",
+              "RelativeDocumentMoniker": "Mvc7_Fundamentals\\Program.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Program.cs",
+              "RelativeToolTip": "Mvc7_Fundamentals\\Program.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:15:51.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\appsettings.json",
+              "RelativeDocumentMoniker": "Mvc7_Fundamentals\\appsettings.json",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\appsettings.json",
+              "RelativeToolTip": "Mvc7_Fundamentals\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-30T02:15:51.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Data\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Mvc7_Fundamentals\\Data\\DatabaseContext.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Data\\DatabaseContext.cs",
+              "RelativeToolTip": "Mvc7_Fundamentals\\Data\\DatabaseContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:15:51.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Mvc7_Fundamentals\\Models\\Product.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter04\\Mvc7_Fundamentals\\Mvc7_Fundamentals\\Models\\Product.cs",
+              "RelativeToolTip": "Mvc7_Fundamentals\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T02:15:51.704Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

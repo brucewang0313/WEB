@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "PassViewData";
+}
+<ul>
+    <li>Name:@ViewData["Name"]</li>
+    @* 要轉型別因為原本是object型別要刮起來() *@
+    <li>Age:@((int)ViewData["Age"] +1 )</li>
+    <li>Single:@ViewData["Single"]</li>
+</ul>

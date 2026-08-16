@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Dotnet10AiSample/Dotnet10AiCreateDataModel.csproj" />
+  <Project Path="DotnetAiSearch/DotnetAiSearch.csproj" />
+</Solution>

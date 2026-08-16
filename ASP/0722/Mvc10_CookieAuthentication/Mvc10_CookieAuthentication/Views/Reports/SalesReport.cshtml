@@ -1,0 +1,8 @@
+﻿<h1>@(DateTime.Now.Year)SalesRepot</h1>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h2>帳號：@User.Identity.Name</h2>
+    <h2>@(User.Claims.FirstOrDefault(c=>c.Type==ClaimTypes.Email)?.Value)</h2>
+    <h2>@(User.Claims.FirstOrDefault(c=>c.Type==ClaimTypes.Role)?.Value)</h2>
+}

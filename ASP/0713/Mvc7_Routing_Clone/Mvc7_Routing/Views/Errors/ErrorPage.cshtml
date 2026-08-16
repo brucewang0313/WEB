@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Error404";
+    string statuscode = ViewData["statuscode"].ToString();
+}
+
+<h1>錯誤代碼: @statuscode</h1>
+
+@switch (statuscode)
+{
+    case "400":
+        <h2 class="text-danger">無效的請求語法, 伺服器無法處理</h2>
+        break;
+    case "404":
+        <h2 class="text-danger">找不到您請求的路徑或檔案</h2>
+        @*<img src="~/images/404.jpg">*@
+        @section topCSS{
+            <style>
+                body {
+                    background-image: url('/images/404.jpg');
+                    background-size: cover; /* 調整圖片大小以覆蓋整個背景 */
+                    background-repeat: no-repeat; /* 禁止圖片重複 */
+                    background-position: center center; /* 調整圖片位置為中心 */
+                }
+            </style>
+        }
+        break;
+    default:
+        <h2 class="text-danger">未知錯誤類型, 請聯絡系統管理員</h2>
+        break;
+}
+
+
+

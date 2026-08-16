@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">汽車情報網</h1>
+<div class="text-center">
+    <img src="~/images/cars/ferrari.png" />
+</div>
+
+<ul class="list-group">
+    <li class="list-group-item"><a href="~/Automobile/List"><i class="fa-solid fa-truck-fast fa-2x"></i>汽車款式</a></li>
+    <li class="list-group-item"><a href="~/Automobile/Repair"><i class="fa-solid fa-wrench fa-2x"></i>維修保養</a></li>
+    <li class="list-group-item"><a href="~/Automobile/Contact"><i class="fa-solid fa-phone fa-2x"></i>連絡客服</a></li>
+    <li class="list-group-item"><a href="~/Home/About"><i class="fa-solid fa-user fa-2x"></i>關於我們</a></li>
+</ul>
+
+@section topCSS
+{
+    @*<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />*@
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        a{
+            color: black !important;
+        }
+
+        ul > li > a > i {
+            margin-right:10px
+        }
+    </style>
+}

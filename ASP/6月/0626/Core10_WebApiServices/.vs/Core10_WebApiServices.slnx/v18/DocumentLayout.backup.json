@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0626\\Core10_WebApiServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9BBA86-75A0-41E1-9494-5D9A6C9AE35B}|Core10_WebApiServices\\Core10_WebApiServices.csproj|c:\\asp\\0626\\core10_webapiservices\\core10_webapiservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB9BBA86-75A0-41E1-9494-5D9A6C9AE35B}|Core10_WebApiServices\\Core10_WebApiServices.csproj|solutionrelative:core10_webapiservices\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB9BBA86-75A0-41E1-9494-5D9A6C9AE35B}|Core10_WebApiServices\\Core10_WebApiServices.csproj|c:\\asp\\0626\\core10_webapiservices\\core10_webapiservices\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AB9BBA86-75A0-41E1-9494-5D9A6C9AE35B}|Core10_WebApiServices\\Core10_WebApiServices.csproj|solutionrelative:core10_webapiservices\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASP\\0626\\Core10_WebApiServices\\Core10_WebApiServices\\Program.cs",
+              "RelativeDocumentMoniker": "Core10_WebApiServices\\Program.cs",
+              "ToolTip": "C:\\ASP\\0626\\Core10_WebApiServices\\Core10_WebApiServices\\Program.cs",
+              "RelativeToolTip": "Core10_WebApiServices\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvw4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:53:23.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\ASP\\0626\\Core10_WebApiServices\\Core10_WebApiServices\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Core10_WebApiServices\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\ASP\\0626\\Core10_WebApiServices\\Core10_WebApiServices\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Core10_WebApiServices\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-26T09:48:10.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

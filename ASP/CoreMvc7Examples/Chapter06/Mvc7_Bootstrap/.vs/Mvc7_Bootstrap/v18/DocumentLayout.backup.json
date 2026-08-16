@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BB4F13B-2E71-4BB8-A0F8-68580BB901C3}|Mvc10_Bootstrap\\Mvc10_Bootstrap.csproj|c:\\asp\\coremvc7examples\\chapter06\\mvc7_bootstrap\\mvc10_bootstrap\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BB4F13B-2E71-4BB8-A0F8-68580BB901C3}|Mvc10_Bootstrap\\Mvc10_Bootstrap.csproj|solutionrelative:mvc10_bootstrap\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BB4F13B-2E71-4BB8-A0F8-68580BB901C3}|Mvc10_Bootstrap\\Mvc10_Bootstrap.csproj|c:\\asp\\coremvc7examples\\chapter06\\mvc7_bootstrap\\mvc10_bootstrap\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BB4F13B-2E71-4BB8-A0F8-68580BB901C3}|Mvc10_Bootstrap\\Mvc10_Bootstrap.csproj|solutionrelative:mvc10_bootstrap\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BB4F13B-2E71-4BB8-A0F8-68580BB901C3}|Mvc10_Bootstrap\\Mvc10_Bootstrap.csproj|c:\\asp\\coremvc7examples\\chapter06\\mvc7_bootstrap\\mvc10_bootstrap\\controllers\\guessnumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BB4F13B-2E71-4BB8-A0F8-68580BB901C3}|Mvc10_Bootstrap\\Mvc10_Bootstrap.csproj|solutionrelative:mvc10_bootstrap\\controllers\\guessnumbercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BB4F13B-2E71-4BB8-A0F8-68580BB901C3}|Mvc10_Bootstrap\\Mvc10_Bootstrap.csproj|c:\\asp\\coremvc7examples\\chapter06\\mvc7_bootstrap\\mvc10_bootstrap\\views\\guessnumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BB4F13B-2E71-4BB8-A0F8-68580BB901C3}|Mvc10_Bootstrap\\Mvc10_Bootstrap.csproj|solutionrelative:mvc10_bootstrap\\views\\guessnumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\Mvc10_Bootstrap\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_Bootstrap\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\Mvc10_Bootstrap\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Mvc10_Bootstrap\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-18T03:17:30.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\Mvc10_Bootstrap\\Views\\GuessNumber\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_Bootstrap\\Views\\GuessNumber\\Index.cshtml",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\Mvc10_Bootstrap\\Views\\GuessNumber\\Index.cshtml",
+              "RelativeToolTip": "Mvc10_Bootstrap\\Views\\GuessNumber\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-18T03:38:51.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuessNumberController.cs",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\Mvc10_Bootstrap\\Controllers\\GuessNumberController.cs",
+              "RelativeDocumentMoniker": "Mvc10_Bootstrap\\Controllers\\GuessNumberController.cs",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\Mvc10_Bootstrap\\Controllers\\GuessNumberController.cs",
+              "RelativeToolTip": "Mvc10_Bootstrap\\Controllers\\GuessNumberController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T03:38:04.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\Mvc10_Bootstrap\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_Bootstrap\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\ASP\\CoreMvc7Examples\\Chapter06\\Mvc7_Bootstrap\\Mvc10_Bootstrap\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Mvc10_Bootstrap\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-18T03:18:55.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

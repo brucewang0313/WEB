@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9EE293-298F-8703-EFD5-E03AD26D45C2}|DotnetAiSearch\\DotnetAiSearch.csproj|c:\\asp\\0730\\dotnet10aicreatedatamodel\\dotnetaisearch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9EE293-298F-8703-EFD5-E03AD26D45C2}|DotnetAiSearch\\DotnetAiSearch.csproj|solutionrelative:dotnetaisearch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9EE293-298F-8703-EFD5-E03AD26D45C2}|DotnetAiSearch\\DotnetAiSearch.csproj|c:\\asp\\0730\\dotnet10aicreatedatamodel\\dotnetaisearch\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E9EE293-298F-8703-EFD5-E03AD26D45C2}|DotnetAiSearch\\DotnetAiSearch.csproj|solutionrelative:dotnetaisearch\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E9EE293-298F-8703-EFD5-E03AD26D45C2}|DotnetAiSearch\\DotnetAiSearch.csproj|c:\\asp\\0730\\dotnet10aicreatedatamodel\\dotnetaisearch\\dotnetaisearch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0E9EE293-298F-8703-EFD5-E03AD26D45C2}|DotnetAiSearch\\DotnetAiSearch.csproj|solutionrelative:dotnetaisearch\\dotnetaisearch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767725CC-A4C3-1356-2FE5-74136B5365F4}|Dotnet10AiSample\\Dotnet10AiCreateDataModel.csproj|c:\\asp\\0730\\dotnet10aicreatedatamodel\\dotnet10aisample\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767725CC-A4C3-1356-2FE5-74136B5365F4}|Dotnet10AiSample\\Dotnet10AiCreateDataModel.csproj|solutionrelative:dotnet10aisample\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767725CC-A4C3-1356-2FE5-74136B5365F4}|Dotnet10AiSample\\Dotnet10AiCreateDataModel.csproj|c:\\asp\\0730\\dotnet10aicreatedatamodel\\dotnet10aisample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767725CC-A4C3-1356-2FE5-74136B5365F4}|Dotnet10AiSample\\Dotnet10AiCreateDataModel.csproj|solutionrelative:dotnet10aisample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\DotnetAiSearch\\Hotel.cs",
+              "RelativeDocumentMoniker": "DotnetAiSearch\\Hotel.cs",
+              "ToolTip": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\DotnetAiSearch\\Hotel.cs",
+              "RelativeToolTip": "DotnetAiSearch\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:53:56.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DotnetAiSearch.csproj",
+              "DocumentMoniker": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\DotnetAiSearch\\DotnetAiSearch.csproj",
+              "RelativeDocumentMoniker": "DotnetAiSearch\\DotnetAiSearch.csproj",
+              "ToolTip": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\DotnetAiSearch\\DotnetAiSearch.csproj",
+              "RelativeToolTip": "DotnetAiSearch\\DotnetAiSearch.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-30T06:52:02.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\DotnetAiSearch\\Program.cs",
+              "RelativeDocumentMoniker": "DotnetAiSearch\\Program.cs",
+              "ToolTip": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\DotnetAiSearch\\Program.cs",
+              "RelativeToolTip": "DotnetAiSearch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:51:04.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\Dotnet10AiSample\\Hotel.cs",
+              "RelativeDocumentMoniker": "Dotnet10AiSample\\Hotel.cs",
+              "ToolTip": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\Dotnet10AiSample\\Hotel.cs",
+              "RelativeToolTip": "Dotnet10AiSample\\Hotel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T03:02:01.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\Dotnet10AiSample\\Program.cs",
+              "RelativeDocumentMoniker": "Dotnet10AiSample\\Program.cs",
+              "ToolTip": "C:\\ASP\\0730\\Dotnet10AiCreateDataModel\\Dotnet10AiSample\\Program.cs",
+              "RelativeToolTip": "Dotnet10AiSample\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T02:31:32.218Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

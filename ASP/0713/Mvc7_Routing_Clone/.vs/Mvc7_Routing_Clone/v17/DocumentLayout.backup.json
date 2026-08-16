@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_routing_clone\\mvc7_routing\\controllers\\automobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|solutionrelative:mvc7_routing\\controllers\\automobilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_routing_clone\\mvc7_routing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|solutionrelative:mvc7_routing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_routing_clone\\mvc7_routing\\note\u5099\u8A3B.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|solutionrelative:mvc7_routing\\note\u5099\u8A3B.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_routing_clone\\mvc7_routing\\data\\carcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|solutionrelative:mvc7_routing\\data\\carcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|c:\\users\\user\\dropbox\\sourcecode_dropbox\\codecollection\\coremvc7examples\\mvc7_routing_clone\\mvc7_routing\\data\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15D8A118-D151-48C0-9A68-02C7FE32FAAB}|Mvc7_Routing\\Mvc7_Routing_Clone.csproj|solutionrelative:mvc7_routing\\data\\northwindcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Note\u5099\u8A3B.txt",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Note\u5099\u8A3B.txt",
+              "RelativeDocumentMoniker": "Mvc7_Routing\\Note\u5099\u8A3B.txt",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Note\u5099\u8A3B.txt",
+              "RelativeToolTip": "Mvc7_Routing\\Note\u5099\u8A3B.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-12-04T07:55:23.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Data\\CarContext.cs",
+              "RelativeDocumentMoniker": "Mvc7_Routing\\Data\\CarContext.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Data\\CarContext.cs",
+              "RelativeToolTip": "Mvc7_Routing\\Data\\CarContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:55:16.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NorthwindContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Data\\NorthwindContext.cs",
+              "RelativeDocumentMoniker": "Mvc7_Routing\\Data\\NorthwindContext.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Data\\NorthwindContext.cs",
+              "RelativeToolTip": "Mvc7_Routing\\Data\\NorthwindContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T07:55:16.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoMobileController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Controllers\\AutoMobileController.cs",
+              "RelativeDocumentMoniker": "Mvc7_Routing\\Controllers\\AutoMobileController.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Controllers\\AutoMobileController.cs",
+              "RelativeToolTip": "Mvc7_Routing\\Controllers\\AutoMobileController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T09:41:26.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Program.cs",
+              "RelativeDocumentMoniker": "Mvc7_Routing\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Dropbox\\SourceCode_Dropbox\\CodeCollection\\CoreMvc7Examples\\Mvc7_Routing_Clone\\Mvc7_Routing\\Program.cs",
+              "RelativeToolTip": "Mvc7_Routing\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-25T08:15:40.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

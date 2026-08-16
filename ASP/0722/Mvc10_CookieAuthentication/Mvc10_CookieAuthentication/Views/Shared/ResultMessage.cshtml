@@ -1,0 +1,13 @@
+﻿@{
+    string header = ViewData["Header"].ToString();
+}
+
+@if (!String.IsNullOrEmpty(ViewData["Header"].ToString()))
+{
+    <h1 class="text-bg-danger p-3">@ViewData["Header"]</h1>
+}
+
+@if (!String.IsNullOrEmpty(ViewData["Message"].ToString()))
+{
+    <p>@ViewData["Message"]</p>
+}

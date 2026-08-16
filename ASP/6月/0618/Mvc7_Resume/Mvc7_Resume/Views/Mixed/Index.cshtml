@@ -1,0 +1,26 @@
+﻿@model MixedViewModel
+
+@{
+    ViewData["Title"] = "Index";
+
+    List<Product> products = Model.Products;
+    List<Employee> employees = Model.Employees;
+}
+
+<h1>利用MixedViewModel傳遞多個Model到View</h1>
+
+<ul>
+    @foreach (var prod in products)
+    {
+        <li>@prod.Id, @prod.Name, @prod.Price</li>
+    }
+</ul>
+
+<hr />
+
+<ul>
+    @foreach (var emp in employees)
+    {
+        <li>@emp.Id, @emp.Name, @emp.Email</li>
+    }
+</ul>

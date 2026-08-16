@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0722\\Mvc_10_Identity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{367F5C93-36C4-49D3-A01A-7E7C60FB5EA6}|Mvc_10_Identity\\Mvc_10_Identity.csproj|c:\\asp\\0722\\mvc_10_identity\\mvc_10_identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{367F5C93-36C4-49D3-A01A-7E7C60FB5EA6}|Mvc_10_Identity\\Mvc_10_Identity.csproj|solutionrelative:mvc_10_identity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc_10_Identity\\Mvc_10_Identity\\appsettings.json",
+              "RelativeDocumentMoniker": "Mvc_10_Identity\\appsettings.json",
+              "ToolTip": "C:\\ASP\\0722\\Mvc_10_Identity\\Mvc_10_Identity\\appsettings.json",
+              "RelativeToolTip": "Mvc_10_Identity\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-22T04:48:50.378Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

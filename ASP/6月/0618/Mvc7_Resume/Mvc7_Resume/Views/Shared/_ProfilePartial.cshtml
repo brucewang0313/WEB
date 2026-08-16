@@ -1,0 +1,56 @@
+﻿@model ProfileViewModel
+@{
+    ViewData["Title"] = "ProfileServiceRepository";
+
+    var Educations = Model.Educations;
+    var Languages = Model.Languages;
+    var WorkExperiences = Model.WorkExperiences;
+}
+
+<h1>個人履歷表(ProfileServiceRepository)</h1>
+
+<div class="p-3 mb-2 bg-primary text-white">姓名</div>
+<img src="@Model.Photo" alt="@Model.Name" />
+@Model.Name
+
+<div class="p-3 mb-2 bg-primary text-white">電子郵件</div>
+@Model.Email
+
+<div class="p-3 mb-2 bg-primary text-white">行動電話</div>
+
+@Model.Mobile
+
+<div class="p-3 mb-2 bg-primary text-white">簡介</div>
+@Model.Introduction
+
+<div class="p-3 mb-2 bg-primary text-white">教育</div>
+
+<ul>
+    @foreach (var edu in Educations)
+    {
+        <li>@edu.SchoolName, @edu.Department, @edu.StartDate.ToString("yyyy/MM") -  @edu.EndDate.ToString("yyyy/MM")</li>
+    }
+</ul>
+
+<div class="p-3 mb-2 bg-primary text-white">語言</div>
+<ul>
+    @foreach (var lang in Languages)
+    {
+        <li>@lang.Name, @lang.Level, @lang.Score</li>
+    }
+</ul>
+
+<div class="p-3 mb-2 bg-primary text-white">工作經驗</div>
+<ul>
+    @foreach (var exp in WorkExperiences)
+    {
+        <li>@exp.Company, @exp.Title, @exp.Salary, @exp.Description, @exp.StartDate.ToString("yyyy/MM") -  @exp.EndDate.ToString("yyyy/MM")</li>
+    }
+</ul>
+
+<div class="p-3 mb-2 bg-primary text-white">JSON</div>
+<pre>
+<code>
+        @Html.Raw(ViewData["Profile"])
+    </code>
+</pre>

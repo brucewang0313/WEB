@@ -1,0 +1,2 @@
+﻿<h2>@(User.Identity.Name)雖通過帳密驗證，但所屬角色未被授權</h2>
+但你所屬群組是@(User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role).Value)

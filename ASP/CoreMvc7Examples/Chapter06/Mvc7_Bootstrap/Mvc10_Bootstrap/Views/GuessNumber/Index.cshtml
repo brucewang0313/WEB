@@ -1,0 +1,129 @@
+﻿@{
+    ViewData["Title"] = "Index";
+
+    var header = "猜數字遊戲1111";
+}
+<h1>@header</h1>
+<div class="btn-group" role="group" aria-label="Basic outlined example">
+    <button type="button" class="btn btn-outline-dark startBtn">
+        開始
+    </button>
+    <button type="button" class="btn btn-outline-dark resetBtn" disabled>
+        放棄重來
+    </button>
+    <button type="button" class="btn btn-outline-dark answerBtn" disabled>
+        看答案
+    </button>
+</div>
+<!-- list group -->
+<ul class="list-group"></ul>
+<!-- input group -->
+<div class="input-group mb-3">
+    <span class="input-group-text" id="inputGroup-sizing-default">猜數字</span>
+    <input id="input"
+           type="text"
+           class="form-control"
+           aria-label="Sizing example input"
+           aria-describedby="inputGroup-sizing-default"
+           disabled />
+    <button class="btn btn-outline-danger"
+            type="button"
+            id="button"
+            disabled>
+        猜!
+    </button>
+</div>
+</div>
+
+@section endJS {
+
+    <script>
+        const startBtn = document.querySelector(".startBtn");
+        const resetBtn = document.querySelector(".resetBtn");
+        const answerBtn = document.querySelector(".answerBtn");
+        const myBtn = document.querySelector("#button");
+        const myListGroup = document.querySelector(".list-group");
+        const myInput = document.querySelector("#input");
+        let randNum = [];
+
+        startBtn.addEventListener("click", function () {
+          randNum = getRandomNum();
+          myInput.disabled = false;
+          myBtn.disabled = false;
+          resetBtn.disabled = false;
+          answerBtn.disabled = false;
+          myListGroup.innerHTML = "";
+          myInput.value = "";
+        });
+
+        resetBtn.addEventListener("click", function () {
+          alert(`答案是${randNum.join("")}猜不到????`);
+          randNum = getRandomNum();
+          myListGroup.innerHTML = "";
+          myInput.value = "";
+        });
+
+        answerBtn.addEventListener("click", function () {
+          alert(`答案是${randNum.join("")}還偷看答案==`);
+        });
+
+        myBtn.addEventListener("click", function () {
+          if (isNaN(input.value)) {
+            alert("數字???");
+            input.value = "";
+            return;
+          } else if (input.value.length != 4) {
+            alert("四個數字???");
+            input.value = "";
+            return;
+          }
+
+          const inputNum = Array.from(myInput.value).map(Number);
+
+          console.log(myInput.value);
+          console.log(inputNum);
+          console.log(randNum);
+          console.log(check1A2B(inputNum, randNum));
+
+          const result = check1A2B(inputNum, randNum);
+          const li = document.createElement("li");
+          li.classList.add("list-group-item");
+
+          let badgeColor = "bg-danger";
+          if (result === "4A0B") {
+            badgeColor = "bg-success";
+          }
+          li.innerHTML = `<span class="badge ${badgeColor} me-2">${result}</span> ${myInput.value}`;
+          //<span class="badge bg-danger me-2">1A2B</span> 1234
+
+          myListGroup.append(li);
+          myInput.value = "";
+          if (result === "4A0B") {
+            alert("答對了");
+            myInput.disabled = true;
+            myBtn.disabled = true;
+            resetBtn.disabled = true;
+            answerBtn.disabled = true;
+          }
+        });
+
+        function getRandomNum() {
+          const numSet = new Set();
+          while (numSet.size < 4) {
+            const randNum = Math.floor(Math.random() * 10);
+            numSet.add(randNum);
+          }
+          return Array.from(numSet);
+        }
+
+        function check1A2B(arrInput, arrRand) {
+          let a = 0;
+          let b = 0;
+          for (let i = 0; i < 4; i++) {
+            if (arrInput[i] === arrRand[i]) a++;
+            else if (arrRand.includes(arrInput[i])) b++;
+          }
+          return `${a}A${b}B`;
+        }
+    </script>
+}

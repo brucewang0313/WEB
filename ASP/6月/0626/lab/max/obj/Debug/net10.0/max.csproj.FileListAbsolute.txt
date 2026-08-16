@@ -1,0 +1,14 @@
+C:\ASP\0626\lab\max\bin\Debug\net10.0\max.exe
+C:\ASP\0626\lab\max\bin\Debug\net10.0\max.deps.json
+C:\ASP\0626\lab\max\bin\Debug\net10.0\max.runtimeconfig.json
+C:\ASP\0626\lab\max\bin\Debug\net10.0\max.dll
+C:\ASP\0626\lab\max\bin\Debug\net10.0\max.pdb
+C:\ASP\0626\lab\max\obj\Debug\net10.0\max.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP\0626\lab\max\obj\Debug\net10.0\max.AssemblyInfoInputs.cache
+C:\ASP\0626\lab\max\obj\Debug\net10.0\max.AssemblyInfo.cs
+C:\ASP\0626\lab\max\obj\Debug\net10.0\max.csproj.CoreCompileInputs.cache
+C:\ASP\0626\lab\max\obj\Debug\net10.0\max.dll
+C:\ASP\0626\lab\max\obj\Debug\net10.0\refint\max.dll
+C:\ASP\0626\lab\max\obj\Debug\net10.0\max.pdb
+C:\ASP\0626\lab\max\obj\Debug\net10.0\max.genruntimeconfig.cache
+C:\ASP\0626\lab\max\obj\Debug\net10.0\ref\max.dll

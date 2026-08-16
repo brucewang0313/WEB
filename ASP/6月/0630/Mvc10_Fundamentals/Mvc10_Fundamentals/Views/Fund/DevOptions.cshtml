@@ -1,0 +1,12 @@
+﻿@inject IOptionsMonitor<DeveloperOptions> developerOptions
+
+@{
+    ViewData["Title"] = "DevOptions";
+
+    var devOptions = developerOptions.CurrentValue;
+}
+<ul>
+    <li>Name:@devOptions.Name</li>
+    <li>Email:@devOptions.Email</li>
+    <li>Website:@devOptions.Website</li>
+</ul>

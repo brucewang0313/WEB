@@ -1,0 +1,6 @@
+@Core10_WebApiServices_HostAddress = http://localhost:5139
+
+GET {{Core10_WebApiServices_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

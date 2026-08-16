@@ -1,0 +1,9 @@
+﻿@model IEnumerable<ProfileViewModel>
+@{
+    ViewData["Title"] = "ProfileServiceRepository";
+}
+
+
+@foreach(var profile in Model){
+    <partial name="_ProfilePartial" model="profile" />
+}

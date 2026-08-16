@@ -1,0 +1,6 @@
+﻿1.Routing路由
+2.QueryString運用
+3.談一下EF的基本Data Annotation, 包含Table, Column, key, [DatabaseGenerated(DatabaseGeneratedOption.None)], order
+4.談一下EF的CommentAttribute
+5.談一下EF的Fluent API
+6.自訂404錯誤頁面 - 查一下return 回傳例外錯誤代碼的語法

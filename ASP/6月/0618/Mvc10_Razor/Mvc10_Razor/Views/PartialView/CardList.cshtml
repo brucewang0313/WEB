@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Card>
+
+@{
+    ViewData["Title"] = "CardList";
+}
+
+<h2>CardList</h2>
+
+<div class="row">
+    @foreach (var man in Model)
+    {
+        @await Html.PartialAsync("_CardPartial", man)
+    }
+</div>
+
+@section topCSS {
+    <link href="~/css/card.css" rel="stylesheet" />
+}

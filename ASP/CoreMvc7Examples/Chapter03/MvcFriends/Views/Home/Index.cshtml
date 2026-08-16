@@ -1,0 +1,14 @@
+﻿@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment _env
+@inject IConfiguration _config
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>環境 : @_env.EnvironmentName</h1>
+<h2>資料庫連線字串 : @_config.GetConnectionString("SQL2019")</h2>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

@@ -1,0 +1,53 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Mvc10_JsonWebApi.Models;
+
+namespace Mvc10_JsonWebApi.Controllers
+{
+    public class JsonDataApiController : Controller
+    {
+        //JsonDataApi/GetCarSalesNumber  Controller/Action
+        //JsonDataApi/GetTempFromService
+        public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult GetCarSalesNumber()
+        {
+            List<CarSales> CarSalesNumber = new List<CarSales>
+            {
+                new CarSales { Id = 1, Car = "BMW", Salesdata = new int[] { 120, 200, 300, 350, 400, 250, 380, 330, 500, 280, 310, 330 } },
+                new CarSales { Id = 2,  Car = "BENZ", Salesdata = new int[] { 220, 150, 350, 300, 300, 200, 180, 400, 420, 210, 250, 440 }},
+            };
+            return Json(CarSalesNumber);
+        }
+        public IActionResult GetTemperature()
+        {
+            //List集合包含台北,台中及高雄三個地方的氣溫資料
+            List<Location> Locations = new List<Location>
+            {
+                new Location {
+                    City="臺北",
+                    Temperature = new double[] { 16.1, 16.5, 18.5, 21.9, 25.2, 27.7, 29.6, 29.2, 27.4, 24.5, 21.5, 17.9, 23 }
+                },
+                new Location {
+                    City="臺中",
+                    Temperature = new double[] { 16.6, 17.3, 19.6, 23.1, 26.0, 27.6, 28.6, 28.3, 27.4, 25.2, 21.9, 18.1, 23.3 }
+                },
+                new Location {
+                    City="高雄",
+                    Temperature = new double[] { 19.3, 20.3, 22.6, 25.4, 27.5, 28.5, 29.2, 28.7, 28.1, 26.7, 24.0, 20.6, 25.1 }
+                }
+            };
+
+            return Json(Locations);
+        }
+        public IActionResult GetTempFromService()
+        {
+            TempService tempService = new TempService();
+
+            var Locations = tempService.GetTempData();
+
+            return Json(Locations);
+        }
+    }
+}

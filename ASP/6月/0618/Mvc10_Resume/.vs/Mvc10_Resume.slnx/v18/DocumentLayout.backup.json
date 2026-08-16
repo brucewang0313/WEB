@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0618\\Mvc10_Resume\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F08E066-AE8D-4013-8E09-5B4DF8A1C830}|Mvc10_Resume\\Mvc10_Resume.csproj|c:\\asp\\0618\\mvc10_resume\\mvc10_resume\\viewmodel\\mixedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F08E066-AE8D-4013-8E09-5B4DF8A1C830}|Mvc10_Resume\\Mvc10_Resume.csproj|solutionrelative:mvc10_resume\\viewmodel\\mixedviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F08E066-AE8D-4013-8E09-5B4DF8A1C830}|Mvc10_Resume\\Mvc10_Resume.csproj|c:\\asp\\0618\\mvc10_resume\\mvc10_resume\\mvc10_resume.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F08E066-AE8D-4013-8E09-5B4DF8A1C830}|Mvc10_Resume\\Mvc10_Resume.csproj|solutionrelative:mvc10_resume\\mvc10_resume.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F08E066-AE8D-4013-8E09-5B4DF8A1C830}|Mvc10_Resume\\Mvc10_Resume.csproj|c:\\asp\\0618\\mvc10_resume\\mvc10_resume\\controllers\\mixedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F08E066-AE8D-4013-8E09-5B4DF8A1C830}|Mvc10_Resume\\Mvc10_Resume.csproj|solutionrelative:mvc10_resume\\controllers\\mixedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MixedViewModel.cs",
+              "DocumentMoniker": "C:\\ASP\\0618\\Mvc10_Resume\\Mvc10_Resume\\ViewModel\\MixedViewModel.cs",
+              "RelativeDocumentMoniker": "Mvc10_Resume\\ViewModel\\MixedViewModel.cs",
+              "ToolTip": "C:\\ASP\\0618\\Mvc10_Resume\\Mvc10_Resume\\ViewModel\\MixedViewModel.cs",
+              "RelativeToolTip": "Mvc10_Resume\\ViewModel\\MixedViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T09:57:25.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mvc10_Resume",
+              "DocumentMoniker": "C:\\ASP\\0618\\Mvc10_Resume\\Mvc10_Resume\\Mvc10_Resume.csproj",
+              "RelativeDocumentMoniker": "Mvc10_Resume\\Mvc10_Resume.csproj",
+              "ToolTip": "C:\\ASP\\0618\\Mvc10_Resume\\Mvc10_Resume\\Mvc10_Resume.csproj",
+              "RelativeToolTip": "Mvc10_Resume\\Mvc10_Resume.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-18T09:54:49.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MixedController.cs",
+              "DocumentMoniker": "C:\\ASP\\0618\\Mvc10_Resume\\Mvc10_Resume\\Controllers\\MixedController.cs",
+              "RelativeDocumentMoniker": "Mvc10_Resume\\Controllers\\MixedController.cs",
+              "ToolTip": "C:\\ASP\\0618\\Mvc10_Resume\\Mvc10_Resume\\Controllers\\MixedController.cs",
+              "RelativeToolTip": "Mvc10_Resume\\Controllers\\MixedController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-18T09:54:28.174Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

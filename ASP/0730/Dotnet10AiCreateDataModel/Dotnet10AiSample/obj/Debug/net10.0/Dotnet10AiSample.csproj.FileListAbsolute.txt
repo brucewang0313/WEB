@@ -1,0 +1,14 @@
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\bin\Debug\net10.0\Dotnet10AiSample.exe
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\bin\Debug\net10.0\Dotnet10AiSample.deps.json
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\bin\Debug\net10.0\Dotnet10AiSample.runtimeconfig.json
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\bin\Debug\net10.0\Dotnet10AiSample.dll
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\bin\Debug\net10.0\Dotnet10AiSample.pdb
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\Dotnet10AiSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\Dotnet10AiSample.AssemblyInfoInputs.cache
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\Dotnet10AiSample.AssemblyInfo.cs
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\Dotnet10AiSample.csproj.CoreCompileInputs.cache
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\Dotnet10AiSample.dll
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\refint\Dotnet10AiSample.dll
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\Dotnet10AiSample.pdb
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\Dotnet10AiSample.genruntimeconfig.cache
+C:\ASP\0730\Dotnet10AiCreateDataModel\Dotnet10AiSample\obj\Debug\net10.0\ref\Dotnet10AiSample.dll

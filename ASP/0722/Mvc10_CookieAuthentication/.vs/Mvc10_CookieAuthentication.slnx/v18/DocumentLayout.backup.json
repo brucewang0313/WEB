@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\views\\shared\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\views\\shared\\result.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\views\\shared\\resultmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\views\\shared\\resultmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\views\\reports\\salesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\views\\reports\\salesreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|c:\\asp\\0722\\mvc10_cookieauthentication\\mvc10_cookieauthentication\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E0722182-FC05-4697-9AF9-C2301E3FA5C1}|Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication.csproj|solutionrelative:mvc10_cookieauthentication\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Result.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\Shared\\Result.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\Views\\Shared\\Result.cshtml",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\Shared\\Result.cshtml",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\Views\\Shared\\Result.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T09:20:54.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvw4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:17:18.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:12:07.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:48:54.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalesReport.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\Reports\\SalesReport.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\Views\\Reports\\SalesReport.cshtml",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\Reports\\SalesReport.cshtml",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\Views\\Reports\\SalesReport.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T09:07:41.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:57:27.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResultMessage.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\Shared\\ResultMessage.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\Views\\Shared\\ResultMessage.cshtml",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Views\\Shared\\ResultMessage.cshtml",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\Views\\Shared\\ResultMessage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-22T08:50:06.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:40:05.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Mvc10_CookieAuthentication\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\ASP\\0722\\Mvc10_CookieAuthentication\\Mvc10_CookieAuthentication\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Mvc10_CookieAuthentication\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAswMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:23:58.139Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

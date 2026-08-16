@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "bw7M/qY32pE=",
+  "success": true,
+  "projectFilePath": "C:\\Web\\ASP\\0730\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.10\\microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "套件 'Microsoft.OpenApi' 2.0.0 具有已知的 高 嚴重性弱點，https://github.com/advisories/GHSA-v5pm-xwqc-g5wc。",
+      "projectPath": "C:\\Web\\ASP\\0730\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Web\\ASP\\0730\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

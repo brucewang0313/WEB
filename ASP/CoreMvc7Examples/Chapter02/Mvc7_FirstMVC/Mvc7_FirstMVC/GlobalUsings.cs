@@ -1,0 +1,1 @@
+﻿global using Mvc7_FirstMVC.Models;

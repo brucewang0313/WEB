@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\views\\json\\carsalesajaxjson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\views\\json\\carsalesajaxjson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\htmlpages\\jqueryajaxcommands.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\htmlpages\\jqueryajaxcommands.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\controllers\\jsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\controllers\\jsoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\controllers\\jsondataapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\controllers\\jsondataapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\services\\tempservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\services\\tempservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\models\\carsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\models\\carsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\views\\json\\linetempjson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\views\\json\\linetempjson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|c:\\asp\\0626\\mvc10_jsonwebapi\\mvc10_jsonwebapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C8C8CAC3-ED93-4DD6-9064-2F3067F133ED}|Mvc10_JsonWebApi\\Mvc10_JsonWebApi.csproj|solutionrelative:mvc10_jsonwebapi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarSalesAjaxJSON.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Views\\Json\\CarSalesAjaxJSON.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Views\\Json\\CarSalesAjaxJSON.cshtml",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Views\\Json\\CarSalesAjaxJSON.cshtml",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Views\\Json\\CarSalesAjaxJSON.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T09:33:47.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Program.cs",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Program.cs",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwBcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:09:57.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TempService.cs",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Services\\TempService.cs",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Services\\TempService.cs",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Services\\TempService.cs",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Services\\TempService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAywAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T08:44:36.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CarSales.cs",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Models\\CarSales.cs",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Models\\CarSales.cs",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Models\\CarSales.cs",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Models\\CarSales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T08:22:15.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "JsonController.cs",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Controllers\\JsonController.cs",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Controllers\\JsonController.cs",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Controllers\\JsonController.cs",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Controllers\\JsonController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T06:39:22.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "jQueryAjaxCommands.html",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\HtmlPages\\jQueryAjaxCommands.html",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\HtmlPages\\jQueryAjaxCommands.html",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\HtmlPages\\jQueryAjaxCommands.html",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\HtmlPages\\jQueryAjaxCommands.html",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAACwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-26T09:02:37.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-26T09:00:51.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JsonDataApiController.cs",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Controllers\\JsonDataApiController.cs",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Controllers\\JsonDataApiController.cs",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Controllers\\JsonDataApiController.cs",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Controllers\\JsonDataApiController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T08:19:58.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LineTempJson.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Views\\Json\\LineTempJson.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Views\\Json\\LineTempJson.cshtml",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Views\\Json\\LineTempJson.cshtml",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Views\\Json\\LineTempJson.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T06:50:49.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Models\\Location.cs",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Models\\Location.cs",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Models\\Location.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T06:37:01.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Mvc10_JsonWebApi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\ASP\\0626\\Mvc10_JsonWebApi\\Mvc10_JsonWebApi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Mvc10_JsonWebApi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T06:34:39.76Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

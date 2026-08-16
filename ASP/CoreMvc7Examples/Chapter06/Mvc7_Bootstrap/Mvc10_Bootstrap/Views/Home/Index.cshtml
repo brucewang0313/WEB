@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@section topCSS {
+    <style type="text/css">
+
+        /*設定 Table 欄位標題顏色*/
+        th {
+            color: white;
+            background-color: black !important;
+            text-align: center;
+        }
+    </style>
+}
+@section endJS {
+    <script type="text/javascript">
+
+        function alertName(name) {
+        alert("你的名字是 :" + name);
+        }
+    </script>
+}

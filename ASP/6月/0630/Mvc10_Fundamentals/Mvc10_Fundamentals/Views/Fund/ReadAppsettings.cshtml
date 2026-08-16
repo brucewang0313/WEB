@@ -1,0 +1,11 @@
+﻿@inject IConfiguration config
+@{
+    var _config = config;
+}
+<p>DB:@config["ConnectionStrings:DatabaseContext"]</p>
+
+<ul>
+    <li>Name: @(config.GetValue<string>("Website:Name"))</li>
+    <li>Email:@(config.GetValue<string>("Website:Email","找不到Email"))</li>
+    <li>Url:@(config.GetSection("Website:Url").Value)</li>
+</ul>
