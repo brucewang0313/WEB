@@ -1,0 +1,8 @@
+CREATE OR ALTER PROCEDURE MyAdd(
+@no1 INT,@no2 INT
+)
+AS 
+SELECT @no1+@no2
+GO
+
+EXEC MyAdd 10,20

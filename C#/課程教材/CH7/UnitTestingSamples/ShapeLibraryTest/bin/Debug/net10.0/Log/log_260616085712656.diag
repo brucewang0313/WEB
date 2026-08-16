@@ -1,0 +1,21 @@
+2026-06-16T08:57:12.6626237+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Version: 2.0.1+2eb19d535ed152853999db4feb491c7afc44cc6b
+2026-06-16T08:57:12.6710907+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging mode: asynchronous
+2026-06-16T08:57:12.6717278+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Logging level: Information
+2026-06-16T08:57:12.6717321+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION CreateBuilderAsync entry time: 08:57:12.645
+2026-06-16T08:57:12.6717875+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION PID: 26652
+2026-06-16T08:57:12.6718088+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime information: win-x64 - .NET 10.0.2
+2026-06-16T08:57:12.6718242+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Runtime location: C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.2\System.Private.CoreLib.dll
+2026-06-16T08:57:12.6718317+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION IsDynamicCodeSupported: True
+2026-06-16T08:57:12.6718787+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Test module: C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll
+2026-06-16T08:57:12.6719699+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION Command line arguments: '--server --diagnostic --diagnostic-verbosity Information --diagnostic-output-directory C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\Log --results-directory C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\TestResults --client-port 56465'
+2026-06-16T08:57:12.6724968+00:00 Microsoft.Testing.Platform.Builder.TestApplication INFORMATION TESTINGPLATFORM_DEFAULT_HANG_TIMEOUT: ''
+2026-06-16T08:57:12.7016841+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting RegisterEnvironmentVariablesConfigurationSource: 'True'
+2026-06-16T08:57:12.7154198+00:00 Microsoft.Testing.Platform.Hosts.TestHostBuilder INFORMATION Setting PlatformExitProcessOnUnhandledException: 'False', config file: False environment variable: 
+2026-06-16T08:57:12.9175863+00:00 Microsoft.Testing.Platform.Requests.TestHostTestFrameworkInvoker INFORMATION Test framework UID: 'MSTestExtension' Version: '4.0.1' DisplayName: 'MSTest' Description: 'MSTest Framework for Microsoft Testing Platform'
+2026-06-16T08:57:12.9447996+00:00 mstest-trace INFORMATION MSTestExecutor.RunTests: Running tests from sources.
+2026-06-16T08:57:12.9765236+00:00 mstest-trace INFORMATION MSTestDiscoverer: Found 1 tests from source C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll
+2026-06-16T08:57:12.9953279+00:00 mstest-trace INFORMATION Created unit-test runner C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll
+2026-06-16T08:57:13.0010080+00:00 Microsoft.Testing.Extensions.VSTestBridge.ObjectModel.MessageLoggerAdapter INFORMATION 已為 C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll 啟用平行測試 (Workers: 12, Scope: MethodLevel)
+2026-06-16T08:57:13.0160619+00:00 mstest-trace INFORMATION Executing test GivenRectangle_Width_6_Height_5_WhenComputeArea_Then30
+2026-06-16T08:57:13.0351880+00:00 mstest-trace INFORMATION Executed test GivenRectangle_Width_6_Height_5_WhenComputeArea_Then30
+2026-06-16T08:57:13.0390490+00:00 mstest-trace INFORMATION Executed tests belonging to source C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibraryTest\bin\Debug\net10.0\ShapeLibraryTest.dll

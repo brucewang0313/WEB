@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="ParameterSample001/ParameterSample001.csproj" />
+  <Project Path="ParameterSample002/ParameterSample002.csproj" />
+  <Project Path="ParameterSample003/ParameterSample003.csproj" />
+  <Project Path="ParameterSample004/ParameterSample004.csproj" />
+  <Project Path="ParameterSample005/ParameterSample005.csproj" />
+</Solution>

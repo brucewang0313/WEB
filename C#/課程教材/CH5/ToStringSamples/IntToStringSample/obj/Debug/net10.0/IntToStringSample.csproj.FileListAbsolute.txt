@@ -1,0 +1,14 @@
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\bin\Debug\net10.0\IntToStringSample.exe
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\bin\Debug\net10.0\IntToStringSample.deps.json
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\bin\Debug\net10.0\IntToStringSample.runtimeconfig.json
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\bin\Debug\net10.0\IntToStringSample.dll
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\bin\Debug\net10.0\IntToStringSample.pdb
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\IntToStringSample.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\IntToStringSample.AssemblyInfoInputs.cache
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\IntToStringSample.AssemblyInfo.cs
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\IntToStringSample.csproj.CoreCompileInputs.cache
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\IntToStringSample.dll
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\refint\IntToStringSample.dll
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\IntToStringSample.pdb
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\IntToStringSample.genruntimeconfig.cache
+C:\C#\課程教材\CH5\ToStringSamples\IntToStringSample\obj\Debug\net10.0\ref\IntToStringSample.dll

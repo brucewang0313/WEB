@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\AllClassSamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B3D30CC-A27D-FD32-6855-4CE1E014E55F}|AllClassSample002\\AllClassSample002.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch5\\allclasssamples\\allclasssample002\\allclasssample002.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1B3D30CC-A27D-FD32-6855-4CE1E014E55F}|AllClassSample002\\AllClassSample002.csproj|solutionrelative:allclasssample002\\allclasssample002.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0E6B25A-A911-9E65-C6FB-56E2BFCDDE89}|AllClassSample001\\AllClassSample001.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch5\\allclasssamples\\allclasssample001\\allclasssample001.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B0E6B25A-A911-9E65-C6FB-56E2BFCDDE89}|AllClassSample001\\AllClassSample001.csproj|solutionrelative:allclasssample001\\allclasssample001.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllClassSample002",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\AllClassSamples\\AllClassSample002\\AllClassSample002.csproj",
+              "RelativeDocumentMoniker": "AllClassSample002\\AllClassSample002.csproj",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\AllClassSamples\\AllClassSample002\\AllClassSample002.csproj",
+              "RelativeToolTip": "AllClassSample002\\AllClassSample002.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-29T15:39:45.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AllClassSample001",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\AllClassSamples\\AllClassSample001\\AllClassSample001.csproj",
+              "RelativeDocumentMoniker": "AllClassSample001\\AllClassSample001.csproj",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\AllClassSamples\\AllClassSample001\\AllClassSample001.csproj",
+              "RelativeToolTip": "AllClassSample001\\AllClassSample001.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-29T15:39:39.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 58,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

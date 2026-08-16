@@ -1,0 +1,15 @@
+CREATE OR ALTER PROCEDURE MyAdd(
+@no1 INT,@no2 INT
+)
+AS
+BEGIN
+DECLARE @total INT
+SET @total=@no1+@no2
+RETURN @total
+END
+GO
+
+DECLARE @data INT
+EXEC @data= MyAdd 10,20
+SELECT @data
+PRINT @data

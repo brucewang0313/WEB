@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\bin\Debug\net10.0\GenericSample001.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\bin\Debug\net10.0\GenericSample001.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\bin\Debug\net10.0\GenericSample001.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\bin\Debug\net10.0\GenericSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\bin\Debug\net10.0\GenericSample001.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\GenericSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\GenericSample001.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\GenericSample001.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\GenericSample001.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\GenericSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\refint\GenericSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\GenericSample001.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\GenericSample001.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH6\GenericSamples\GenericSample001\obj\Debug\net10.0\ref\GenericSample001.dll

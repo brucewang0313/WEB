@@ -1,0 +1,16 @@
+CREATE OR ALTER PROCEDURE MyMax(
+	@no1 AS int, @no2 AS int
+)
+AS
+BEGIN
+	IF @no1 > @no2
+		RETURN @no1
+	ELSE
+		RETURN @no2
+END
+GO
+
+DECLARE @Max INT
+EXEC @Max= MyMax 10,20
+SELECT @Max
+PRINT @data

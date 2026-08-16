@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\bin\Debug\net9.0\LinqSample004.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\bin\Debug\net9.0\LinqSample004.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\bin\Debug\net9.0\LinqSample004.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\bin\Debug\net9.0\LinqSample004.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\bin\Debug\net9.0\LinqSample004.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\LinqSample004.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\LinqSample004.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\LinqSample004.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\LinqSample004.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\LinqSample004.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\refint\LinqSample004.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\LinqSample004.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\LinqSample004.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH3\LinqSamples\LinqSample004\obj\Debug\net9.0\ref\LinqSample004.dll

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05E60098-038D-673E-A212-6318ABFCEE94}|ParameterSample004\\ParameterSample004.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch5\\parametersamples\\parametersample004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05E60098-038D-673E-A212-6318ABFCEE94}|ParameterSample004\\ParameterSample004.csproj|solutionrelative:parametersample004\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E34CDF04-F16E-A131-D951-7521C855C69B}|ParameterSample005\\ParameterSample005.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch5\\parametersamples\\parametersample005\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E34CDF04-F16E-A131-D951-7521C855C69B}|ParameterSample005\\ParameterSample005.csproj|solutionrelative:parametersample005\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{840E38D6-BA7C-E045-6D7D-7FDD69CCE69B}|ParameterSample003\\ParameterSample003.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch5\\parametersamples\\parametersample003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{840E38D6-BA7C-E045-6D7D-7FDD69CCE69B}|ParameterSample003\\ParameterSample003.csproj|solutionrelative:parametersample003\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98087FA5-4CF2-CB54-528A-E2C8BC60B4A7}|ParameterSample002\\ParameterSample002.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch5\\parametersamples\\parametersample002\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98087FA5-4CF2-CB54-528A-E2C8BC60B4A7}|ParameterSample002\\ParameterSample002.csproj|solutionrelative:parametersample002\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35D87332-0140-87F3-B912-FB4ED558CA02}|ParameterSample001\\ParameterSample001.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch5\\parametersamples\\parametersample001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35D87332-0140-87F3-B912-FB4ED558CA02}|ParameterSample001\\ParameterSample001.csproj|solutionrelative:parametersample001\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample004\\Program.cs",
+              "RelativeDocumentMoniker": "ParameterSample004\\Program.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample004\\Program.cs*",
+              "RelativeToolTip": "ParameterSample004\\Program.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:48:16.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample005\\Program.cs",
+              "RelativeDocumentMoniker": "ParameterSample005\\Program.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample005\\Program.cs",
+              "RelativeToolTip": "ParameterSample005\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:48:07.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample003\\Program.cs",
+              "RelativeDocumentMoniker": "ParameterSample003\\Program.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample003\\Program.cs",
+              "RelativeToolTip": "ParameterSample003\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:47:39.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample002\\Program.cs",
+              "RelativeDocumentMoniker": "ParameterSample002\\Program.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample002\\Program.cs",
+              "RelativeToolTip": "ParameterSample002\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:47:05.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample001\\Program.cs",
+              "RelativeDocumentMoniker": "ParameterSample001\\Program.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH5\\ParameterSamples\\ParameterSample001\\Program.cs",
+              "RelativeToolTip": "ParameterSample001\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:46:46.357Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\bin\Debug\net10.0\DoWhereSample002.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\bin\Debug\net10.0\DoWhereSample002.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\bin\Debug\net10.0\DoWhereSample002.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\bin\Debug\net10.0\DoWhereSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\bin\Debug\net10.0\DoWhereSample002.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\DoWhereSample002.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\DoWhereSample002.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\DoWhereSample002.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\DoWhereSample002.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\DoWhereSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\refint\DoWhereSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\DoWhereSample002.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\DoWhereSample002.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\DoWhereSamples\DoWhereSample002\obj\Debug\net10.0\ref\DoWhereSample002.dll

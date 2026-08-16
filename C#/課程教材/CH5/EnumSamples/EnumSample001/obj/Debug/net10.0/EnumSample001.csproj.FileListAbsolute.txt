@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\bin\Debug\net10.0\EnumSample001.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\bin\Debug\net10.0\EnumSample001.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\bin\Debug\net10.0\EnumSample001.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\bin\Debug\net10.0\EnumSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\bin\Debug\net10.0\EnumSample001.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\EnumSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\EnumSample001.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\EnumSample001.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\EnumSample001.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\EnumSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\refint\EnumSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\EnumSample001.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\EnumSample001.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EnumSamples\EnumSample001\obj\Debug\net10.0\ref\EnumSample001.dll

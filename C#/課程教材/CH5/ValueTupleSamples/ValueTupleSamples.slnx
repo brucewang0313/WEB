@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ValueTupleDemo/ValueTupleDemo.csproj" />
+  <Project Path="ValueTupleReturn/ValueTupleReturn.csproj" />
+</Solution>

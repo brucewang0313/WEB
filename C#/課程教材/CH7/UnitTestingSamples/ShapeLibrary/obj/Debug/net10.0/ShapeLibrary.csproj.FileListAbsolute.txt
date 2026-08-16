@@ -1,0 +1,11 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\bin\Debug\net10.0\ShapeLibrary.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\bin\Debug\net10.0\ShapeLibrary.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\bin\Debug\net10.0\ShapeLibrary.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\refint\ShapeLibrary.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ShapeLibrary.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\UnitTestingSamples\ShapeLibrary\obj\Debug\net10.0\ref\ShapeLibrary.dll

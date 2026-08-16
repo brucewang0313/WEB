@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TextFileSample001/TextFileSample001.csproj" />
+  <Project Path="TextFileSample002/TextFileSample002.csproj" />
+  <Project Path="TextFileSample003/TextFileSample003.csproj" />
+</Solution>

@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="DoWhereSample001/DoWhereSample001.csproj" />
+  <Project Path="DoWhereSample002/DoWhereSample002.csproj" />
+  <Project Path="DoWhereSample003/DoWhereSample003.csproj" />
+  <Project Path="DoWhereSample004/DoWhereSample004.csproj" />
+  <Project Path="DoWhereSample005/DoWhereSample005.csproj" />
+  <Project Path="DoWhereSample006/DoWhereSample006.csproj" />
+</Solution>

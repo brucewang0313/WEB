@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ShapeLibrary/ShapeLibrary.csproj" />
+  <Project Path="ShapeLibraryTest/ShapeLibraryTest.csproj" />
+</Solution>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GenericSample001/GenericSample001.csproj" />
+  <Project Path="GenericSample002/GenericSample002.csproj" />
+</Solution>

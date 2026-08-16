@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MethodOverloadSample001/MethodOverloadSample001.csproj" />
+  <Project Path="MethodOverloadSample002/MethodOverloadSample002.csproj" />
+</Solution>

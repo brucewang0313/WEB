@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\bin\Debug\net10.0\DelegateSample002.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\bin\Debug\net10.0\DelegateSample002.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\bin\Debug\net10.0\DelegateSample002.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\bin\Debug\net10.0\DelegateSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\bin\Debug\net10.0\DelegateSample002.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\DelegateSample002.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\DelegateSample002.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\DelegateSample002.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\DelegateSample002.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\DelegateSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\refint\DelegateSample002.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\DelegateSample002.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\DelegateSample002.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\DelegateSamples\DelegateSample002\obj\Debug\net10.0\ref\DelegateSample002.dll

@@ -1,0 +1,16 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\bin\Debug\net9.0-windows\TextFileSample001.exe
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\bin\Debug\net9.0-windows\TextFileSample001.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\bin\Debug\net9.0-windows\TextFileSample001.runtimeconfig.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\bin\Debug\net9.0-windows\TextFileSample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\bin\Debug\net9.0-windows\TextFileSample001.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.Form1.resources
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.csproj.GenerateResource.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\refint\TextFileSample001.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\TextFileSample001.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH4\TextFileSamples\TextFileSample001\obj\Debug\net9.0-windows\ref\TextFileSample001.dll

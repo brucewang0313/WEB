@@ -1,0 +1,1 @@
+select CustomerID,CompanyName,City,Country,Phone from Customers

@@ -1,0 +1,20 @@
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:2.33.5
+    container_name: n8n
+    restart: always
+    ports:
+      - 5678:5678
+
+    environment:
+      - N8N_HOST=desktop-i4uomas.tail062e20.ts.net
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=https
+      - NODE_ENV=production
+      - WEBHOOK_URL=https://desktop-i4uomas.tail062e20.ts.net/
+      - GENERIC_TIMEZONE=Asia/Taipei
+      - N8N_PROXY_HOPS=1
+
+    volumes:
+      - ./n8n_storage:/home/node/.n8n
+      - ./local-files:/files

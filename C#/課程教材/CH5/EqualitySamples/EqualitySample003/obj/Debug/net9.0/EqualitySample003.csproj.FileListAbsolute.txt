@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\bin\Debug\net9.0\EqualitySample003.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\bin\Debug\net9.0\EqualitySample003.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\bin\Debug\net9.0\EqualitySample003.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\bin\Debug\net9.0\EqualitySample003.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\bin\Debug\net9.0\EqualitySample003.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\EqualitySample003.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\EqualitySample003.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\EqualitySample003.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\EqualitySample003.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\EqualitySample003.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\refint\EqualitySample003.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\EqualitySample003.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\EqualitySample003.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\EqualitySamples\EqualitySample003\obj\Debug\net9.0\ref\EqualitySample003.dll

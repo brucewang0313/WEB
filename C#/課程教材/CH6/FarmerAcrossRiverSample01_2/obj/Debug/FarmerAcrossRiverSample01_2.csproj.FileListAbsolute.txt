@@ -1,0 +1,11 @@
+C:\DemoCode\FarmerAcrossRiverSamples\FarmerAcrossRiverSample01_2\bin\Debug\FarmerAcrossRiverSample01_2.exe.config
+C:\DemoCode\FarmerAcrossRiverSamples\FarmerAcrossRiverSample01_2\bin\Debug\FarmerAcrossRiverSample01_2.exe
+C:\DemoCode\FarmerAcrossRiverSamples\FarmerAcrossRiverSample01_2\bin\Debug\FarmerAcrossRiverSample01_2.pdb
+C:\DemoCode\FarmerAcrossRiverSamples\FarmerAcrossRiverSample01_2\obj\Debug\FarmerAcrossRiverSample01_2.Form1.resources
+C:\DemoCode\FarmerAcrossRiverSamples\FarmerAcrossRiverSample01_2\obj\Debug\FarmerAcrossRiverSample01_2.Properties.Resources.resources
+C:\DemoCode\FarmerAcrossRiverSamples\FarmerAcrossRiverSample01_2\obj\Debug\FarmerAcrossRiverSample01_2.csproj.GenerateResource.Cache
+C:\DemoCode\FarmerAcrossRiverSamples\FarmerAcrossRiverSample01_2\obj\Debug\FarmerAcrossRiverSample01_2.exe
+C:\DemoCode\FarmerAcrossRiverSamples\FarmerAcrossRiverSample01_2\obj\Debug\FarmerAcrossRiverSample01_2.pdb
+C:\CUST_Samples\7\FarmerAcrossRiverSample01_2\bin\Debug\FarmerAcrossRiverSample01_2.exe.config
+C:\CUST_Samples\7\FarmerAcrossRiverSample01_2\obj\Debug\FarmerAcrossRiverSample01_2.exe
+C:\CUST_Samples\7\FarmerAcrossRiverSample01_2\obj\Debug\FarmerAcrossRiverSample01_2.pdb

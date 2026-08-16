@@ -1,0 +1,19 @@
+(1) 安裝 [特定版本 10.0.9] EF Core cli tool
+dotnet tool install --global dotnet-ef --version 10.0.9
+
+(2) 檢查 EF ore cli tool 版本
+dotnet ef --version
+
+(3) 移除 EF Core cli tool
+dotnet tool uninstall --global dotnet-ef
+
+
+(2) 使用 dotnet ef 產生 DbContext 與 models 的指令
+dotnet ef dbcontext scaffold "連線字串" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --context ContactContext --data-annotations --no-onconfiguring
+
+(3) appsettings.json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|ContactsDB.mdf;Database=ContactsDB;Trusted_Connection=True;"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D3A2EC-13C5-C62A-A001-DA00880A478C}|ValueTupleDemo\\ValueTupleDemo.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch5\\valuetuplesamples\\valuetupledemo\\valuetupledemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C5D3A2EC-13C5-C62A-A001-DA00880A478C}|ValueTupleDemo\\ValueTupleDemo.csproj|solutionrelative:valuetupledemo\\valuetupledemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85250536-5747-0F87-1512-F820CCE1401B}|ValueTupleReturn\\ValueTupleReturn.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch5\\valuetuplesamples\\valuetuplereturn\\valuetuplereturn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{85250536-5747-0F87-1512-F820CCE1401B}|ValueTupleReturn\\ValueTupleReturn.csproj|solutionrelative:valuetuplereturn\\valuetuplereturn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85250536-5747-0F87-1512-F820CCE1401B}|ValueTupleReturn\\ValueTupleReturn.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch5\\valuetuplesamples\\valuetuplereturn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85250536-5747-0F87-1512-F820CCE1401B}|ValueTupleReturn\\ValueTupleReturn.csproj|solutionrelative:valuetuplereturn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5D3A2EC-13C5-C62A-A001-DA00880A478C}|ValueTupleDemo\\ValueTupleDemo.csproj|c:\\buildschool\\\u53F0\u5317\\tpe2026_summer\\samples\\ch5\\valuetuplesamples\\valuetupledemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5D3A2EC-13C5-C62A-A001-DA00880A478C}|ValueTupleDemo\\ValueTupleDemo.csproj|solutionrelative:valuetupledemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:24:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:39:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValueTupleDemo",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\ValueTupleDemo\\ValueTupleDemo.csproj",
+              "RelativeDocumentMoniker": "ValueTupleDemo\\ValueTupleDemo.csproj",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\ValueTupleDemo\\ValueTupleDemo.csproj",
+              "RelativeToolTip": "ValueTupleDemo\\ValueTupleDemo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-29T15:33:08.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValueTupleReturn",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\ValueTupleReturn\\ValueTupleReturn.csproj",
+              "RelativeDocumentMoniker": "ValueTupleReturn\\ValueTupleReturn.csproj",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\ValueTupleReturn\\ValueTupleReturn.csproj",
+              "RelativeToolTip": "ValueTupleReturn\\ValueTupleReturn.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-29T15:33:01.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\ValueTupleReturn\\Program.cs",
+              "RelativeDocumentMoniker": "ValueTupleReturn\\Program.cs",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\ValueTupleReturn\\Program.cs",
+              "RelativeToolTip": "ValueTupleReturn\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:30:42.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\ValueTupleDemo\\Program.cs",
+              "RelativeDocumentMoniker": "ValueTupleDemo\\Program.cs",
+              "ToolTip": "C:\\BuildSchool\\\u53F0\u5317\\TPE2026_summer\\samples\\CH5\\ValueTupleSamples\\ValueTupleDemo\\Program.cs",
+              "RelativeToolTip": "ValueTupleDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T15:30:24.318Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 58,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{5a4e9529-b6a0-46b5-be4f-0f0b239bc0eb}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

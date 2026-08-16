@@ -1,0 +1,16 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\bin\Debug\net10.0-windows\OutSample001.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\bin\Debug\net10.0-windows\OutSample001.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\bin\Debug\net10.0-windows\OutSample001.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\bin\Debug\net10.0-windows\OutSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\bin\Debug\net10.0-windows\OutSample001.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.Form1.resources
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.csproj.GenerateResource.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\refint\OutSample001.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\OutSample001.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH5\OutSamples\OutSample001\obj\Debug\net10.0-windows\ref\OutSample001.dll

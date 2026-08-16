@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BizDataLibrary/BizDataLibrary.csproj" />
+  <Project Path="BuildSchoolBizApp/BuildSchoolBizApp.csproj" Id="08aeb418-703c-49e0-9ee5-cbc1f0bd353f" />
+</Solution>

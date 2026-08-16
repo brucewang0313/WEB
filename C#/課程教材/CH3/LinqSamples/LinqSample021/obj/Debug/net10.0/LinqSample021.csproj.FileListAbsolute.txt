@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\bin\Debug\net10.0\LinqSample021.exe
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\bin\Debug\net10.0\LinqSample021.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\bin\Debug\net10.0\LinqSample021.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\bin\Debug\net10.0\LinqSample021.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\bin\Debug\net10.0\LinqSample021.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\LinqSample021.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\LinqSample021.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\LinqSample021.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\LinqSample021.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\LinqSample021.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\refint\LinqSample021.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\LinqSample021.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\LinqSample021.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH3\LinqSamples\LinqSample021\obj\Debug\net10.0\ref\LinqSample021.dll

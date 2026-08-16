@@ -1,0 +1,10 @@
+(1) add nuget package
+dotnet add package <PackageName> --version <Version>
+dotnet add package <PackageName> -v <Version>
+
+(2) appsettings.json
+{
+  "ConnectionStrings": {
+    "BsBizDBConnection": "Server=(localdb)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|BsBizDB.mdf;Database=BsBizDB;Trusted_Connection=True;"
+  }
+}

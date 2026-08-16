@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Bill",
+    "Address": "台北",
+    "Phone": "1234567"
+  },
+  {
+    "Name": "David",
+    "Address": "台北",
+    "Phone": "3342567"
+  },
+  {
+    "Name": "Tom",
+    "Address": "台南",
+    "Phone": "3834059852"
+  },
+  {
+    "Name": "John",
+    "Address": "高雄",
+    "Phone": "99675436"
+  }
+]

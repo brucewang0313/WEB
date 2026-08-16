@@ -1,0 +1,13 @@
+	
+BEGIN TRY	
+	BEGIN TRAN
+	UPDATE Products SET UnitsInStock += 1 WHERE ProductID = 2
+	UPDATE Products SET UnitsInStock -= 1 WHERE ProductID = 1
+	COMMIT TRAN
+END TRY
+BEGIN CATCH
+ROLLBACK TRAN -- 把BEGIN TRAN之後的都恢復原狀
+PRINT 'ERROR囉'
+END CATCH
+
+SELECT UnitsInStock  FROM Products WHERE ProductID IN (1, 2)

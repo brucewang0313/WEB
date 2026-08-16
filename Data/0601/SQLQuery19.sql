@@ -1,0 +1,8 @@
+SELECT 
+* 
+INTO TABELE1
+-- INTO生出新的表
+FROM Shippers
+WHERE Phone LIKE '%'
+
+SELECT * FROM TABELE1

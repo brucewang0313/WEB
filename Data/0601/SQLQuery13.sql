@@ -1,0 +1,10 @@
+SELECT 
+ProductID,
+ProductName,
+UnitPrice
+FROM Products
+ORDER BY UnitPrice
+--OFFSET跳過幾列
+OFFSET 3 ROWS 
+FETCH NEXT 5 ROWS ONLY
+--FETCH NEXT抓幾列

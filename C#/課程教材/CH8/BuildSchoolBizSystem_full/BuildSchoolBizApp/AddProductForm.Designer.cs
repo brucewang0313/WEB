@@ -1,0 +1,104 @@
+﻿namespace BuildSchoolBizApp
+{
+    partial class AddProductForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            label1 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            label2 = new Label();
+            button1 = new Button();
+            SuspendLayout();
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(31, 44);
+            label1.Name = "label1";
+            label1.Size = new Size(82, 23);
+            label1.TabIndex = 0;
+            label1.Text = "輸入料號";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(31, 70);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(324, 30);
+            textBox1.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(31, 154);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(324, 30);
+            textBox2.TabIndex = 3;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(31, 119);
+            label2.Name = "label2";
+            label2.Size = new Size(118, 23);
+            label2.TabIndex = 2;
+            label2.Text = "輸入貨品名稱";
+            // 
+            // button1
+            // 
+            button1.Location = new Point(31, 210);
+            button1.Name = "button1";
+            button1.Size = new Size(244, 75);
+            button1.TabIndex = 4;
+            button1.Text = "新增";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // AddProductForm
+            // 
+            AutoScaleDimensions = new SizeF(11F, 23F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(584, 348);
+            Controls.Add(button1);
+            Controls.Add(textBox2);
+            Controls.Add(label2);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
+            Name = "AddProductForm";
+            Text = "新增商品";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private Label label1;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Label label2;
+        private Button button1;
+    }
+}

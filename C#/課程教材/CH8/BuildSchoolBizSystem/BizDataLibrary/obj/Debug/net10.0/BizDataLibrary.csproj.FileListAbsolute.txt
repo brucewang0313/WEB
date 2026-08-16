@@ -1,0 +1,14 @@
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\bin\Debug\net10.0\BizDataLibrary.deps.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\bin\Debug\net10.0\BizDataLibrary.runtimeconfig.json
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\bin\Debug\net10.0\BizDataLibrary.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\bin\Debug\net10.0\BizDataLibrary.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\BizDataLibrary.csproj.AssemblyReference.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\BizDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\BizDataLibrary.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\BizDataLibrary.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\BizDataLibrary.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\BizDataLibrary.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\refint\BizDataLibrary.dll
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\BizDataLibrary.pdb
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\BizDataLibrary.genruntimeconfig.cache
+C:\BuildSchool\台北\TPE2026_summer\samples\CH7\BuildSchoolBizSystem\BizDataLibrary\obj\Debug\net10.0\ref\BizDataLibrary.dll

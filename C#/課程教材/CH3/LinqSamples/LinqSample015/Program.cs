@@ -1,0 +1,18 @@
+﻿namespace LinqSample015
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            var list =
+               new List<string> { "台北", "台北", "洛杉磯", "紐約", "紐約", "台北" };
+            var result = list.Distinct();
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.ReadLine();
+        }
+    }
+}

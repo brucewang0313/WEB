@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH6\\InterfaceSamples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80CD2DC2-0767-1807-D6F4-C80229AE576F}|InterfaceSample002\\InterfaceSample002.csproj|c:\\c#\\\u8AB2\u7A0B\u6559\u6750\\ch6\\interfacesamples\\interfacesample002\\iparsable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80CD2DC2-0767-1807-D6F4-C80229AE576F}|InterfaceSample002\\InterfaceSample002.csproj|solutionrelative:interfacesample002\\iparsable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 322,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IParsable.cs",
+              "DocumentMoniker": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH6\\InterfaceSamples\\InterfaceSample002\\IParsable.cs",
+              "RelativeDocumentMoniker": "InterfaceSample002\\IParsable.cs",
+              "ToolTip": "C:\\C#\\\u8AB2\u7A0B\u6559\u6750\\CH6\\InterfaceSamples\\InterfaceSample002\\IParsable.cs",
+              "RelativeToolTip": "InterfaceSample002\\IParsable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T02:11:50.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

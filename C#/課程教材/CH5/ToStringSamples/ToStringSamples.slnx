@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CustomToStringSample/CustomToStringSample.csproj" />
+  <Project Path="IntToStringSample/IntToStringSample.csproj" />
+</Solution>

@@ -1,0 +1,11 @@
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\bin\Debug\net9.0\MyLibrary.deps.json
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\bin\Debug\net9.0\MyLibrary.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\bin\Debug\net9.0\MyLibrary.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\obj\Debug\net9.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\obj\Debug\net9.0\MyLibrary.AssemblyInfoInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\obj\Debug\net9.0\MyLibrary.AssemblyInfo.cs
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\obj\Debug\net9.0\MyLibrary.csproj.CoreCompileInputs.cache
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\obj\Debug\net9.0\MyLibrary.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\obj\Debug\net9.0\refint\MyLibrary.dll
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\obj\Debug\net9.0\MyLibrary.pdb
+C:\BuildSchool\台北\TPE2025_summer\samples\CH5\DLLSamples\MyLibrary\obj\Debug\net9.0\ref\MyLibrary.dll
